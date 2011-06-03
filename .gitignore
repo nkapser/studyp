@@ -1,0 +1,13 @@
+.rvmrc
+public/google019f64ba9134d2db.html
+public/Mqxp76lLPiGmKKgt-tT1-OlJ39E.txt
+bin
+tmp/*.json
+db/schema.rb
+.schema
+test
+Gemfile.lock
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/**/*
