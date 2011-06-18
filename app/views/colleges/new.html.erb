@@ -1,0 +1,11 @@
+<div class='college'>
+	<%= form_for @college, :college, :action => :new do |f|%>
+		<div class='row'>
+			<%= f.label :name %>
+			<%= f.text_field :name%>
+		</div>
+		<div class='row'>
+			<%=f.submit%>
+		</div>
+	<% end %>
+</div>

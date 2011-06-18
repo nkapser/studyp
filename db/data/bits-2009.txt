@@ -1,0 +1,44 @@
+Bits-Pilani:
+	B.E.(Hons.) Chemical:	314
+	B.E.(Hons.) Civil:	312
+	B.E.(Hons.) Electrical & Electronics :	341
+	B.E.(Hons.) Mechanical:	328
+	B.E.(Hons.) Manufacturing:	305
+	B.Pharm.(Hons.) :	257
+	B.E.(Hons.) Computer Science:	343
+	B.E.(Hons.) Electronics & Instrumentation:	332
+	M.Sc.(Hons.) Biological Sciences :	279
+	M.Sc.(Hons.) Chemistry :	289
+	M.Sc.(Hons.) Economics :	298
+	M.Sc.(Hons.) Mathematics :	293
+	M.Sc.(Hons.) Physics :	296
+	M.Sc.(Tech.) Finance :	274
+	M.Sc.(Tech.) Information Systems:	283
+
+Bits-Goa:
+	B.E.(Hons.) Chemical:	283
+	B.E.(Hons.) Electrical and Electronics:	306
+	B.E.(Hons.) Mechanical:	292
+	B.E.(Hons.) Computer Science:	306
+	B.E.(Hons.) Electronics & Instrumentation :	292
+	M.Sc.(Hons.) Biological Sciences :	266
+	M.Sc.(Hons.) Chemistry :	272
+	M.Sc.(Hons.) Economics :	278
+	M.Sc.(Hons.) Mathematics :	273
+	M.Sc.(Hons.) Physics :	280
+	M.Sc.(Tech.) Information Systems:	267
+
+Bits-Hyderabad:
+	B.E.(Hons.) Chemical:	281
+	B.E.(Hons.) Civil:	285
+	B.E.(Hons.) Electrical and Electronics:	295
+	B.E.(Hons.) Mechanical:	290
+	B.E.(Hons.) Computer Science:	296
+	B.E.(Hons.) Electronics & Communication:	311
+	B.Pharm.(Hons.):	255
+	M.Sc.(Hons.) Biological Sciences :	266
+	M.Sc.(Hons.) Chemistry :	269
+	M.Sc.(Hons.) Economics :	272
+	M.Sc.(Hons.) Mathematics :	270
+	M.Sc.(Hons.) Physics :	274
+	M.Sc.(Tech.) Information Systems:	267

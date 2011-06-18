@@ -1,0 +1,18 @@
+require 'ostruct'
+
+class PrintNum
+	def initialize
+	  @total_songs=20
+	  @all_songs = (1..20).to_a.collect {|x| OpenStruct.new({:i => x, :is_played => false})}
+	end
+	
+	def play_next_song
+	  unplayed=@all_songs.collect {|x| x unless x.is_played == true }.compact
+	  if unplayed.count < 1
+	    unplayed = @all_songs.collect {|x| x.is_played = true and return x }
+    end
+	  song_to_play=unplayed[rand(unplayed.count-1)]	  
+	  song_to_play.is_played=true
+	  song_to_play
+  end  	
+end

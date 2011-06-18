@@ -1,0 +1,24 @@
+<h1>
+	Bitsat Search
+</h1>
+<%= form_tag :action => "bitsat_results", :method => :get do |f|%>
+<div class='query'>
+	Enter BITSAT 2011 Score: <%= text_field_tag("[bits][score]", '' , {:maxlength => 3, :size => 5}) %> <%= submit_tag :submit %>
+</div>
+<div class='faucets'>
+	<%= hidden_field_tag :exam, @exam.id %>
+			<p><%= check_box_tag "[bits][college][]", "all"  %>All</p>
+	<% @colleges.each do |college| %>
+		<p><%= check_box_tag "[bits][college][]", college.id  %><%= college.name%></p>
+	<% end %>
+</div>
+<% end %>
+<div class='results'>
+	<% unless @results.nil? %>
+		
+	<% end %>
+</div>
+
+<script type='text/javascript'>
+	
+</script>
