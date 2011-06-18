@@ -51,8 +51,10 @@ Studyp::Application.routes.draw do
   # just remember to delete public/index.html.
   match '/search/bitsat' => 'home#bitsat_results', :method => :get
   
-  root :to => "home#index"
-  root :to => "home#results"
+  root :to => "home#eamcet_index"
+
+  match 'eamcet' => 'home#eamcet_index'
+  match 'eamcet/results' => 'home#eamcet_results', :method => :get
   
   resources :colleges
   resources :courses

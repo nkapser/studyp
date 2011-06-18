@@ -1,0 +1,10 @@
+<div id='title'><h1 class='h1'>Eamcet Rank 2011</h1></div>
+<%= render :partial => 'common/eamcet_search',  :locals => {:pdata => @data} %>
+	<ul>
+	<% @results.each do |result|%>
+		<li>
+		<%= result.college.name %> - <%= result.course.name %>
+		</li>
+	<% end %>
+	</ul>
+<%= will_paginate @results, :params => params[:eamcet] %>

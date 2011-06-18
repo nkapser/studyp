@@ -1,6 +1,6 @@
 class AddAdditionalColumnsToColleges < ActiveRecord::Migration
   def self.up
-    add_column :colleges, :code, :integer    
+    add_column :colleges, :code, :string    
     add_column :colleges, :estd, :integer
     add_column :colleges, :affl, :string
     add_column :colleges, :coed, :string
@@ -12,14 +12,14 @@ class AddAdditionalColumnsToColleges < ActiveRecord::Migration
   end
 
   def self.down
-    drop_column :colleges, :code    
-    drop_column :colleges, :estd
-    drop_column :colleges, :affl
-    drop_column :colleges, :coed
-    drop_column :colleges, :min 
-    drop_column :colleges, :type   
-    drop_column :colleges, :reg   
-    drop_column :colleges, :dist
-    drop_column :colleges, :place
+    remove_column :colleges, :code    
+    remove_column :colleges, :estd
+    remove_column :colleges, :affl
+    remove_column :colleges, :coed
+    remove_column :colleges, :min 
+    remove_column :colleges, :type   
+    remove_column :colleges, :reg   
+    remove_column :colleges, :dist
+    remove_column :colleges, :place
   end                           
 end

@@ -1,0 +1,29 @@
+<% 
+if pdata.nil?
+	pdata={}
+	pdata['rank']=""
+	pdata['caste']="oc"
+	pdata['gender']="boy"
+end 
+%>
+
+<%= form_tag "/eamcet/results" do |f|%>
+<div class='row'>
+<%= label_tag 'Eamcet Rank'%>
+<%= text_field_tag 'eamcet[rank]', pdata['rank']%>
+</div>
+<div class='row'>
+<%= label_tag 'Caste'%>	
+
+<% ["oc","sc","st","bc"].each do |caste| %>
+	<%= radio_button("eamcet",'caste', "#{caste}", caste == pdata['caste'] ? {:checked => "checked"} : {} ) %><%= caste.upcase %>
+<%end%>
+</div>
+<div class='row'>
+<%= label_tag 'Gender'%>
+<%= radio_button("eamcet",'gender', "boy", "boy" == pdata['gender'] ? {:checked => "checked"} : {}) %>Male
+<%= radio_button("eamcet",'gender', "girl", "girl" == pdata['gender'] ? {:checked => "checked"} : {}) %>Female	
+</div>
+
+<%= submit_tag 'find'%>
+<% end %>

@@ -1,6 +1,6 @@
 class CreateCutoffScores < ActiveRecord::Migration
   def self.up
-    create_table :cutoff_scores, :id => false do |t|
+    create_table :cutoff_scores do |t|
       t.float :min_score
       t.float :max_score
       t.integer :exam_year_id
