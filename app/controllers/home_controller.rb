@@ -10,25 +10,25 @@ class HomeController < ApplicationController
   end
   
   def eamcet_results
-    if request.get? and params.empty?
-      render :action => :eamcet_index
-      return
+    if request.get? and params[:page].nil?
+      redirect_to :action => :eamcet_index and return
     end
     
-    @data=params[:eamcet] || params
-    @data[:affl] = @data[:affl].delete_if{|x| x.empty?}
+    @data=params[:eamcet] || params    
+    @data[:affl] = @data[:affl].delete_if{|x| x.empty?} unless @data[:affl].empty?
     params=@data
+    
+    @row="#{@data[:caste]}-#{@data[:gender]}".underscore
     filters=get_conditions
-    @results = CutoffScore.paginate :select => "colleges.id as college_id ", :conditions => filters, :include => [:college, :course], :page => params[:page]
+    @results = CutoffScore.paginate :select => "colleges.id as college_id ", :conditions => filters, :include => [:college, :course], :page => params[:page], :order => "#{@row} asc"
   end
   
   private
   def get_conditions
-    row="#{@data[:caste]}-#{@data[:gender]}".underscore
     rank=@data[:rank]
     
     filter_cond=[]
-    filters="#{row} >= ?"
+    filters="#{@row} >= ?"
     
     affls=@data[:affl]
     affls=affls.collect{|x| x if x!=""}.compact
