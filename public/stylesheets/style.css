@@ -8,6 +8,7 @@ font-size:12px;
 }
 
 #container{
+	margin-left:300px;
 }
 
 #header{
@@ -50,4 +51,12 @@ color:#333;
 .siteLinks a{
 font-size:12px;
 color:#777;
-}  
+} 
+
+.results ul li{
+	padding: 2px 0px;
+} 
+
+.row{
+	padding: 3px 0px;
+}
