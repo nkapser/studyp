@@ -9,6 +9,8 @@ if pdata.nil?
 	pdata['gender']="boy"
 	pdata['affl']=[]
 end 
+
+pdata['affl'] = [] if pdata.nil? || pdata['affl'].nil?
 %>
 
 <%= form_tag "/eamcet/results" do |f|%>

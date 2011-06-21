@@ -1,0 +1,31 @@
+<% content_for :title_text do %>
+	<h1 class='h1'><%= @college.name %></h1>
+<% end %>
+
+<div class='college_details'>
+	<h2>College Details</h2>
+	<% unless @college.estd == 0%>	
+	<div>
+		Established Year: <%= @college.estd %>		
+	</div>
+	<% end%>	
+	<div>
+		Affiliated To: <%= @college.affl %>		
+	</div>	
+	<div>
+		<%= @college.coed %>		
+	</div>	
+	<div>
+		Region: <%= @college.reg %>		
+	</div>	
+	<div>
+		District: <%= @college.dist %>		
+	</div>	
+</div>
+
+<div class='courses'>
+	<h3>List of Courses</h3>
+	<% @college.courses.each do |course| %>
+		<%= course.name %>
+	<% end %>
+</div>

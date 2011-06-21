@@ -1,5 +1,6 @@
 class Course < ActiveRecord::Base
-  has_and_belongs_to_many :colleges, :join_table => "colleges_courses"
+  has_many :college_courses
+  has_many :colleges, :through => :colleges_courses  
   
   def get_qualified_courses(college_id, score)
     find(:all, :conditions => ["college_id in (?) and (min_score >= ? and max_score <= ?)", college_id, score, score])

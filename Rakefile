@@ -87,6 +87,37 @@ namespace :data do
       end
   end
   
+  task :eamcet_cutoff_2010 => :environment do
+    exam_year=ExamYear.find_or_create_by_year("2010")
+
+      CSV.foreach("#{Rails.root}/db/data/eamcet-cutoffs-2010.csv", {:headers => true}) do |f|
+        @college = College.find_by_code(f["CODE"])
+        @college = College.create({:code => f["CODE"], :name => ""}) if @college.nil?
+        @course = Course.find_by_course_code(f["CRS"])
+       CutoffScore.create!({
+          :exam_year => exam_year, 
+          :college => @college, 
+          :course => @course,
+          :oc_boy => f["OC-BOY"],
+          :oc_girl => f["OC-GIRL"],
+          :sc_boy => f["SC-BOY"],
+          :sc_girl => f["SC-GIRL"],
+          :st_boy => f["ST-BOY"],
+          :st_girl => f["ST-GIRL"],
+          :bca_boy => f["BCA-BOY"], 
+          :bca_girl => f["BCA-GIRL"], 
+          :bcb_boy => f["BCB-BOY"], 
+          :bcb_girl => f["BCB-GIRL"], 
+          :bcc_boy => f["BCC-BOY"], 
+          :bcc_girl => f["BCC-GIRL"], 
+          :bcd_boy => f["BCD-BOY"], 
+          :bcd_girl => f["BCD-GIRL"], 
+          :bce_boy => f["BCE-BOY"], 
+          :bce_girl => f["BCE-GIRL"]
+          })
+      end
+  end  
+  
 end
 
 

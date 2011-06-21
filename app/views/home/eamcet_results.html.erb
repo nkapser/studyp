@@ -3,7 +3,7 @@
 	<ul>
 	<% @results.each do |result|%>
 		<li>
-		<%= result.college.name %> - <%= result.course.name %>
+		<%= link_to result.college.name, college_path(result.college) %> - <%= result.course.name %>
 		</li>
 	<% end %>
 	</ul>
