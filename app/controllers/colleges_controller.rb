@@ -26,7 +26,7 @@ class CollegesController < ApplicationController
   end
   
   def search
-    @colleges=College.find(:all, :conditions => ["name like ?", "%#{params[:college][:name]}%"])
+    @colleges=College.paginate, :conditions => ["name like ?", "%#{params[:college][:name]}%"]
     if @colleges.count == 1
       redirect_to :action => :show, :id => @colleges.first
     else
