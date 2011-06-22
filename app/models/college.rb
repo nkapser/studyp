@@ -5,7 +5,7 @@ class College < ActiveRecord::Base
   has_many :courses, :through => :colleges_courses
 
   cattr_reader :per_page
-  @@per_page = 50
+  @@per_page = 25
   
   def self.get_all_eamcet_colleges(page)
     @eamcet_exam||=Exam.find_by_name("EAMCET")

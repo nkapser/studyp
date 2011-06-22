@@ -8,6 +8,7 @@ gem 'rails', '3.0.7'
 gem 'sqlite3'
 gem "will_paginate", "~> 3.0.pre2"
 gem 'mysql'
+
 group :test, :development do
   gem "rspec-rails", "~> 2.4"
   gem "autotest"

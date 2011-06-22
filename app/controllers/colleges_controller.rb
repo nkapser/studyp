@@ -37,4 +37,9 @@ class CollegesController < ApplicationController
   def colleges_result
   end
   
+  def region    
+    @colleges=College.paginate :conditions => ["reg = ?",params[:region]], :page => params[:page]
+    render :action => :colleges_result
+  end
+  
 end

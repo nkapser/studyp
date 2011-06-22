@@ -30,6 +30,13 @@ class CutoffScore < ActiveRecord::Base
       filter_cond << affls
     end    
     
+    # regs=data[:reg] 
+    # unless affls.nil? || regs.empty?   
+    #   regs=regs.collect{|x| x if x!=""}.compact 
+    #   filters = filters + " and reg in (?)"
+    #   filter_cond << regs
+    # end
+        
     filter_cond
   end  
   

@@ -8,9 +8,11 @@ if pdata.nil?
 	pdata['caste']="oc"
 	pdata['gender']="boy"
 	pdata['affl']=[]
+	pdata['reg']=[]
 end 
 
 pdata['affl'] = [] if pdata.nil? || pdata['affl'].nil?
+pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 %>
 
 <%= form_tag "/eamcet/results" do |f|%>
@@ -35,6 +37,13 @@ pdata['affl'] = [] if pdata.nil? || pdata['affl'].nil?
 	University: 
 	<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].each do |univ|%>
 		<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
+	<% end %>
+</div>
+
+<div class='row'>
+	Region: 
+	<% regions.each do |reg|%>
+		<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= reg %>
 	<% end %>
 </div>
 

@@ -1,9 +1,28 @@
+<style>
+	.results div, .results span{
+		padding: 5px 0px;
+	}
+	
+	.results ul li:hover{
+		background-color:;
+	}
+</style>
+
 <%= render :partial => 'common/eamcet_search',  :locals => {:pdata => @data} %>
 	<div class='results'>
 	<ul>
 	<% @results.each do |result|%>
 		<li>
-		<%= link_to result.colleges_course.college.name, college_path(result.colleges_course.college) %> - <%= result.colleges_course.course.name %>
+		<% college=result.colleges_course.college%>
+		<div class='coll'>
+		<%= link_to college.name, college_path(result.colleges_course.college) %> - (Estd: <%= college.estd == 0 ? "-" : college.estd %>)
+		</div>
+		<div class='course'>
+			Course:<%= result.colleges_course.course.name %>
+		</div>
+		<span class='loc'><%= college.place %> (<%=college.reg%>) </span>
+		<span class='affl'>Affiliated to: <%= college.affl%></span>
+		<span class='type'>Type: <%= college.min %>/<%= college.coed%></span>				
 		</li>
 	<% end %>
 	</ul>

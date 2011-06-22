@@ -1,5 +1,10 @@
 <%= content_for :title_text do %>
+<% if params[:region].nil? %>
 	<h1 class='h1'>Eamcet Colleges Search Result</h1>
+<% else %>
+	<h1 class='h1'>List of <%= params[:region] %> Colleges</h1>
+<% end %>
+	
 <% end %>
 <div class='search results'>
 	<ul>
@@ -8,3 +13,5 @@
 	<% end %>
 	</ul>
 </div>
+
+<%= will_paginate @colleges%>
