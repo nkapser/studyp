@@ -4,7 +4,7 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 require 'csv'
-    
+require 'mysql'    
 Studyp::Application.load_tasks
 
 namespace :create do

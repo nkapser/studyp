@@ -38,12 +38,5 @@ pdata['affl'] = [] if pdata.nil? || pdata['affl'].nil?
 	<% end %>
 </div>
 
-<div class='row'>
-	Course: 
-	<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].each do |univ|%>
-		<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
-	<% end %>
-</div>
-
 <%= submit_tag 'find'%>
 <% end %>
