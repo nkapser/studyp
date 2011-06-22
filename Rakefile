@@ -23,21 +23,16 @@ namespace :create do
 end
 
 namespace :data do
+  
   task :bits => :environment do
     year=ExamYear.find_or_create_by_year("2009")
-    File.open("#{Rails.root}/db/data/bits-2009.txt").each_line do |line|
-      if line =~ /Bits-[\w]+:$/
-        college_name=line.gsub(":","").strip!
-        @college=College.find_or_create_by_name(college_name)
-      end
-      if line =~ /[^Bits].+/ && line != college_name
-        data= line.split(":")    
-        course_name=data[0].strip!    
-        course = Course.find_or_create_by_name(course_name)
-        @college.courses << course
-        @college.save!
-        CutoffScore.create!({:min_score => data[1].strip!, :max_score => 0, :exam_year => year, :course => course, :college => @college})
-      end
+    CSV.foreach("#{Rails.root}/db/data/bits-2009.txt", {:headers => true,  :col_sep => ","}) do |f|      
+      @college=College.find_or_create_by_name(f["college"])
+      @course=Course.find_or_create_by_name(f["course"])      
+      
+      @college.courses << @course
+      
+      CutoffScore.create!({:min_score => f["score"], :max_score => 0, :exam_year => year, :colleges_courses_id => CollegesCourse.find(:first, :conditions => ["college_id =? and course_id=?", @college, @course])})
     end
   end  
   
@@ -63,10 +58,12 @@ namespace :data do
       CSV.foreach("#{Rails.root}/db/data/eamcet-cutoffs-2009.csv", {:headers => true}) do |f|
         @college = College.find_by_code(f["CODE"])
         @course = Course.find_by_course_code(f["CRS"])
+        
+        @college.courses << @course unless @college.courses.include?(@course)
+        
        CutoffScore.create!({
           :exam_year => exam_year, 
-          :college => @college, 
-          :course => @course,
+          :colleges_course => CollegesCourse.find_by_college_id_and_course_id(@college.id, @course.id),
           :oc_boy => f["OC-BOY"],
           :oc_girl => f["OC-GIRL"],
           :sc_boy => f["SC-BOY"],
@@ -94,10 +91,19 @@ namespace :data do
         @college = College.find_by_code(f["CODE"])
         @college = College.create({:code => f["CODE"], :name => ""}) if @college.nil?
         @course = Course.find_by_course_code(f["CRS"])
+        
+        begin
+        @college.courses << @course unless @college.courses.include?(@course)
+        rescue Exception => e
+          puts @college.inspect
+          puts "#{@course.inspect} -- #{f['CRS']}"
+          
+          raise e
+        end
+        
        CutoffScore.create!({
           :exam_year => exam_year, 
-          :college => @college, 
-          :course => @course,
+          :colleges_course => CollegesCourse.find_by_college_id_and_course_id(@college.id, @course.id),
           :oc_boy => f["OC-BOY"],
           :oc_girl => f["OC-GIRL"],
           :sc_boy => f["SC-BOY"],

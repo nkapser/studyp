@@ -4,8 +4,7 @@ class CreateCutoffScores < ActiveRecord::Migration
       t.float :min_score
       t.float :max_score
       t.integer :exam_year_id
-      t.integer :course_id
-      t.integer :college_id
+      t.integer :colleges_courses_id
     end
   end
 

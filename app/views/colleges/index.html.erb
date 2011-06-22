@@ -1,0 +1,19 @@
+<% content_for :title_text do %>
+<h1 class='h1'>Eamcet Colleges in Andhra Pradesh</h1>
+<% end %>
+
+<div class='search'>
+	<%= render :partial => '/common/college_search' %>
+</div>
+
+<div class='colleges'>
+	<ul>
+	<% @colleges.each do |college| %>
+	<li>
+		<%= link_to college.name, college_path(college) %>
+	</li>
+	<%end%>
+	</ul>
+</div>
+
+<%= will_paginate @colleges %>

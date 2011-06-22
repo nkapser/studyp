@@ -1,0 +1,6 @@
+<%= form_tag "/colleges/search" do |f|%>
+<div class='row'>
+<%= label_tag 'Search College Name'%>
+<%= text_field_tag 'college[name]'%>
+<%= submit_tag 'Find College'%>
+<% end %>

@@ -25,7 +25,11 @@
 
 <div class='courses'>
 	<h3>List of Courses</h3>
+	<ul>
 	<% @college.courses.each do |course| %>
-		<%= course.name %>
+		<li>
+			<%= course.name %>
+		</li>
 	<% end %>
+	</ul>
 </div>

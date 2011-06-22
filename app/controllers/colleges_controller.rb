@@ -2,7 +2,7 @@ class CollegesController < ApplicationController
 
   def index
     @college=College.new
-    @colleges=College.find(:all)
+    @colleges=College.get_all_eamcet_colleges(params[:page])
   end
   
   def new    
@@ -23,6 +23,18 @@ class CollegesController < ApplicationController
   
   def show
     @college=College.find(params[:id])
+  end
+  
+  def search
+    @colleges=College.find(:all, :conditions => ["name like ?", "%#{params[:college][:name]}%"])
+    if @colleges.count == 1
+      redirect_to :action => :show, :id => @colleges.first
+    else
+      render :action => :colleges_result
+    end
+  end
+  
+  def colleges_result
   end
   
 end

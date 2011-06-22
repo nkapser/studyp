@@ -1,7 +1,6 @@
 class CutoffScore < ActiveRecord::Base
-  belongs_to :course
-  belongs_to :college
   belongs_to :exam_year
+  belongs_to :colleges_course, :foreign_key => :colleges_courses_id
   
   cattr_reader :per_page
   @@per_page = 25
@@ -11,7 +10,7 @@ class CutoffScore < ActiveRecord::Base
     col="#{data[:caste]}-#{data[:gender]}".underscore
     filters=get_conditions(col,data)
         
-    self.paginate :select => "*, colleges.id as college_id ", :conditions => filters, :include => [:college, :course], :page => page, :order => "#{col} asc"
+    self.paginate :select => "*", :conditions => filters, :page => page, :order => "#{col} asc", :include => [:colleges_course]
   end
   
   private
@@ -25,13 +24,13 @@ class CutoffScore < ActiveRecord::Base
     filter_cond << rank.to_i
         
     affls=data[:affl] 
-    unless affls.nil?    
+    unless affls.nil? || affls.empty?   
       affls=affls.collect{|x| x if x!=""}.compact 
-      filters = filters + " and affl in (?)" unless affls.empty?      
-      filter_cond << affls unless affls.empty?      
+      filters = filters + " and affl in (?)"
+      filter_cond << affls
     end    
     
     filter_cond
   end  
-
+  
 end
