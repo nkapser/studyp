@@ -57,7 +57,6 @@ Studyp::Application.routes.draw do
   match 'eamcet/results' => 'home#eamcet_results', :method => :get
   
   match 'colleges/search' => 'colleges#search', :method => :get
-  match 'search/region' => 'colleges#region', :method => :get
   
   resources :colleges
   resources :courses

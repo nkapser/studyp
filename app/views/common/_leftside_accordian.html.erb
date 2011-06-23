@@ -1,5 +1,20 @@
 <div class='regions'>	
 	<% regions.each do |region| %>
-		<%= link_to region, region_colleges_path(region)%>
+		<%= link_to region, colleges_search_path(:region => region)%>
 	<% end %>
+</div>
+<div class='districts'>
+	<% districts.each do |district| %>
+		<%= link_to district, colleges_search_path(:district => district)%>
+	<% end %>	
+</div>
+<div class='univs'>
+	<% regions.each do |region| %>
+		<%= link_to region, colleges_search_path(:region => region)%>
+	<% end %>	
+</div>
+<div class='univs'>
+	<% regions.each do |region| %>
+		<%= link_to region, colleges_search_path(:region => region)%>
+	<% end %>	
 </div>

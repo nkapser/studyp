@@ -25,21 +25,30 @@ class CollegesController < ApplicationController
     @college=College.find(params[:id])
   end
   
-  def search
-    @colleges=College.paginate :conditions => ["name like ?", "%#{params[:college][:name]}%"], :page => params[:page]
+  def search    
+    @colleges=[]
+    if !params[:college].nil? 
+      @colleges=College.name_like(params[:college]).paginate :page => params[:page]
+    end
+    
+    if !params[:region].nil?
+      @colleges=College.with_region(params[:region]).paginate :page => params[:page]
+    end
+    
+    if !params[:district].nil?
+      @colleges=College.with_district(params[:district]).paginate :page => params[:page]
+    end    
+    
     if @colleges.count == 1
       redirect_to :action => :show, :id => @colleges.first
+    elsif @colleges.empty?
+      redirect_to :action => :index
     else
       render :action => :colleges_result
     end
   end
   
   def colleges_result
-  end
-  
-  def region    
-    @colleges=College.paginate :conditions => ["reg = ?",params[:region]], :page => params[:page]
-    render :action => :colleges_result
   end
   
 end

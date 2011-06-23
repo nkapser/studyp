@@ -6,6 +6,11 @@ class College < ActiveRecord::Base
 
   cattr_reader :per_page
   @@per_page = 25
+
+  scope :with_district, lambda {|r| where(:dist => r) }  
+  scope :with_region, lambda {|r| where(:reg => r) }
+  scope :name_like, lambda {|n| where("name like ?", "%#{n}%")}
+  
   
   def self.get_all_eamcet_colleges(page)
     @eamcet_exam||=Exam.find_by_name("EAMCET")

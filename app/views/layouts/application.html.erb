@@ -15,9 +15,13 @@
 
 <div id='container'>
 	<div id='leftside'>
+		<%= yield :leftside %>
 	</div>
-	<%= yield %>
+	<div id='page'>
+		<%= yield %>
+	</div>
 	<div id='rightside'>
+		<%= yield :rightside %>
 	</div>
 </div>
 
