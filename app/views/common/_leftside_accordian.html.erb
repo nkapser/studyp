@@ -1,20 +1,43 @@
-<div class='regions'>	
-	<% regions.each do |region| %>
-		<%= link_to region, colleges_search_path(:region => region)%>
-	<% end %>
+<div id="accordion">
+	
+	<div>	
+		<h3>Regions</h3>
+		<div>
+			<% regions.each do |region| %>
+				<%= link_to region, colleges_search_path(:region => region)%>
+			<% end %>
+		</div>
+	</div>
+
+	<div>	
+		<h3>Districts</h3>
+		<div>
+			<% districts.each do |district| %>
+				<%= link_to district, colleges_search_path(:district => district)%><br/>
+			<% end %>	
+		</div>
+	</div>
+
+	<div>	
+		<h3>Universities</h3>
+		<div>
+			<% regions.each do |region| %>
+				<%= link_to region, colleges_search_path(:region => region)%>
+			<% end %>	
+		</div>
+	</div>
+
+	<div>	
+		<h3>Caste</h3>
+		<div>
+			<% regions.each do |region| %>
+				<%= link_to region, colleges_search_path(:region => region)%>
+			<% end %>	
+		</div>
+	</div>
+
 </div>
-<div class='districts'>
-	<% districts.each do |district| %>
-		<%= link_to district, colleges_search_path(:district => district)%>
-	<% end %>	
-</div>
-<div class='univs'>
-	<% regions.each do |region| %>
-		<%= link_to region, colleges_search_path(:region => region)%>
-	<% end %>	
-</div>
-<div class='univs'>
-	<% regions.each do |region| %>
-		<%= link_to region, colleges_search_path(:region => region)%>
-	<% end %>	
-</div>
+
+<script type='text/javascript'>
+	$("#accordion").accordion({ header: "h3" });
+</script>

@@ -4,7 +4,7 @@
 <% 
 if pdata.nil?
 	pdata={}
-	pdata['rank']=""
+	pdata['rank']=1
 	pdata['caste']="oc"
 	pdata['gender']="boy"
 	pdata['affl']=[]
@@ -15,18 +15,18 @@ pdata['affl'] = [] if pdata.nil? || pdata['affl'].nil?
 pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 %>
 
-<%= form_tag "/eamcet/results" do |f|%>
+<div id="searchbox">
+<%= form_tag "/eamcet/results", :id => "search" do |f|%>
 <div class='row'>
 <%= label_tag 'Eamcet Rank'%>
 <%= text_field_tag 'eamcet[rank]', pdata['rank']%>
 </div>
+
 <div class='row'>
 <%= label_tag 'Caste'%>	
-
-<% ["oc","sc","st","bc"].each do |caste| %>
-	<%= radio_button("eamcet",'caste', "#{caste}", caste == pdata['caste'] ? {:checked => "checked"} : {} ) %><%= caste.upcase %>
-<%end%>
+<%= select("eamcet", "caste", [["OC", "oc"],["SC", "sc"],["ST", "st"],["BC-A", "bca"], ["BC-B", "bcb"], ["BC-C","bcc"], ["BC-D","bcd"], ["BC-E","bce"]]) %>
 </div>
+
 <div class='row'>
 <%= label_tag 'Gender'%>
 <%= radio_button("eamcet",'gender', "boy", "boy" == pdata['gender'] ? {:checked => "checked"} : {}) %>Male
@@ -34,18 +34,37 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 </div>
 
 <div class='row'>
-	University: 
-	<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].each do |univ|%>
-		<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
-	<% end %>
+<%= label_tag 'Course'%>
+<%= select("eamcet", "course", courses) %>
 </div>
 
+<!--
 <div class='row'>
-	Region: 
+	University: 
+	<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].in_groups_of(5).each do |group|%>
+		<ul>
+			<% group.each do |univ|%>
+			 	<% unless univ.nil? %>
+					<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
+				<% end %>
+			<% end %>
+		</ul>
+	<% end %>
+</div>
+-->
+
+<div class='row'>
+	<%= label_tag 'Region'%>
+	<%= check_box("eamcet[reg]", "", pdata['reg'].include?("all") ? {"checked" => "checked"} : {}, "all", "") %>All	
 	<% regions.each do |reg|%>
 		<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= reg %>
 	<% end %>
 </div>
 
-<%= submit_tag 'find'%>
+<%= submit_tag 'Search Colleges'%>
 <% end %>
+<small class='tiny'>
+<%= link_to "try advanced search", ""%>
+*Results sorted based on last cutoff rank
+</small>
+</div>

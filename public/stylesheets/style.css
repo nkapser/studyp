@@ -1,5 +1,5 @@
 body{
-font-family:arial;
+font-family:arial, san-serif, serif;
 margin:0px;
 }
 
@@ -8,15 +8,25 @@ font-size:12px;
 }
 
 #container{
+	margin-left:auto;
+	margin-right:auto;
+	width: 1024px;
+	overflow:hidden;
+}
 
+#page{
+	float:left;
+	width: 554px;
 }
 
 #leftside{
-	min-width:300px;
+	width: 210px;
+	float:left;
 }
 
 #rightside{
-	min-width:200px;
+	width:260px;
+	float:left;
 }
 
 #header{
@@ -32,9 +42,10 @@ height:97px;
 height:35px;
 padding-left:17px;
 padding-top:10px;
-background-image:url('/images/title_gradient.png');
+/*background-image:url('/images/title_gradient.png');*/
 background-repeat:repeat-x;
-background-color:#474646;
+/* background-color:#474646; */
+background-color:#727299;
 margin-bottom:30px;
 }
 
@@ -67,4 +78,45 @@ color:#777;
 
 .row{
 	padding: 3px 0px;
+}
+
+#searchbox{
+	background-color: #49B7DB;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;	
+	padding: 10px;
+}
+
+#search input[type=text], #search select{
+	border: 1px solid #D5DCE3;
+/*    color: #A2A2A2; */
+    color: #555555;
+    font-family: Arial;
+    font-size: 14px;	
+}
+
+#search select{
+
+}
+
+#search label{
+	font-size: 1.1em;
+	color: #FDFDFD;
+	padding-right: 5px;
+}
+
+#search input[type=submit]{
+	background-color:#238FB3;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border:2px #FFFFFF solid;
+	padding: 4px 2;
+	color: #FDFFFF;
+	font-size: 14px;
+	cursor:pointer;	
+}
+
+.tiny{
+	font-size:0.7em;
 }

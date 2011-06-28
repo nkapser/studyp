@@ -4,6 +4,8 @@ class CutoffScore < ActiveRecord::Base
   
   cattr_reader :per_page
   @@per_page = 25
+
+  scope :col
   
   def self.rank_for_year(data, page, year=2010)        
     #TODO: should add named scope to get conditions
@@ -29,14 +31,7 @@ class CutoffScore < ActiveRecord::Base
       filters = filters + " and affl in (?)"
       filter_cond << affls
     end    
-    
-    # regs=data[:reg] 
-    # unless affls.nil? || regs.empty?   
-    #   regs=regs.collect{|x| x if x!=""}.compact 
-    #   filters = filters + " and reg in (?)"
-    #   filter_cond << regs
-    # end
-        
+            
     filter_cond
   end  
   

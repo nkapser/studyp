@@ -11,7 +11,6 @@ class College < ActiveRecord::Base
   scope :with_region, lambda {|r| where(:reg => r) }
   scope :name_like, lambda {|n| where("name like ?", "%#{n}%")}
   
-  
   def self.get_all_eamcet_colleges(page)
     @eamcet_exam||=Exam.find_by_name("EAMCET")
     self.paginate :page => page, :conditions => ["exam_id = ?", @eamcet_exam]

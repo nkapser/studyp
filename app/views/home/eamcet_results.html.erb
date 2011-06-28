@@ -3,8 +3,12 @@
 		padding: 5px 0px;
 	}
 	
-	.results ul li:hover{
-		background-color:;
+	.results a{
+		color:#1CAED4;
+	}
+	
+	.results li{
+		list-style: none;
 	}
 </style>
 
@@ -22,7 +26,7 @@
 		</div>
 		<span class='loc'><%= college.place %> (<%=college.reg%>) </span>
 		<span class='affl'>Affiliated to: <%= college.affl%></span>
-		<span class='type'>Type: <%= college.min %>/<%= college.coed%></span>				
+		<span class='type'>Type: <%= college.min %>/<%= college.coed%></span>
 		</li>
 	<% end %>
 	</ul>

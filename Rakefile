@@ -122,8 +122,39 @@ namespace :data do
           :bce_girl => f["BCE-GIRL"]
           })
       end
-  end  
+  end
   
+  
+  
+  task :update_college_address_seats => :environment do
+      CSV.foreach("#{Rails.root}/db/data/college-address-seats.csv", {:headers => true,  :col_sep => "|"}) do |f|
+        
+        @college = College.find_by_code(f["CODE"])
+        @college = College.create({:code => f["CODE"], :name => ""})          if @college.nil?
+        
+        @college.update_attributes!(
+        {
+        	:address => f["ADDRESS"], 
+        	:period => f["PERIOD"],         	
+        	:go_no => f["GONO"], 
+        	:website_url => f["WEBSITE"], 
+        	:total_seats => f["TOTAL"],
+        	:aicte_approval => f["AICTEAPPROVAL"],         	
+        }
+        )
+        
+        @college.colleges_courses.each do |college_course|
+          college_course.seats = f["CSE"] if college_course.course.course_code == "CSE"
+          college_course.seats = f["EEE"] if college_course.course.course_code == "EEE"
+          college_course.seats = f["ECE"] if college_course.course.course_code == "ECE"
+          college_course.seats = f["INF"] if college_course.course.course_code == "INF"
+          college_course.seats = f["MEC"] if college_course.course.course_code == "MEC"
+          college_course.seats = f["CIV"] if college_course.course.course_code == "CIV"
+          college_course.save!          
+        end              
+        
+      end
+  end
+  
+
 end
-
-
