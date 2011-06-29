@@ -33,38 +33,41 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 <%= radio_button("eamcet",'gender', "girl", "girl" == pdata['gender'] ? {:checked => "checked"} : {}) %>Female	
 </div>
 
-<div class='row'>
-<%= label_tag 'Course'%>
-<%= select("eamcet", "course", courses) %>
-</div>
+<div id='adv_search_options' style='display:none;'>
+	
+	<div class='row'>
+	<%= label_tag 'Course'%>
+	<%= select("eamcet", "course", courses) %>
+	</div>	
+	
+	<div class='row'>
+		<%= label_tag 'Region'%>
+		<%= check_box("eamcet[reg]", "", pdata['reg'].include?("all") ? {"checked" => "checked"} : {}, "all", "") %>All	
+		<% regions.each do |reg|%>
+			<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= reg %>
+		<% end %>
+	</div>
 
-<!--
-<div class='row'>
-	University: 
-	<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].in_groups_of(5).each do |group|%>
-		<ul>
-			<% group.each do |univ|%>
-			 	<% unless univ.nil? %>
-					<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
+	<div class='row'>
+	<%= label_tag 'University'%>				 
+		<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].in_groups_of(5).each do |group|%>
+			<ul>
+				<% group.each do |univ|%>
+				 	<% unless univ.nil? %>
+						<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
+					<% end %>
 				<% end %>
-			<% end %>
-		</ul>
-	<% end %>
-</div>
--->
+			</ul>
+		<% end %>
+	</div>
+	
 
-<div class='row'>
-	<%= label_tag 'Region'%>
-	<%= check_box("eamcet[reg]", "", pdata['reg'].include?("all") ? {"checked" => "checked"} : {}, "all", "") %>All	
-	<% regions.each do |reg|%>
-		<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= reg %>
-	<% end %>
 </div>
 
 <%= submit_tag 'Search Colleges'%>
 <% end %>
 <small class='tiny'>
-<%= link_to "try advanced search", ""%>
+<%= link_to "try advanced search", "javascript:void(0);", :id => "adv_search_link"%>
 *Results sorted based on last cutoff rank
 </small>
 </div>

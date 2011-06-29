@@ -3,8 +3,10 @@
 
 (function($){
 	
-	$(document).load(function(){
-
+	$(document).ready(function(){
+		$('#adv_search_link').click(function(){
+			$('#adv_search_options').toggle('showOrHide');
+		});
 	});
 	
 })(jQuery);
