@@ -5,34 +5,36 @@ class CutoffScore < ActiveRecord::Base
   cattr_reader :per_page
   @@per_page = 25
 
-  scope :col
+  scope :year, where(:exam_year_id => 2)
+  scope :column, lambda {|col,rank| where("? >= ?", "#{col}", "#{rank}") }
+  scope :affiliated_to, lambda {|affl| where("affl in (?)", affl)}
+  scope :course, lambda {|c| where("course_code = ?", c)}
+  scope :regions_in, lambda {|r| where("reg in (?)", r)}
   
   def self.rank_for_year(data, page, year=2010)        
-    #TODO: should add named scope to get conditions
     col="#{data[:caste]}-#{data[:gender]}".underscore
-    filters=get_conditions(col,data)
-        
-    self.paginate :select => "*", :conditions => filters, :page => page, :order => "#{col} asc", :include => [:colleges_course]
-  end
-  
-  private
-  def self.get_conditions(col,data)
-    rank=data[:rank]
-    
-    filter_cond=[]
-    filters="#{col} >= ? and exam_year_id=2"
-
-    filter_cond << filters
-    filter_cond << rank.to_i
-        
+    data[:affl] 
     affls=data[:affl] 
-    unless affls.nil? || affls.empty?   
-      affls=affls.collect{|x| x if x!=""}.compact 
-      filters = filters + " and affl in (?)"
-      filter_cond << affls
+    course=data[:course]
+    regions=data[:reg]
+    
+    @cutoff=CutoffScore.year.column(col, data[:rank])
+    
+    unless affls.nil? || affls.empty?
+      affls=affls.collect{|x| x if x!=""}.compact
+      @cutoff=@cutoff.affiliated_to(affls) unless affls.empty?
+    end
+    
+    unless course.nil? || course.empty?
+      @cutoff=@cutoff.course(course)
+    end
+    
+    unless regions.nil? || regions.empty?
+      regions=regions.collect{|x| x if x!=""}.compact
+      @cutoff=@cutoff.regions_in(regions) unless regions.empty?
     end    
-            
-    filter_cond
-  end  
+    
+    @cutoff.paginate :page => page, :order => "#{col} asc", :joins => [:colleges_course => [:college, :course]]
+  end
   
 end

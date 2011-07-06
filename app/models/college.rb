@@ -10,6 +10,7 @@ class College < ActiveRecord::Base
   scope :with_district, lambda {|r| where(:dist => r) }  
   scope :with_region, lambda {|r| where(:reg => r) }
   scope :name_like, lambda {|n| where("name like ?", "%#{n}%")}
+  scope :affiliated_to, lambda {|r| where(:affl => r) }
   
   def self.get_all_eamcet_colleges(page)
     @eamcet_exam||=Exam.find_by_name("EAMCET")
@@ -22,7 +23,8 @@ class College < ActiveRecord::Base
         :data => 
         c.cutoff_scores.collect { |cs| 
           { 
-            :name => c.course.course_code, 
+            :name => c.course.name, 
+            :seats => c.seats,
             :year => cs.exam_year.year, 
             :oc_boy => cs.oc_boy, :oc_girl => cs.oc_girl, 
             :sc_boy => cs.sc_boy, :sc_girl => cs.sc_girl, 

@@ -9,6 +9,7 @@ if pdata.nil?
 	pdata['gender']="boy"
 	pdata['affl']=[]
 	pdata['reg']=[]
+	pdata['course']=""
 end 
 
 pdata['affl'] = [] if pdata.nil? || pdata['affl'].nil?
@@ -37,14 +38,14 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 	
 	<div class='row'>
 	<%= label_tag 'Course'%>
-	<%= select("eamcet", "course", courses) %>
+	<%= select("eamcet", "course", courses, :include_blank => "Select Course", :selected => pdata['course']) %>
 	</div>	
 	
 	<div class='row'>
 		<%= label_tag 'Region'%>
 		<%= check_box("eamcet[reg]", "", pdata['reg'].include?("all") ? {"checked" => "checked"} : {}, "all", "") %>All	
 		<% regions.each do |reg|%>
-			<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= reg %>
+			<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= regions(reg) %>
 		<% end %>
 	</div>
 

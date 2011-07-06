@@ -12,13 +12,18 @@ background-color:#F6F6F6;
 	background-color:#fdffff;
 	overflow:hidden;
 	padding: 15px 0px;
+	min-height: 550px;
 }
 
 #page{
 	float:left;
-	width: 100%; /* 504px */
-	margin-left:25px;
-	margin-right:25px;
+	margin-left:10px;
+	margin-right:10px;	
+}
+
+#content{
+	width: 780px; /* 784px */
+	float:left;
 }
 
 #leftside{
@@ -27,8 +32,9 @@ background-color:#F6F6F6;
 }
 
 #rightside{
-	width:260px;
+	width:210px;
 	float:left;
+	margin-left:10px;	
 }
 
 #header{
@@ -94,6 +100,7 @@ height:30px;
 font-size:15px;
 color:#333;
 }
+
 .siteLinks a{
 font-size:12px;
 color:#777;
@@ -156,6 +163,23 @@ color:#777;
 	color: #FDFFFF;
 	font-size: 0.9em;
 	cursor:pointer;	
+}
+
+.widget{
+	border: 2px solid #F6F6F6;
+	padding: 5px;
+}
+
+.widget h2{
+	font-size:1.0em;
+	color:white;
+	background-color:#727299;
+	padding: 5px;
+	margin:0px;
+}
+
+.widget input{
+	width:96%;
 }
 
 .tiny{

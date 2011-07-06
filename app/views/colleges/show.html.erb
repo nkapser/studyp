@@ -10,7 +10,7 @@
 	</div>
 	<% end%>	
 	<div>
-		Affiliated To: <%= universities(@college.affl)	%>
+		Affiliated To: <%= link_to "#{universities(@college.affl)}", colleges_search_path(:affl => @college.affl)  	%>
 	</div>	
 	<div>
 		<%= coed(@college.coed) %>		
@@ -19,70 +19,112 @@
 		Region: <%= link_to "#{regions(@college.reg)}", colleges_search_path(:region => @college.reg) %>		
 	</div>	
 	<div>
-		District: <%= districts(@college.dist) %>		
+		District: <%= link_to "#{districts(@college.dist)}", colleges_search_path(:district => @college.dist) %> 
 	</div>	
+	<% unless @college.total_seats == 0 || @college.total_seats.nil? %>
+	<div>
+		Total Seats: <%= @college.total_seats %>
+	</div>
+	<% end %>
 </div>
 
-<style>
+<style>	
+	.row .course{
 
-	.header span{
-		padding: 4px;
-		overflow: auto;	
-		border: 1px solid black;	
-		width: 150px;
 	}
 	
-	.row span{
-		width: 150px;
+	.row .year{
+
 	}
 	
 	.row.next{
 		display:none;
 	}
+	
+	#y2009, #y2010{
+		padding: 0px 5px;
+		cursor:pointer;	
+	}
+	
+	.courses{
+		font-size: 0.85em;
+	}
+	
+	.courses .selected{
+		background-color: #727299;
+		color: white;
+	}
+	
+	th {
+		font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica,
+		sans-serif;
+		color: #6D929B;
+		border-right: 1px solid #C1DAD7;
+		border-bottom: 1px solid #C1DAD7;
+		border-top: 1px solid #C1DAD7;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		text-align: left;
+		padding: 6px 6px 6px 12px;
+		background: #CAE8EA url(images/bg_header.jpg) no-repeat;
+	}
+	
+	td {
+		border-right: 1px solid #C1DAD7;
+		border-bottom: 1px solid #C1DAD7;
+		background: #fff;
+		padding: 6px 6px 6px 12px;
+		color: #4f6b72;
+	}
+
+	
 </style>
 
-<h4 id='y2009'>2009</h4><h4 id='y2010'>2010</h4>
 
 <div class='courses'>
-	<h3>List of Courses</h3>
+	<h3>List of Courses with cutoff ranks <span id='y2009' class='selected'>2009</span><span id='y2010'>2010</span></h3>
 	
-	<div class='header'>
-		<span class='course'>CourseName</span>
-		<span class='year'>Year</span>
-		<span class='rank'>OC Boy</span>
-		<span class='rank'>OC Girl</span>
-		<span class='rank'>SC Boy</span>
-		<span class='rank'>SC Girl</span>																														
-		<span class='rank'>ST Boy</span>																														
-		<span class='rank'>ST Girl</span>																														
-	</div>
+	<table border="1px">
+	<tr class='header'>
+		<th class='course'>CourseName</th>
+		<th class='seats'>Seats</th>		
+		<th class='year'>Year</th>
+		<th class='rank'>OC Boy</th>
+		<th class='rank'>OC Girl</th>
+		<th class='rank'>SC Boy</th>
+		<th class='rank'>SC Girl</th>																														
+		<th class='rank'>ST Boy</th>																														
+		<th class='rank'>ST Girl</th>																														
+	</tr>
 	
-	<% @college.get_cutoff_scores_for_courses.each do |result| %>
-	<div class='row prev'>
-		<span class='course'><%= result[:data].first[:name] %></span>
-	 	<span class='year'><%= result[:data].first[:year] %></span>
-		<span class='rank'><%= result[:data].first[:oc_boy]%></span>
-		<span class='rank'><%= result[:data].first[:oc_girl]%></span>
-		<span class='rank'><%= result[:data].first[:sc_boy]%></span>
-		<span class='rank'><%= result[:data].first[:sc_girl]%></span>
-		<span class='rank'><%= result[:data].first[:st_boy]%></span>
-		<span class='rank'><%= result[:data].first[:st_girl]%></span>		
-	</div>
+	<% @college.get_cutoff_scores_for_courses.each_with_index do |result, index| %>
+	<tr class='row prev'>
+		<td class='course'><%= result[:data].first[:name] %></td>
+		<td class='seats'><%= result[:data].first[:seats] %></td>		
+	 	<td class='year'><%= result[:data].first[:year] %></td>
+		<td class='rank'><%= result[:data].first[:oc_boy]%></td>
+		<td class='rank'><%= result[:data].first[:oc_girl]%></td>
+		<td class='rank'><%= result[:data].first[:sc_boy]%></td>
+		<td class='rank'><%= result[:data].first[:sc_girl]%></td>
+		<td class='rank'><%= result[:data].first[:st_boy]%></td>
+		<td class='rank'><%= result[:data].first[:st_girl]%></td>		
+	</tr>
 	
 	<% if result[:data].size == 2 %>
-	<div class='row next'>
-		<span class='course'><%= result[:data].last[:name] %></span>
-	 	<span class='year'><%= result[:data].last[:year] %></span>
-		<span class='rank'><%= result[:data].last[:oc_boy]%></span>
-		<span class='rank'><%= result[:data].last[:oc_girl]%></span>
-		<span class='rank'><%= result[:data].last[:sc_boy]%></span>
-		<span class='rank'><%= result[:data].last[:sc_girl]%></span>
-		<span class='rank'><%= result[:data].last[:st_boy]%></span>
-		<span class='rank'><%= result[:data].last[:st_girl]%></span>		
-	</div>
+	<tr class='row next'>
+		<td class='course'><%= result[:data].last[:name] %></td>
+		<td class='seats'><%= result[:data].first[:seats] %></td>				
+	 	<td class='year'><%= result[:data].last[:year] %></td>
+		<td class='rank'><%= result[:data].last[:oc_boy]%></td>
+		<td class='rank'><%= result[:data].last[:oc_girl]%></td>
+		<td class='rank'><%= result[:data].last[:sc_boy]%></td>
+		<td class='rank'><%= result[:data].last[:sc_girl]%></td>
+		<td class='rank'><%= result[:data].last[:st_boy]%></td>
+		<td class='rank'><%= result[:data].last[:st_girl]%></td>		
+	</tr>
 	<% end %>
 	<% end %>
-
+	</table>
 </div>
 
 <script type='text/javascript'>
@@ -90,11 +132,15 @@ $(document).ready(function(){
 	$('#y2010').click(function(){
 		$('.row.prev').hide();		
 		$('.row.next').show();
+		$('.courses .selected').removeClass('selected');
+		$(this).addClass('selected')
 	});
 	
 	$('#y2009').click(function(){
 		$('.row.next').hide();
-		$('.row.prev').show();		
+		$('.row.prev').show();
+		$('.courses .selected').removeClass('selected');
+		$(this).addClass('selected')
 	});	
 })
 </script>

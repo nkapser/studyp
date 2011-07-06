@@ -16,14 +16,16 @@
 		<div id='title'>
 			<%= yield :title_text %>
 		</div>
-		<div id='leftside'>
-			<%= yield :leftside %>
-		</div>
-		<div id='page'>
+		
+		<div id='page'>		
+		
+		<div id='content'>		
 			<%= yield %>
 		</div>
-		<div id='rightside'>
-			<%= yield :rightside %>
+			
+		<div id='rightside'>	
+		<%= yield :rightside %>			
+		</div>
 		</div>
 	</div>
 

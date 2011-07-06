@@ -1,8 +1,8 @@
 <%= content_for :title_text do %>
-<% if params[:region].nil? %>
+<% if @title.nil? %>
 	<h1 class='h1'>Eamcet Colleges Search Result</h1>
 <% else %>
-	<h1 class='h1'>List of <%= params[:region] %> Colleges</h1>
+	<h1 class='h1'><%= @title %></h1>
 <% end %>
 	
 <% end %>
