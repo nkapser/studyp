@@ -1,32 +1,31 @@
 module ApplicationHelper
 
-  def regions
+  def regions(key='')
     @regions ||= {"AU" => "Andhra Region", "OU" => "Osmania Region", "SVU" => "Sri Venkateswara Region"}
-    @regions.keys
+    key == '' ? @regions.keys : @regions.values_at(key).first
   end
 
-  def districts
+  def districts(key='')
     @districts ||= { :vsp => "Vishakhapatnam",:hyd => "Hyderabad",:kdp => "Kadapa",:wgl => "Warangal",:pks => "Prakasam",:rr  => "Ranga Reddy",:eg  => "East Godavari",:ctr => "Chittoor",:khm => "Khammam",:skl => "Srikakulam",:nlg => "Nalgonda",:nlr => "Nellore",:wg  => "West Godavari",:gtr => "Guntur",:knl => "Kurnool",:kri => "Krishna",:atp => "Anantapur",:adb => "Adilabad",:vzm => "Vizia Nagaram",:krm => "Karim Nagar",:med => "Medak",:nzb => "Nizamabad",:mbn => "Mahaboob Nagar" }
-    @districts.keys
+    key == '' ? @districts.keys : @districts.values_at(key.downcase.to_sym).first    
   end
 
-  def minority
+  def minority(key='')
     @minority ||= { :na => "Non-Minority", :chr => "Christian Minority", :mus => "Muslim Minority"}
-    # @minority.values_at(type.downcase.to_sym)
-    @minority.keys
+    key == '' ? @minority.keys : @minority.values_at(key.downcase.to_sym).first    
   end
 
-  def coed
+  def coed(key='')
     @coed ||= { "COED" => "Co-Education", "GIRLS" => "Girls Only"}
-    @coed.keys
+    key == '' ? @coed.keys : @coed.values_at(key).first
   end
 
-  def university_types
+  def university_types(key='')
     @univ_types ||= {"PVT" => "University", "SF" => "Self-Financed", "UNIV" => "Private"}
-    @univ_types.keys
+    key == '' ? @univ_types.keys : @univ_types.values_at(key).first        
   end
 
-  def universities
+  def universities(key='')
     @universities ||= { "JNTUK" =>	"JNTU Kakinada",
     "JNTUA" =>	"JNTU Anantapur",
     "KU" =>	"Kakatiya University",
@@ -44,8 +43,8 @@ module ApplicationHelper
     "SPMU" => "Sri Padmavathi Mahila Viswavidyalayam",
     "SVHU" =>	"Satavahana University",
     "YGVU" =>	"Yogi Vemana University"
-    }  
-    @universities.keys
+    }      
+    key == '' ? @universities.keys : @universities.values_at(key).first            
   end
   
   def courses

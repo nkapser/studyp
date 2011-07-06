@@ -19,7 +19,7 @@
 		<li>
 		<% college=result.colleges_course.college%>
 		<div class='coll'>
-		<%= link_to college.name, college_path(result.colleges_course.college) %> - (Estd: <%= college.estd == 0 ? "-" : college.estd %>)
+		<%= link_to college.name, college_path(result.colleges_course.college) %> <% unless college.estd == 0 %> (Estd: <%= college.estd %>) <% end %>
 		</div>
 		<div class='course'>
 			Course:<%= result.colleges_course.course.name %>
@@ -31,4 +31,4 @@
 	<% end %>
 	</ul>
 	</div>
-<%= will_paginate @results, :params => params[:eamcet] %>
+<%= will_paginate @results, :previous_label => "<<",:next_label => ">>", :params => params[:eamcet] %>

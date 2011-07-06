@@ -1,19 +1,22 @@
 body{
 font-family:arial, san-serif, serif;
 margin:0px;
-font-size:0.87em;
+font-size:0.93em;
+background-color:#F6F6F6;
 }
 
 #container{
 	margin-left:auto;
 	margin-right:auto;
 	width: 1024px;
+	background-color:#fdffff;
 	overflow:hidden;
+	padding: 15px 0px;
 }
 
 #page{
 	float:left;
-	width: 504px;
+	width: 100%; /* 504px */
 	margin-left:25px;
 	margin-right:25px;
 }
@@ -29,12 +32,37 @@ font-size:0.87em;
 }
 
 #header{
-background-image:url('/images/gradient.png');
-background-repeat:repeat-x;
-height:97px;
+background-color:#3A3A3A;
+}
+
+#header a{
+	color: #FDFFFF;
+}
+
+#logo{
+	padding:10px;
+}
+
+#logo a{
+	text-decoration:none;
+	font-size:32px;	
 }
 
 #footer{
+	height: 190px;
+	background-color:#161616;
+	color: #cbc6b3;	
+}
+
+#footer a{
+	color: #cbc6b3;	
+}
+
+#footer .links{
+	padding: 20px 0px;	
+	margin-left:auto;
+	margin-right:auto;
+	width: 1024px;	
 }
 
 #title{
@@ -136,6 +164,7 @@ color:#777;
 
 /* pagination */
 .pagination {
+	padding: 20px 0px;
 }
 
 .pagination em{
@@ -157,4 +186,10 @@ color:#777;
     padding: 2px 6px;	
 	text-decoration:none;
 	font-size:0.6em;				
+}
+.pagination .disabled{
+	border: 1px solid #9C9C9C;
+	font-size:0.6em;
+    margin-right: 2px;
+    padding: 2px 6px;						
 }

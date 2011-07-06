@@ -4,32 +4,97 @@
 
 <div class='college_details'>
 	<h2>College Details</h2>
-	<% unless @college.estd == 0%>	
-	<div>
+	<% unless @college.estd == 0 %>	
+	<div>		
 		Established Year: <%= @college.estd %>		
 	</div>
 	<% end%>	
 	<div>
-		Affiliated To: <%= @college.affl %>		
+		Affiliated To: <%= universities(@college.affl)	%>
 	</div>	
 	<div>
-		<%= @college.coed %>		
+		<%= coed(@college.coed) %>		
 	</div>	
 	<div>
-		Region: <%= @college.reg %>		
+		Region: <%= link_to "#{regions(@college.reg)}", colleges_search_path(:region => @college.reg) %>		
 	</div>	
 	<div>
-		District: <%= @college.dist %>		
+		District: <%= districts(@college.dist) %>		
 	</div>	
 </div>
 
+<style>
+
+	.header span{
+		padding: 4px;
+		overflow: auto;	
+		border: 1px solid black;	
+		width: 150px;
+	}
+	
+	.row span{
+		width: 150px;
+	}
+	
+	.row.next{
+		display:none;
+	}
+</style>
+
+<h4 id='y2009'>2009</h4><h4 id='y2010'>2010</h4>
+
 <div class='courses'>
 	<h3>List of Courses</h3>
-	<ul>
-	<% @college.courses.each do |course| %>
-		<li>
-			<%= course.name %>
-		</li>
+	
+	<div class='header'>
+		<span class='course'>CourseName</span>
+		<span class='year'>Year</span>
+		<span class='rank'>OC Boy</span>
+		<span class='rank'>OC Girl</span>
+		<span class='rank'>SC Boy</span>
+		<span class='rank'>SC Girl</span>																														
+		<span class='rank'>ST Boy</span>																														
+		<span class='rank'>ST Girl</span>																														
+	</div>
+	
+	<% @college.get_cutoff_scores_for_courses.each do |result| %>
+	<div class='row prev'>
+		<span class='course'><%= result[:data].first[:name] %></span>
+	 	<span class='year'><%= result[:data].first[:year] %></span>
+		<span class='rank'><%= result[:data].first[:oc_boy]%></span>
+		<span class='rank'><%= result[:data].first[:oc_girl]%></span>
+		<span class='rank'><%= result[:data].first[:sc_boy]%></span>
+		<span class='rank'><%= result[:data].first[:sc_girl]%></span>
+		<span class='rank'><%= result[:data].first[:st_boy]%></span>
+		<span class='rank'><%= result[:data].first[:st_girl]%></span>		
+	</div>
+	
+	<% if result[:data].size == 2 %>
+	<div class='row next'>
+		<span class='course'><%= result[:data].last[:name] %></span>
+	 	<span class='year'><%= result[:data].last[:year] %></span>
+		<span class='rank'><%= result[:data].last[:oc_boy]%></span>
+		<span class='rank'><%= result[:data].last[:oc_girl]%></span>
+		<span class='rank'><%= result[:data].last[:sc_boy]%></span>
+		<span class='rank'><%= result[:data].last[:sc_girl]%></span>
+		<span class='rank'><%= result[:data].last[:st_boy]%></span>
+		<span class='rank'><%= result[:data].last[:st_girl]%></span>		
+	</div>
 	<% end %>
-	</ul>
+	<% end %>
+
 </div>
+
+<script type='text/javascript'>
+$(document).ready(function(){
+	$('#y2010').click(function(){
+		$('.row.prev').hide();		
+		$('.row.next').show();
+	});
+	
+	$('#y2009').click(function(){
+		$('.row.next').hide();
+		$('.row.prev').show();		
+	});	
+})
+</script>
