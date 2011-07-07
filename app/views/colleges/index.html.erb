@@ -1,3 +1,7 @@
+<% content_for :rightside do %>
+	<%= render :partial => 'common/accordian'%>
+<% end %>
+
 <% content_for :title_text do %>
 <h1 class='h1'>Eamcet Colleges in Andhra Pradesh</h1>
 <% end %>
@@ -10,7 +14,7 @@
 	<ul>
 	<% @colleges.each do |college| %>
 	<li>
-		<%= link_to college.name, college_path(college) %>
+		<%= link_to college.name, college_path(college) %> - <%= districts(college.dist)%> - <%= college.place%>
 	</li>
 	<%end%>
 	</ul>

@@ -5,7 +5,7 @@ class College < ActiveRecord::Base
   has_many :courses, :through => :colleges_courses
 
   cattr_reader :per_page
-  @@per_page = 25
+  @@per_page = 30
 
   scope :with_district, lambda {|r| where(:dist => r) }  
   scope :with_region, lambda {|r| where(:reg => r) }

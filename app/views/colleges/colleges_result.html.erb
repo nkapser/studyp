@@ -1,15 +1,23 @@
 <%= content_for :title_text do %>
-<% if @title.nil? %>
-	<h1 class='h1'>Eamcet Colleges Search Result</h1>
-<% else %>
-	<h1 class='h1'><%= @title %></h1>
+	<% if @title.nil? %>
+		<h1 class='h1'>Eamcet Colleges Search Result</h1>
+	<% else %>
+		<h1 class='h1'><%= @title %></h1>
+	<% end %>	
 <% end %>
-	
+
+<% content_for :rightside do %>
+<div class='search'>
+	<%= render :partial => '/common/college_search' %>
+</div>
+
+	<%= render :partial => 'common/accordian'%>
 <% end %>
+
 <div class='search results'>
 	<ul>
 	<% @colleges.each do |college| %>
-		<li><%= link_to college.name, college_path(college)%></li>
+		<li><%= link_to college.name, college_path(college)%> - <%= districts(college.dist)%> - <%= college.place%></li>
 	<% end %>
 	</ul>
 </div>

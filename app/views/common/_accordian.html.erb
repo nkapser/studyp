@@ -1,0 +1,41 @@
+<div id="accordion">
+
+	<div class='widget'>	
+		<h2>Regions</h2>
+		<div>
+			<ul>
+			<% regions.each do |region| %>
+				<li><%= link_to regions(region), colleges_search_path(:region => region)%></li>
+			<% end %>	
+			</ul>
+		</div>
+	</div>
+		
+	<div class='widget'>	
+		<h2>Districts</h2>
+		<div>
+			<ul>
+			<% districts.each do |district| %>
+				<li><%= link_to districts(district), colleges_search_path(:district => district)%></li>
+			<% end %>	
+			</ul>
+		</div>
+	</div>
+
+	<div class='widget'>	
+		<h2>Universities</h2>
+		<div>
+			<ul>
+			<% universities.each do |university| %>
+				<li><%= link_to universities(university), colleges_search_path(:affl => university)%></li>
+			<% end %>	
+			</ul>
+		</div>
+	</div>
+
+
+</div>
+
+<script type='text/javascript'>
+//	$("#accordion").accordion({ header: "h3" });
+</script>

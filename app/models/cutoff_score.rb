@@ -3,7 +3,7 @@ class CutoffScore < ActiveRecord::Base
   belongs_to :colleges_course, :foreign_key => :colleges_courses_id
   
   cattr_reader :per_page
-  @@per_page = 25
+  @@per_page = 15
 
   scope :year, where(:exam_year_id => 2)
   scope :column, lambda {|col,rank| where("? >= ?", "#{col}", "#{rank}") }

@@ -1,6 +1,6 @@
 <div class='widget college_search'>
 	<h2>Search College Name</h2>
-	<%= form_tag "/colleges/search" do |f|%>
+	<%= form_tag "/colleges/search", :method => :get do |f|%>
 	<div class='row'>
 	<%= text_field_tag 'college'%>
 	</div>

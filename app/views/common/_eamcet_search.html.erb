@@ -17,13 +17,13 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 %>
 
 <div id="searchbox">
-<%= form_tag "/eamcet/results", :id => "search" do |f|%>
-<div class='row'>
+<%= form_tag "/eamcet/results", :id => "search", :method => :get do |f|%>
+<div class='row' style='float:left; padding-right: 15px'>
 <%= label_tag 'Eamcet Rank'%>
 <%= text_field_tag 'eamcet[rank]', pdata['rank']%>
 </div>
 
-<div class='row'>
+<div class='row' style='float:left; padding-right: 15px'>
 <%= label_tag 'Caste'%>	
 <%= select("eamcet", "caste", [["OC", "oc"],["SC", "sc"],["ST", "st"],["BC-A", "bca"], ["BC-B", "bcb"], ["BC-C","bcc"], ["BC-D","bcd"], ["BC-E","bce"]]) %>
 </div>
@@ -34,22 +34,21 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 <%= radio_button("eamcet",'gender', "girl", "girl" == pdata['gender'] ? {:checked => "checked"} : {}) %>Female	
 </div>
 
-<div id='adv_search_options' style='display:none;'>
+<div id='adv_search_options'>
 	
 	<div class='row'>
 	<%= label_tag 'Course'%>
-	<%= select("eamcet", "course", courses, :include_blank => "Select Course", :selected => pdata['course']) %>
+	<%= select("eamcet", "course", courses, :include_blank => "Any Course", :selected => pdata['course']) %>
 	</div>	
 	
 	<div class='row'>
 		<%= label_tag 'Region'%>
-		<%= check_box("eamcet[reg]", "", pdata['reg'].include?("all") ? {"checked" => "checked"} : {}, "all", "") %>All	
 		<% regions.each do |reg|%>
 			<%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= regions(reg) %>
 		<% end %>
 	</div>
 
-	<div class='row'>
+	<!-- <div class='row'>
 	<%= label_tag 'University'%>				 
 		<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].in_groups_of(5).each do |group|%>
 			<ul>
@@ -60,7 +59,7 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 				<% end %>
 			</ul>
 		<% end %>
-	</div>
+	</div> -->
 	
 
 </div>
@@ -68,7 +67,7 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 <%= submit_tag 'Search Colleges'%>
 <% end %>
 <small class='tiny'>
-<%= link_to "try advanced search", "javascript:void(0);", :id => "adv_search_link"%>
+<%#= link_to "try advanced search", "javascript:void(0);", :id => "adv_search_link"%>
 *Results sorted based on last cutoff rank
 </small>
 </div>

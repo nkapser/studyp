@@ -10,9 +10,9 @@ class HomeController < ApplicationController
   end
   
   def eamcet_results
-    if request.get? and params[:page].nil?
-      redirect_to :action => :eamcet_index and return
-    end
+    # if request.get? and params[:page].nil?
+      # redirect_to :action => :eamcet_index and return
+    # end
     
     @data=params[:eamcet] || params        
     @data[:affl] = @data[:affl].delete_if{|x| x.empty?} unless (@data[:affl].nil? || @data[:affl].empty?)
