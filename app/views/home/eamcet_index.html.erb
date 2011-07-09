@@ -27,7 +27,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 	<ul>		
 	<% @news_items.each do |news| %>
 		<li>
-			<div class='newst'><a href="<%= news.url %>"><%= news.description %></a></div>	
+			<div class='newst'><a href="<%= news.url %>" target='_blank'><%= news.description %></a></div>	
 			<div class='source'><i>Source: <%= news.source %> | Date: <%= news.date %></i></div>				
 		</li>
 	<% end %>

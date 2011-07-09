@@ -32,7 +32,7 @@
 	</div>
 	<% end %>
 </div>
-<% unless @college.address.empty? %>
+<% unless @college.address.nil? or @college.address.empty? %>
 <h4 style='margin:0px 0px 5px 0px;'>Address</h4>
 <div class='address'>
 	<%= @college.address %>
