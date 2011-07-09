@@ -38,15 +38,28 @@ background-color:#F6F6F6;
 }
 
 #header{
-background-color:#3A3A3A;
+	background-color:#3A3A3A;
+	height:100px;
 }
 
 #header a{
 	color: #FDFFFF;
 }
 
+#header_content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	overflow:hidden;
+}
+
+#header_content .g_ad{
+	float:left;
+}
+
 #logo{
-	padding:10px;
+	padding:10px 20px 10px 10px;
+	float:left;
 }
 
 #logo a{
@@ -64,11 +77,23 @@ background-color:#3A3A3A;
 	color: #cbc6b3;	
 }
 
-#footer .links{
-	padding: 20px 0px;	
+#footer .content{
 	margin-left:auto;
 	margin-right:auto;
 	width: 1024px;	
+	overflow:hidden;
+}
+
+#footer ul{
+	height: 150px;
+	float:left;
+	padding-right: 40px;
+	border-right: #649181 solid 1px;
+}
+
+#footer li{
+	padding: 3px 0px;
+	list-style-type: square;	
 }
 
 #title{
@@ -134,6 +159,7 @@ color:#777;
 	border-radius:4px;	
 	padding: 10px;
 	color: white;
+	margin-bottom: 15px;
 }
 
 #search form{
@@ -180,7 +206,6 @@ color:#777;
 
 .widget{
 	border: 2px solid #F6F6F6;
-	padding-left: 5px;
 	margin-bottom: 12px;
 }
 
@@ -207,6 +232,26 @@ color:#777;
 	width:96%;
 }
 
+.news{
+	border-right:2px solid #F6F6F6;
+	border-left:2px solid #F6F6F6;
+	border-bottom:2px solid #F6F6F6;		
+}
+
+.news ul li{
+	padding: 3px 0px;
+}
+
+.news h2{
+	background-color: #00afdf;
+	margin:0px;
+}
+
+.news .source{
+	margin-top:1px;
+	color: #A0A0A0;
+}
+
 .colleges ul{
 	margin-top: 5px;
 }
@@ -218,6 +263,26 @@ color:#777;
 
 .tiny{
 	font-size:0.7em;
+}
+
+.college_details{
+	overflow:hidden;
+	margin-bottom: 25px;
+}
+
+.college_details .details{
+	float:left;
+	margin-right: 25px;
+}
+
+.college_details .details div{
+	padding-bottom: 2px;
+}
+
+.college_details .address{
+	float:left;
+	margin-right:25px;
+	width: 250px;
 }
 
 /* pagination */

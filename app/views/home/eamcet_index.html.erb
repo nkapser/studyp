@@ -1,5 +1,36 @@
 <% content_for :rightside do %>
 	<%= render :partial => 'common/college_search'%>	
 	<%= render :partial => 'common/explore_colleges'%>
+	<%= render :partial => 'common/ads/college_page'%>
 <% end %>
 <%= render :partial => 'common/eamcet_search', :locals => {:pdata => nil} %>
+
+<% if RAILS_ENV == 'production' %>
+<div style='margin-top: 15px'>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7537769370297267";
+/* Text_Horizontal */
+google_ad_slot = "2726197261";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>	
+</div>
+<% end %>
+
+<div class='news widget'>	
+	<h2>Latest Eamcet News</h2>
+	<div class='content'>	
+	<ul>		
+	<% @news_items.each do |news| %>
+		<li>
+			<div class='newst'><a href="<%= news.url %>"><%= news.description %></a></div>	
+			<div class='source'><i>Source: <%= news.source %> | Date: <%= news.date %></i></div>				
+		</li>
+	<% end %>
+	</ul>	
+	</div>
+</div>

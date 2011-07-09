@@ -90,6 +90,7 @@ namespace :data do
       CSV.foreach("#{Rails.root}/db/data/eamcet-cutoffs-2010.csv", {:headers => true}) do |f|
         @college = College.find_by_code(f["CODE"])
         @college = College.create({:code => f["CODE"], :name => ""}) if @college.nil?
+        
         @course = Course.find_by_course_code(f["CRS"])
         
         begin
@@ -127,19 +128,19 @@ namespace :data do
   
   
   task :update_college_address_seats => :environment do
-      CSV.foreach("#{Rails.root}/db/data/college-address-seats.csv", {:headers => true,  :col_sep => "|"}) do |f|
+      CSV.foreach("#{Rails.root}/db/data/college-address-seats.csv", {:headers => true,  :col_sep => ","}) do |f|
         
         @college = College.find_by_code(f["CODE"])
-        @college = College.create({:code => f["CODE"], :name => ""})          if @college.nil?
+        
+        if @college.nil?
+          next
+        end
         
         @college.update_attributes!(
         {
         	:address => f["ADDRESS"], 
-        	:period => f["PERIOD"],         	
-        	:go_no => f["GONO"], 
         	:website_url => f["WEBSITE"], 
         	:total_seats => f["TOTAL"],
-        	:aicte_approval => f["AICTEAPPROVAL"],         	
         }
         )
         

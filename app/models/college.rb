@@ -11,10 +11,11 @@ class College < ActiveRecord::Base
   scope :with_region, lambda {|r| where(:reg => r) }
   scope :name_like, lambda {|n| where("name like ?", "%#{n}%")}
   scope :affiliated_to, lambda {|r| where(:affl => r) }
+  scope :without_empty_names, where("colleges.name != ''")
   
   def self.get_all_eamcet_colleges(page)
     @eamcet_exam||=Exam.find_by_name("EAMCET")
-    self.paginate :page => page, :conditions => ["exam_id = ?", @eamcet_exam]
+    College.without_empty_names.paginate :page => page, :conditions => ["exam_id = ?", @eamcet_exam]
   end
   
   def get_cutoff_scores_for_courses

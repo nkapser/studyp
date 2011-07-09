@@ -1,9 +1,14 @@
+<% content_for :rightside do %>
+	<%= render :partial => 'common/ads/right_hoz'%>
+<% end %>
+
 <% content_for :title_text do %>
 	<h1 class='h1'><%= @college.name %></h1>
 <% end %>
 
 <div class='college_details'>
 	<h2>College Details</h2>
+<div class='details'>	
 	<% unless @college.estd == 0 %>	
 	<div>		
 		Established Year: <%= @college.estd %>		
@@ -26,6 +31,17 @@
 		Total Seats: <%= @college.total_seats %>
 	</div>
 	<% end %>
+</div>
+<% unless @college.address.empty? %>
+<h4 style='margin:0px 0px 5px 0px;'>Address</h4>
+<div class='address'>
+	<%= @college.address %>
+</div>
+<% end %>
+<div class='g_ad'>
+	<%= render :partial => 'common/ads/college_page'%>
+</div>
+
 </div>
 
 <style>		

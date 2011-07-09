@@ -16,8 +16,13 @@
 
 <div class='search results'>
 	<ul>
+
 	<% @colleges.each do |college| %>
-		<li><%= link_to college.name, college_path(college)%> - <%= districts(college.dist)%> - <%= college.place%></li>
+	<% begin %>
+		<li><%= link_to college.name, college_path(college)%> - <%= districts(college.dist)%> - <%= college.place%></li>			
+	<% rescue Exception => e%>
+		<% raise college.inspect%>
+	<% end%>
 	<% end %>
 	</ul>
 </div>

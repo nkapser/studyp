@@ -10,6 +10,7 @@ class CutoffScore < ActiveRecord::Base
   scope :affiliated_to, lambda {|affl| where("affl in (?)", affl)}
   scope :course, lambda {|c| where("course_code = ?", c)}
   scope :regions_in, lambda {|r| where("reg in (?)", r)}
+  scope :without_empty_names, where("colleges.name != ''")
   
   def self.rank_for_year(data, page, year=2010)        
     col="#{data[:caste]}-#{data[:gender]}".underscore
@@ -18,7 +19,7 @@ class CutoffScore < ActiveRecord::Base
     course=data[:course]
     regions=data[:reg]
     
-    @cutoff=CutoffScore.year.column(col, data[:rank])
+    @cutoff=CutoffScore.without_empty_names.year.column(col, data[:rank])
     
     unless affls.nil? || affls.empty?
       affls=affls.collect{|x| x if x!=""}.compact

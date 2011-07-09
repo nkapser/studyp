@@ -6,7 +6,7 @@ class HomeController < ApplicationController
   end
   
   def eamcet_index
-    
+    @news_items=NewsItem.find(:all, :order => 'date desc', :limit => 8)
   end
   
   def eamcet_results

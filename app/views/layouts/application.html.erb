@@ -10,7 +10,12 @@
 </head>
 <body>
 	<div id='header'>
-		<div id='logo'><%= link_to 'EamcetColleges', root_path %></div>
+		<div id='header_content'>
+			<div id='logo'><a href="/"><img src='/images/logo.jpg' alt="Eamcet Colleges"/></a></div>
+			<div class='g_ad'>
+				<%= render :partial => 'common/ads/header_728x90'%>
+			</div>
+		</div>
 	</div>
 	<div id='container'>
 		<div id='title'>
@@ -30,9 +35,18 @@
 	</div>
 
 	<div id='footer'>
-		<div class='links'>
-			<%= link_to 'Home'%> | <%= link_to 'About Us'%> | <%= link_to 'Contact Us'%> | <%= link_to 'Data Accuracy'%>
-		</div>
+	<div class='content'>	
+		<ul>
+			<li><%= link_to 'Home', '/'%></li>
+			<li><%= link_to 'About Us'%></li> 
+			<li><%= link_to 'Contact Us', '/contactus'%></li>
+		</ul>
+		<ul>
+			<li><%= link_to 'Andhra Colleges', colleges_search_path(:region => "AU")%></li>
+			<li><%= link_to 'Osmania Colleges',colleges_search_path(:region => "OU")%></li> 
+			<li><%= link_to 'Sri Venkateswara Colleges', colleges_search_path(:region => "SVU")%></li>
+		</ul>		
+	</div>
 	</div>
 </body>
 </html>

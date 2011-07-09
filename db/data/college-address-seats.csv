@@ -1,1547 +1,1001 @@
-CODE|ADDRESS|PERIOD|AICTEAPPROVAL|GONO|CSE|EEE|ECE|INF|MEC|CIV|OTHERS|TOTAL|WEBSITE
-ACEG|ACE Engineering College, Sy.No.175&181, Ankushapur, Ghatkesar, R.R.Dist.,-501301.|0|YES|552&24.07.09|60|60|120|60|0|60|0|360|http://www.aceec.ac.in/
-ARMN|||||||||||||
-AQJP|||||||||||||
-ASNT|||||||||||||
-AUCE|||||||||||||
-AVVN|AVS College of Engg. & Tech., AVS Nagar, ABS Kandriga, Chowtapalem Panchayat, Veeranna Kanupur, Venkatachalam, Nellore-524320|0|YES|552&24.07.09|120|30|120|60|0|0|0|330|
-AKRG|||||||||||||
-AMRN|AM Reddy Memorial College of Engg. & Tech., Mastan Reddy Nagar, Petlurivaripalem, Narasaraopet (M), Guntur Dist.-522615|0|YES|552&24.07.09|60|60|60|60|0|30|0|270|http://www.amreddyengineering.com/index.html
-GLIM|A1 Global Institute of Engineering & Technology, H.No.1/94, Court Centre, Markapur, Prakasam Dist.|0|YES|81&24.07.09|60|60|60|0|0|60|0|240|www.a1globalengineeringcollege.com
-AKIT|Abdul Kalam Inst. of Tech. & Science, Vepalagadda, Kothagudem, Khammam-507120|0|Yes|552&24.07.09|90|120|90|60|0|0|0|360|
-ABRK|ABR College of Engg. & Tech., China Irlapadu (V), Kanigiri (M), Prakasam Dist.-523 254|0|Yes|552&24.07.09|60|60|90|60|0|0|0|270|
-ADAM|Adam’s  Engineering College, Seetharamapatnam, Palvancha - 507 115, Khammam Dist. (Opted to SW-I as NM)|PM|YES|552&24.07.09|120|60|120|60|120|60|0|540|www.adamsenggcollege.ac.in
-ACEE|Adarsh College of Engg. Chebrolu (V), Golaprolu (M), E.G. Dist. - 533 449|0|Yes|552&24.07.09|60|90|90|60|0|0|0|300|
-ADCP|||||||||||||
-ACEM|Aditya College of Engineering,
+CODE,CSE,EEE,ADDRESS,ECE,INF,MEC,CIV,Others,TOTAL,WEBSITE
+ACEG,60,60,"ACE Engineering College, Sy.No.175&181, Ankushapur, Ghatkesar, R.R.Dist.,-501301.",120,60,0,60,0,360,http://www.aceec.ac.in/
+ARMN
+AQJP
+ASNT
+AUCE
+AVVN,120,30,"AVS College of Engg. & Tech., AVS Nagar, ABS Kandriga, Chowtapalem Panchayat, Veeranna Kanupur, Venkatachalam, Nellore-524320",120,60,0,0,0,330
+AKRG
+AMRN,60,60,"AM Reddy Memorial College of Engg. & Tech., Mastan Reddy Nagar, Petlurivaripalem, Narasaraopet (M), Guntur Dist.-522 615",60,60,0,30,0,270,http://www.amreddyengineering.com/index.html
+GLIM,60,60,"A1 Global Institute of Engineering & Technology, H.No.1/94, Court Centre, Markapur, Prakasam Dist.",60,0,0,60,0,240,www.a1globalengineeringcollege.com
+AKIT,90,120,"Abdul Kalam Inst. of Tech. & Science, Vepalagadda, Kothagudem, Khammam-507120",90,60,0,0,0,360
+ABRK,60,60,"ABR College of Engg. & Tech., China Irlapadu (V), Kanigiri (M), Prakasam Dist.-523 254",90,60,0,0,0,270
+ADAM,120,60,"Adam’s  Engineering College, Seetharamapatnam, Palvancha - 507 115, Khammam Dist. (Opted to SW-I as NM)",120,60,120,60,0,540,www.adamsenggcollege.ac.in
+ACEE,60,90,"Adarsh College of Engg. Chebrolu (V), Golaprolu (M), E.G. Dist. - 533 449",90,60,0,0,0,300
+ADCP
+ACEM,60,60,"Aditya College of Engineering,
 Valasapalli (Post), Madanapalle,
-Chittoor Dist -517325|0|YES|81&24.07.09|60|60|60|0|60|0|0|240|http://acemadanapalle.org
-ADTP|Aditya Engineering College, Aditya Nagar, ADB Rao, Surampalem, Peddapuram, E.G.Dist. - 533437.|0|YES|552&24.07.09|120|60|120|60|120|60|0|540|www.aec.edu.in
-APRP|||||||||||||
-ADIT|Aditya Inst. of Tech. and Mngt., K.Kotturu, Chakapalli, Tekkali, Srikakulam Dist., - 532201.|0|YES|552&24.07.09|120|120|120|30|60|0|60 - Electronics & Instru. Engg.|510|www.adityatekkali.com
-AVCR|||||||||||||
-AVTR|||||||||||||
-AKRN|AKRG College of Engg. & Tech., Nallajerla, W.G. Dist. 534 112.|0|YES|552&24.07.09|60|60|60|0|60|60|0|300|www.aizza.org,www.aizza.in
-ABIT|Akshaya Bharathi Inst. of Tech., R.S.Nagar, Siddavatam Post, Kadapa Dist. - 516 237.|0|Yes|552&24.07.09|60|60|60|60|0|0|0|240|www.abitkadapa.org
-AGCT|Akula Gopayya Coll. of Engg. & Tech., Prathipadu, NH-5, 'Y' Junction, Prathipadu, Pentapadu, Tadepalligudem - 534 146,W.G.Dist.|0|YES|552&24.07.09|120|120|120|60|0|0|0|420|www.akulagopayyaengg.com
-ASEK|Akula Sreeramulu (ASR) College of Engg., Tetali, Pydiparru, Tanuku, W.G. Dist. - 534 211|0|Yes|552&24.07.09|60|60|120|60|60|0|0|360|www.asrengg.com
-AAMP|||||||||||||www.alameer.in
-ALHB|Al-Habeeb College of Engg. & Tech., Damergidda, Chevella (M), R.R.Dist. - 501 403|0|Yes|552&24.07.09|120|30|120|0|60|60|0|390|www.alhabeebcollege.ac.in , www.alhabeebcollege.org,www.alhabeebenggcollege.net
-AMAN|Al-Aman College of Engineering, Gudilova, Anandapuram(M), Visakhapatnam - 531 173|2009-10|Yes|552&24.07.09|120|60|60|60|0|0|0|300|
-ALFA|Alfa College of Engg. and Tech., Kandukur Metta, Allagadda - 518 543, Kurnool Dist.|0|Yes|552&24.07.09|60|30|60|60|0|0|Bio-Tech-60|270|
-AIME|Amalapuram Institute of Management Sciences & College of Engineering, NH-214, Mummidivaram, E.G.Dist.|0|YES|92&25.07.09|60|60|60|0|60|0|0|240|
-AIET|Amara Instt. of Engg. & Tech., Satuluru - 522 549, Narsaraopet, Nadendla (M), Guntur Dist.,|0|YES|552&24.07.09|90|60|60|60|0|60|0|330|
-AMNA|Amina Inst. of Tech., Kandlakoya, Medchal Road- 501401, R.R.Dist|0|Yes|552&24.07.09|120|0|120|60|0|0|0|300|
-AMRT|AMR Inst. of Technology,Mavala, Adilabad (M), 
-Adilabad Dist. - 504 002.|0|YES|581 01.08.09|60|60|60|60|0|0|0|240|
-ASIP|Amrita Sai Instt.of Sci. & Tech., Near 135' Hanuman Statue, Paritala Road, NH-9, Amrita  Sai Nagar, Kanchikacharla, Krishna Dist.- 521 180|0|YES|552
-24.07.09|60|90|60|60|0|0|0|270|http://www.amritasai.org/home.asp
-ALTS|Anantha Lakshmi Inst. of Tech. & Sciences, Itikalapalli, Anantapur (R&M), Anantapur.|0|Yes|552
-24.07.09|60|60|120|60|0|0|0|300|www.alits.co.in
-ADTS|Anasuya Devi Institute of Technology & Sciences, Gudur (V), Bibinagar(M),Nalgonda Dist.|0|YES|86
-24.07.09|60|60|60|0|0|60|0|240|
-ALIT|Andhra Loyala Inst. of Engg. & Tech., Polytechnic Post Office, Vijayawada, Krishna Dist - 520 008|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|http://www.andhraloyolacollege.ac.in/
-AYMP|||||||||||||
-ANIL|Anil Neerukonda Inst. of Tech. & Science, Sanghaivalasa, Bheemunipatnam (M), Visakhapatnam - 531162.|0|YES|552
-24.07.09|120|120|120|60|120|0|60- Bio Technology|600|www.anits.com
-ANMB|Anjan Narasimha Munaga Kancharla Thummapudi Inst.of Tech & Management, D.A.Agraharam, B.Mattam (M), Badvel, Kadapa Dist -516501.|0|YES|86
-24.07.09|60|60|60|0|0|60|0|240|
-ANCP|||||||||||||
-AITT|Annamacharya Inst. of Tech. & Sci.,Venkatapuram,Karakambadi, Mangalam Rd, Renigunta, Tirupathi, Chittoor Dist.,|0|YES|552
-24.07.09|120|60|60|60|0|60|0|360|www.aitsrajampet.ac.in
-AITH|Annamacharya Inst. of Tech. & Sci., Piglipur, Batasingaram, Hayathnagar(M), R.R.Dist.-501512.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|
-AITS|Annamacharya Inst. of Tech. & Science, Thallapakka, New Bowenpally, Rajampet - 516126, Kadapa Dist.,|0|YES|552
-24.07.09|120|60|120|60|120|0|0|480|
-BOSE|Anu Bose Inst. of Tech., K.S.P. Road, Paloncha, Khammam - 507 115|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|www.abit.ac.in
-ANCUSF|||||||||||||
-ANRH|Anurag College of Engg., Aushapur (V), Ghatkesar (M), R.R. Dist.|0|YES|552
-24.07.09|90|60|90|0|60|0|0|300|www.aits-hyd.org
-ANRK|Anurag Engineering Collge, Anantagiri, Kodad(M) - 508206, Nalgonda Dist.|0|YES|552
-24.07.09|120|90|120|90|60|60|0|540|www.anuragenggcollege.com
-ANRP|||||||||||||
-APEX|Apex Engineering College, Vishwanadhapuram (V), Geesuganda(M), Warangal.|0|YES|90
-24.07.09|60|60|60|0|60|0|0|240|
-ARVK|||||||||||||
-AESS|Aravindaksha Educational Society's Group of Institutions, Balemla (V), Suryapet (M), Nalgonda Dist.-508376|0|Yes|74
-20.07.09|60|60|60|0|60|0|0|240|
-ARJN|Arjun College of Technology & Science, Sy.No.376/7, Mount Opera Premises, Near RFC, Batasingaram, Hayathnagar (M), R.R.Dist. - 501 512.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|www.arjunengg.org
-KSEK|Aurora’s Tech. & Research Inst. (Karshak Engg.,) Parvathapuram (V), Ghatkesar (M), R.R.Dist.-500 039.|0|YES|552
-24.07.09|120|60|120|60|0|0|60 - Bio Technology|420|
-ARYA|||||||||||||
-ABTS|Aryabhata Inst. of Tech., & Science, Srisailam Highway, Mohabath Nagar (V), Maheshwaram (M), R.R. Dist - 509 359|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.aryabhata-its.ac.in
-ASOK|Ashok Institute of Engineering & Technology, Malkapur, Choutuppal (M), Nalgonda Dist.|0|YES|83
-24.07.09|60|60|60|0|0|60|0|240|www.ashoka.ac.in
-AUCP|||||||||||||
-SANK|Audhisankara College of Engg. & Tech., NH-5, Bypass Road, Vindhur, Gudur-524 101, Nellore Dist.|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|www.audisankara.com
-ASIT|Audishankara Inst. of Tech., NH-5, By-pass Road, Gudur, Nellore - 524 101|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|
-ABND|||||||||||||
-SANT|||||||||||||
-AROR|Aurora's Engineering College, Bommaipally, Raigiri, Bhongir(M), Nalgonda Dist. - 508 116.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|http://aurora.ac.in/enggcollege.php
-CIGP|||||||||||||
-AVHP|||||||||||||
-AVIH|Avanthi Inst. of Engg. and Tech, Gunthapally, Mazidpur, Hayathnagar, R.R. dist.,|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|http://avanthienggcollege.ac.in/avanthienggcollege-visakhaptnam/index.html
-AVEV|Avanthi Inst. of Engg and Tech, Cherukapally, Bhogapuram, Vizinagaram dist.|0|YES|552
-24.07.09|120|60|60|60|60|0|0|360|avanthienggcollege.ac.in
-AVNP|||||||||||||
-AVEN|Avanthi Institute of Engg. & Tech., Tamaram, Makavarapalem, Narsipatnam, Visakhapatnam - 531 113.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-ARTB|Avanthi's Research & Technological Academy, Basavapalom, Bhogapuram, Vizianagaram Dist.|0|YES|552
-24.07.09|60|60|60|0|0|60|0|240|http://avanthi.edu.in/avanthi-stra/index.html
-ASRA|Avanthi's Scientific Technological & Research Academy, Gunthapally (V), Hayathnagar (M), R.R. Dist.|0|YES|552
-24.07.09|60|60|60|0|0|60|0|240|http://avanthi.edu.in
-AVNI|AVN Institute of Engineering & Technology, Patel Guda Grampanchayat, Ragannaguda (P), Mangalpally(V), Ibrahimpatnam (M),
-Ranga Reddy Dist.|0|yes|92
-25.07.09|60|0|60|0|60|60|0|240|http://avniet.org/
-ASVR|AVR & SVR Coll. of Engg. & Tech., Ayyalur, Nandyal, Kurnool Dist.,|0|YES|552
-24.07.09|120|60|120|0|0|60|0|360|
-AVSV|AVR & SVR Engg. College, Nannur (V), Oravakal (M), Kurnool Dist.|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|
-AYAN|Ayaan College of Engg. & Tech., Kanakmamidi (V), Moinabad (M), R.R.Dist.,|2009-10|YES|552
-24.07.09|90|60|90|0|0|0|0|240|www.ayaancollege.com
-AZDW|Azad College of Engineering for Women, Moinabad, R.R.Dist.-501504|0|YES|87
-24.07.09|90|60|90|60|0|0|0|300|
-BKBG|Basavaraju Krishna Bai (Laxmi) Educational Society Group of Institutions, Gayatri Nagar, Nomula (V), Manchal Mandal, Near Ibrahimpatnam, R.R.Dist.|0|YES|107 01.08.09|60|60|60|0|0|60|0|240|
-BVCE|Bonam Venkata Chalamaiah Engg. College, Oadalaveru, Amalapuram, E.G.Dist. - 533 210.|0|YES|552
-24.07.09|120|60|120|60|60|60|0|480|
-BVRI|Padmasri Dr.B.V.Raju Institute of Tech., Vishnupur, Narsapur, Medak Dist - 502 313.|0|YES|552
-24.07.09|120|60|120|60|60|0|60 - Chemical Engg.
-30 - Bio. Medical Engg.|510|www.bvrit.ac.in
-BAKR|||||||||||||
-BITW|Badari Institute of Technology & Sciences for Women, Sy.No.56,Main Road, Sarpavaram, Kakinada, E.G.Dist.|0|YES|92
-25.07.09|60|60|60|0|60|0|0|240|
-BALA|||||||||||||
-BITP|Balaji Institute of Technology & Science, Balaji Nagar, Tallamapuram Road, Proddatur, Kadapa Dist -516362|0|YES|86
-24.07.09|60|60|60|60|0|0|0|240|www.bitswgl.ac.in
-BISN|Balaji Instt. of Engg.& Sci., Laknepally, Narsampet, Warangal Dist.,-506 331.|0|YES|552
-24.07.09|120|60|90|60|0|0|0|330|
-BIPS|||||||||||||
-BIPN|||||||||||||
-BITN|Balaji Institute of Tech. and Sci., Laknepally, Maheswaram, Narsampet, Warangal-506331.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|
-BSGP|Bandari Srinivas Institute of Tech., Gollapalli, Kummere, Chevella, R.R. dist.,|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.bsit-hyderabad.com
-BCOP|||||||||||||
-BECB|Bapatla Engineering College, GBC Road, Bapatla, Guntur dist. - 522 101.|0|YES|552
-24.07.09|120|120|120|120|120|120|60 - Bio. Tech.
+Chittoor Dist -517325",60,0,60,0,0,240,http://acemadanapalle.org
+ADTP,120,60,"Aditya Engineering College, Aditya Nagar, ADB Rao, Surampalem, Peddapuram, E.G.Dist. - 533437.",120,60,120,60,0,540,www.aec.edu.in
+APRP
+ADIT,120,120,"Aditya Inst. of Tech. and Mngt., K.Kotturu, Chakapalli, Tekkali, Srikakulam Dist., - 532201.",120,30,60,0,60 - Electronics & Instru. Engg.,510,www.adityatekkali.com
+AVCR
+AVTR
+AKRN,60,60,"AKRG College of Engg. & Tech., Nallajerla, W.G. Dist. 534 112.",60,0,60,60,0,300,"www.aizza.org,www.aizza.in"
+ABIT,60,60,"Akshaya Bharathi Inst. of Tech., R.S.Nagar, Siddavatam Post, Kadapa Dist. - 516 237.",60,60,0,0,0,240,www.abitkadapa.org
+AGCT,120,120,"Akula Gopayya Coll. of Engg. & Tech., Prathipadu, NH-5, 'Y' Junction, Prathipadu, Pentapadu, Tadepalligudem - 534 146,W.G.Dist.",120,60,0,0,0,420,www.akulagopayyaengg.com
+ASEK,60,60,"Akula Sreeramulu (ASR) College of Engg., Tetali, Pydiparru, Tanuku, W.G. Dist. - 534 211",120,60,60,0,0,360,www.asrengg.com
+AAMP,,,,,,,,,,www.alameer.in
+ALHB,120,30,"Al-Habeeb College of Engg. & Tech., Damergidda, Chevella (M), R.R.Dist. - 501 403",120,0,60,60,0,390,"www.alhabeebcollege.ac.in , www.alhabeebcollege.org,www.alhabeebenggcollege.net"
+AMAN,120,60,"Al-Aman College of Engineering, Gudilova, Anandapuram(M), Visakhapatnam - 531 173",60,60,0,0,0,300
+ALFA,60,30,"Alfa College of Engg. and Tech., Kandukur Metta, Allagadda - 518 543, Kurnool Dist.",60,60,0,0,Bio-Tech-60,270
+AIME,60,60,"Amalapuram Institute of Management Sciences & College of Engineering, NH-214, Mummidivaram, E.G.Dist.",60,0,60,0,0,240
+AIET,90,60,"Amara Instt. of Engg. & Tech., Satuluru - 522 549, Narsaraopet, Nadendla (M), Guntur Dist.,",60,60,0,60,0,330
+AMNA,120,0,"Amina Inst. of Tech., Kandlakoya, Medchal Road- 501401, R.R.Dist",120,60,0,0,0,300
+AMRT,60,60,"AMR Inst. of Technology,
+Mavala, Adilabad (M), 
+Adilabad Dist. - 504 002.",60,60,0,0,0,240
+ASIP,60,90,"Amrita Sai Instt.of Sci. & Tech., Near 135' Hanuman Statue, Paritala Road, NH-9, Amrita  Sai Nagar, Kanchikacharla, Krishna Dist.- 521 180",60,60,0,0,0,270,http://www.amritasai.org/home.asp
+ALTS,60,60,"Anantha Lakshmi Inst. of Tech. & Sciences, Itikalapalli, Anantapur (R&M), Anantapur.",120,60,0,0,0,300,www.alits.co.in
+ADTS,60,60,"Anasuya Devi Institute of Technology & Sciences, Gudur (V), Bibinagar(M),Nalgonda Dist.",60,0,0,60,0,240
+ALIT,60,60,"Andhra Loyala Inst. of Engg. & Tech., Polytechnic Post Office, Vijayawada, Krishna Dist - 520 008",120,60,0,0,0,300,http://www.andhraloyolacollege.ac.in/
+AYMP
+ANIL,120,120,"Anil Neerukonda Inst. of Tech. & Science, Sanghaivalasa, Bheemunipatnam (M), Visakhapatnam - 531162.",120,60,120,0,60- Bio Technology,600,www.anits.com
+ANMB,60,60,"Anjan Narasimha Munaga Kancharla Thummapudi Inst.of Tech & Management, D.A.Agraharam, B.Mattam (M), Badvel, Kadapa Dist -516501.",60,0,0,60,0,240
+ANCP
+AITT,120,60,"Annamacharya Inst. of Tech. & Sci.,Venkatapuram,Karakambadi, Mangalam Rd, Renigunta, Tirupathi, Chittoor Dist.,",60,60,0,60,0,360,www.aitsrajampet.ac.in
+AITH,120,60,"Annamacharya Inst. of Tech. & Sci., Piglipur, Batasingaram, Hayathnagar(M), R.R.Dist.-501512.",120,120,0,0,0,420
+AITS,120,60,"Annamacharya Inst. of Tech. & Science, Thallapakka, New Bowenpally, Rajampet - 516126, Kadapa Dist.,",120,60,120,0,0,480
+BOSE,60,60,"Anu Bose Inst. of Tech., K.S.P. Road, Paloncha, Khammam - 507 115",120,0,60,0,0,300,www.abit.ac.in
+ANCUSF
+ANRH,90,60,"Anurag College of Engg., Aushapur (V), Ghatkesar (M), R.R. Dist.",90,0,60,0,0,300,www.aits-hyd.org
+ANRK,120,90,"Anurag Engineering Collge, Anantagiri, Kodad(M) - 508206, Nalgonda Dist.",120,90,60,60,0,540,www.anuragenggcollege.com
+ANRP
+APEX,60,60,"Apex Engineering College, Vishwanadhapuram (V), Geesuganda(M), Warangal.",60,0,60,0,0,240
+ARVK
+AESS,60,60,"Aravindaksha Educational Society's Group of Institutions, Balemla (V), Suryapet (M), Nalgonda Dist.-508376",60,0,60,0,0,240
+ARJN,120,60,"Arjun College of Technology & Science, Sy.No.376/7, Mount Opera Premises, Near RFC, Batasingaram, Hayathnagar (M), R.R.Dist. - 501 512.",120,0,60,60,0,420,www.arjunengg.org
+KSEK,120,60,"Aurora’s Tech. & Research Inst. (Karshak Engg.,) Parvathapuram (V), Ghatkesar (M), R.R.Dist.-500 039.",120,60,0,0,60 - Bio Technology,420
+ARYA
+ABTS,60,60,"Aryabhata Inst. of Tech., & Science, Srisailam Highway, Mohabath Nagar (V), Maheshwaram (M), R.R. Dist - 509 359",120,60,0,0,0,300,www.aryabhata-its.ac.in
+ASOK,60,60,"Ashok Institute of Engineering & Technology, Malkapur, Choutuppal (M), Nalgonda Dist.",60,0,0,60,0,240,www.ashoka.ac.in
+AUCP
+SANK,120,120,"Audhisankara College of Engg. & Tech., NH-5, Bypass Road, Vindhur, Gudur-524 101, Nellore Dist.",120,60,0,0,0,420,www.audisankara.com
+ASIT,60,60,"Audishankara Inst. of Tech., NH-5, By-pass Road, Gudur, Nellore - 524 101",60,60,0,60,0,300
+ABND
+SANT
+AROR,120,60,"Aurora's Engineering College, Bommaipally, Raigiri, Bhongir(M), Nalgonda Dist. - 508 116.",120,60,60,0,0,420,http://aurora.ac.in/enggcollege.php
+CIGP
+AVHP
+AVIH,120,60,"Avanthi Inst. of Engg. and Tech, Gunthapally, Mazidpur, Hayathnagar, R.R. dist.,",120,120,0,0,0,420,http://avanthienggcollege.ac.in/avanthienggcollege-visakhaptnam/index.html
+AVEV,120,60,"Avanthi Inst. of Engg and Tech, Cherukapally, Bhogapuram, Vizinagaram dist.",60,60,60,0,0,360,avanthienggcollege.ac.in
+AVNP
+AVEN,120,60,"Avanthi Institute of Engg. & Tech., Tamaram, Makavarapalem, Narsipatnam, Visakhapatnam - 531 113.",120,60,60,0,0,420
+ARTB,60,60,"Avanthi's Research & Technological Academy, Basavapalom, Bhogapuram, Vizianagaram Dist.",60,0,0,60,0,240,http://avanthi.edu.in/avanthi-stra/index.html
+ASRA,60,60,"Avanthi's Scientific Technological & Research Academy, Gunthapally (V), Hayathnagar (M), R.R. Dist.",60,0,0,60,0,240,http://avanthi.edu.in
+AVNI,60,0,"AVN Institute of Engineering & Technology, Patel Guda Grampanchayat, Ragannaguda (P), Mangalpally(V), Ibrahimpatnam (M),
+Ranga Reddy Dist.",60,0,60,60,0,240,http://avniet.org/
+ASVR,120,60,"AVR & SVR Coll. of Engg. & Tech., Ayyalur, Nandyal, Kurnool Dist.,",120,0,0,60,0,360
+AVSV,60,60,"AVR & SVR Engg. College, Nannur (V), Oravakal (M), Kurnool Dist.",120,0,60,0,0,300
+AYAN,90,60,"Ayaan College of Engg. & Tech., Kanakmamidi (V), Moinabad (M), R.R.Dist.,",90,0,0,0,0,240,www.ayaancollege.com
+AZDW,90,60,"Azad College of Engineering for Women, Moinabad, R.R.Dist.-501504",90,60,0,0,0,300
+BKBG,60,60,"Basavaraju Krishna Bai (Laxmi) Educational Society Group of Institutions, Gayatri Nagar, Nomula (V), Manchal Mandal, Near Ibrahimpatnam, R.R.Dist.",60,0,0,60,0,240
+BVCE,120,60,"Bonam Venkata Chalamaiah Engg. College, Oadalaveru, Amalapuram, E.G.Dist. - 533 210.",120,60,60,60,0,480
+BVRI,120,60,"Padmasri Dr.B.V.Raju Institute of Tech., Vishnupur, Narsapur, Medak Dist - 502 313.",120,60,60,0,"60 - Chemical Engg.
+30 - Bio. Medical Engg.",510,www.bvrit.ac.in
+BAKR
+BITW,60,60,"Badari Institute of Technology & Sciences for Women, Sy.No.56,Main Road, Sarpavaram, Kakinada, E.G.Dist.",60,0,60,0,0,240
+BALA
+BITP,60,60,"Balaji Institute of Technology & Science, Balaji Nagar, Tallamapuram Road, Proddatur, Kadapa Dist -516362",60,60,0,0,0,240,www.bitswgl.ac.in
+BISN,120,60,"Balaji Instt. of Engg.& Sci., Laknepally, Narsampet, Warangal Dist.,-506 331.",90,60,0,0,0,330
+BIPS
+BIPN
+BITN,120,60,"Balaji Institute of Tech. and Sci., Laknepally, Maheswaram, Narsampet, Warangal-506331.",120,120,0,0,0,420
+BSGP,120,60,"Bandari Srinivas Institute of Tech., Gollapalli, Kummere, Chevella, R.R. dist.,",120,60,60,0,0,420,www.bsit-hyderabad.com
+BCOP
+BECB,120,120,"Bapatla Engineering College, GBC Road, Bapatla, Guntur dist. - 522 101.",120,120,120,120,"60 - Bio. Tech.
 60 - Electronics & Inst. Engg.
-60 - Chemical|900|www.becbapatla.ac.in
-BWEC|Bapatla Women's Engineering College, Bapatla, Guntur -522101|0|YES|99
-27.07.09|60|60|60|0|0|0|0|180|
-BLMP|||||||||||||
-BTSW|Bharat Inst. of Tech. & Science for Women, Mangalpally (V), Ibrahimpatnam (M), R.R. Dist.-501 510|0|YES|552
-24.07.09|120|0|120|90|0|0|0|330|
-BITL|||||||||||||www.bienr.org
-BCTW|Bharat College of Engg. & Tech. for Women, Buggletipally (V&P), C.K. Dinne (M), Kadpa Dist.|2008-11|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.biet.ac.in
-BSKR|Bhaskar Engineering College, Amadapur X Road, Yenkapally, Moinabad (M), Himayathnagar, Hyderabad - 500 075|0|YES|552
-24.07.09|60|0|60|60|0|60|0|240|www.jbgroup.org.in/
-BPCP|||||||||||||
-BIPB|||||||||||||
-BEMA|Bheema Inst. of Tech. & Science, Mandigiri (V), Adoni, Kurnool Dist. - 518 301|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-BVRM|Bhimavaram Inst. of Engg. & Tech., Swamy Gnanananda Ashramam Rd, Pennada, Bhimavaram, W.G.Dist,-534243.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.bvrm.ac.in
-BREW|Bhoj Reddy Engg. College for Women, 17-1-209/B, Vinay Nagar, Santoshnagar X Road, Saidabad, Hyderabad - 500059.|0|YES|552
-24.07.09|120|60|120|120|0|0|60 - Electronics & Instru. Engg.|480|www.brecw.ac.in
-BTHP|BIT Institute of Tech., S.No.284-1, Malgur, Peddaguddampalli, Beerepalli, H.S.Mandir, Hindupur, Anantapur dist.-515 212.|0|YES|552
-24.07.09|90|60|120|0|0|60|0|330|www.bitit.org
-BLUE|||||||||||||
-BNPW|||||||||||||
-BOMA|Bomma Inst. of Tech & Science, Allipuram, Behind Eenadu Office, Khammam - 507 318.|0|YES|552
-24.07.09|120|45|120|45|45|45|0|420|
-BVTS|Bonam Venkata Chalamaiah Inst. of Tech. & Sci., P.B.No.26, Batlapalem, Amalapuram, E.G.Dist. - 533 221.|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|www.bvcits.ac.in
-BCEN|Brahmaiah College of Engg., North Raju Palem, Kadavaluru (M), Nellore Dist.-524 366.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.bcen.in
-BRIG|Brillinat Group of Institutions (Integrated Campus), Abullapur (V), Hayatnagar (M), Ranga Reddy Dist.-501582.|0|YES|93
-27.07.09|0|60|60|0|60|60|0|240|
-BRIL|Brilliant Inst. of Engg. & Tech., Abdullapur (V), Hayatnagar, R.R. Dist.- 501 582|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|
-BRNK|Brindavan Inst. of Tech. & Science, NH-7, Peddatekurm, Kurnool Dist. - 518 218.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|www.bitskurnool.org
-BRWN|||||||||||||
-BVCR|B.V.C College of Engineering, Palacharla, Rajahmundry, E.G.Dist.|0|YES|79
-24.07.09|60|60|60|0|60|0|0|240|www.bvcec.in
-BVSR|Buchepalli Venkayamma Subbareddy Engg. College, Chimakurthy (V&M), Prakasam Dist. - 523 226.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-CMRP|||||||||||||
-CMRK|CMR College  of Engg. & Tech.,  Sy.No.66,67,82,91,92 & 115/D, Kandlakoya, Medchal Road, R.R.dist. - 501401. |0|YES|552
-24.07.09|120|90|120|60|120|120|30 - Bio. Tech.|660|
-CMED|||||||||||||
-CARE|||||||||||||
-CHDL|Chadalawada Ramanamma Engg. College, Chadalawada Nagar, Renigunta Road, Tirupati-517506, Chittoor dist.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-CVSE|Chadalawada Venkata Subbaiah College of Engg., Chadalawada Nagar, Renigunta Road, Tirupati, Chittoor Dist.-517 506|0|YES|552
-24.07.09|60|0|60|60|0|60|0|240|
-CBIT|Chaitanya Bharathi Institute of Tech., Chaitanya Bharathi, Gandipet, Hyderabad-500075.|0|YES|552
-24.07.09|120|60|120|60|60|60|60 - Bio. Tech.
+60 - Chemical",900,www.becbapatla.ac.in
+BWEC,60,60,"Bapatla Women's Engineering College, Bapatla, Guntur -522101",60,0,0,0,0,180
+BLMP
+BTSW,120,0,"Bharat Inst. of Tech. & Science for Women, Mangalpally (V), Ibrahimpatnam (M), R.R. Dist.-501 510",120,90,0,0,0,330
+BITL,,,,,,,,,,www.bienr.org
+BCTW,90,60,"Bharat College of Engg. & Tech. for Women, Buggletipally (V&P), C.K. Dinne (M), Kadpa Dist.",90,60,0,0,0,300,www.biet.ac.in
+BSKR,60,0,"Bhaskar Engineering College, Amadapur X Road, Yenkapally, Moinabad (M), Himayathnagar, Hyderabad - 500 075",60,60,0,60,0,240,www.jbgroup.org.in/
+BPCP
+BIPB
+BEMA,60,60,"Bheema Inst. of Tech. & Science, Mandigiri (V), Adoni, Kurnool Dist. - 518 301",60,60,0,0,0,240
+BVRM,60,60,"Bhimavaram Inst. of Engg. & Tech., Swamy Gnanananda Ashramam Rd, Pennada, Bhimavaram, W.G.Dist,-534243.",60,60,0,0,0,240,www.bvrm.ac.in
+BREW,120,60,"Bhoj Reddy Engg. College for Women, 17-1-209/B, Vinay Nagar, Santoshnagar X Road, Saidabad, Hyderabad - 500059.",120,120,0,0,60 - Electronics & Instru. Engg.,480,www.brecw.ac.in
+BTHP,90,60,"BIT Institute of Tech., S.No.284-1, Malgur, Peddaguddampalli, Beerepalli, H.S.Mandir, Hindupur, Anantapur dist.-515 212.",120,0,0,60,0,330,www.bitit.org
+BLUE
+BNPW
+BOMA,120,45,"Bomma Inst. of Tech & Science, Allipuram, Behind Eenadu Office, Khammam - 507 318.",120,45,45,45,0,420
+BVTS,120,120,"Bonam Venkata Chalamaiah Inst. of Tech. & Sci., P.B.No.26, Batlapalem, Amalapuram, E.G.Dist. - 533 221.",120,60,0,0,0,420,www.bvcits.ac.in
+BCEN,60,60,"Brahmaiah College of Engg., North Raju Palem, Kadavaluru (M), Nellore Dist.-524 366.",120,60,0,0,0,300,www.bcen.in
+BRIG,0,60,"Brillinat Group of Institutions (Integrated Campus), Abullapur (V), Hayatnagar (M), Ranga Reddy Dist.-501582.",60,0,60,60,0,240
+BRIL,60,60,"Brilliant Inst. of Engg. & Tech., Abdullapur (V), Hayatnagar, R.R. Dist.- 501 582",120,0,0,60,0,300
+BRNK,60,60,"Brindavan Inst. of Tech. & Science, NH-7, Peddatekurm, Kurnool Dist. - 518 218.",60,60,0,60,0,300,www.bitskurnool.org
+BRWN
+BVCR,60,60,"B.V.C College of Engineering, Palacharla, Rajahmundry, E.G.Dist.",60,0,60,0,0,240,www.bvcec.in
+BVSR,60,60,"Buchepalli Venkayamma Subbareddy Engg. College, Chimakurthy (V&M), Prakasam Dist. - 523 226.",120,60,0,0,0,300
+CMRP
+CMRK,120,90,"CMR College  of Engg. & Tech.,  Sy.No.66,67,82,91,92 & 115/D, Kandlakoya, Medchal Road, R.R.dist. - 501401. ",120,60,120,120,30 - Bio. Tech.,660
+CMED
+CARE
+CHDL,120,60,"Chadalawada Ramanamma Engg. College, Chadalawada Nagar, Renigunta Road, Tirupati-517506, Chittoor dist.",120,60,60,0,0,420
+CVSE,60,0,"Chadalawada Venkata Subbaiah College of Engg., Chadalawada Nagar, Renigunta Road, Tirupati, Chittoor Dist.-517 506",60,60,0,60,0,240
+CBIT,120,60,"Chaitanya Bharathi Institute of Tech., Chaitanya Bharathi, Gandipet, Hyderabad-500075.",120,60,60,60,"60 - Bio. Tech.
 60 - Chemical Engg.
-60 - Production Engg.|660|www.cbit.ac.in
-CBTK|Chaitanya Bharati Inst. of Tech., Pallavolu (V), Chapadu (M), Kadapa Dist.-516 362|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|www.cbitpdtr.com
-CCRP|||||||||||||
-CCPM|||||||||||||
-CECB|||||||||||||www.cec.ac.in
-CEVP|Chaitanya Engg. College, Kommadi, Chaitanya Valley, Madhurawada, Visakhapatnam - 530 041.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|
-CETR|Chaitanya Inst. of Engg. & Tech., NH-5, Velugubanda, Rajnagaram, Rajahmundry, E.G. Dist.-533294.|0|YES|552
-24.07.09|60|60|90|60|60|60|0|390|
-CIPH|||||||||||||
-CHKN|Chaitanya Inst. of Sci. & Tech., Madhavapatnam, Samarlakota, Kakinada, E.G. Dist.,|0|YES|552
-24.07.09|60|60|120|60|60|0|0|360|http://www.chaitanyacolleges.com
-CIET|Chalapathi Inst. of Engg.& Tech., Chalapathinagar, Lam, Guntur Dist. - 522 034.|0|YES|552
-24.07.09|60|60|120|60|0|60|0|360|
-CITY|Chalapathi Inst. of Tech., A.R. Nagar, Mothadaka, Guntur Dist.-522 016|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-CLPT|||||||||||||
-CHBR|Chebrolu Engg. College Inst. of Computer Electronics & Mgt., Campus, Chebrolu, Guntur Dist. - 522 212.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.chebroluec.org
-CIPS|||||||||||||
-CBCP|||||||||||||
-CBTV|Chilkur Balaji Institute of Tech., RVS Nagar, Aziznagar, Moinabad Road, Near A.P.Police Academy, Hyderabad Dist. - 500 075.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.cbitedu.org
-CECC|Chirala Engineering College, Kothapeta, Vetapalem, Chirala, Ramapuram Beach Road, Prakasam dist. - 523 155.|0|YES|552
-24.07.09|120|60|120|60|30|0|30 - Electronics & Instru. Engg.|420|www.chiralaengineeringcollege.org
-CRIT|Chiranjeevi Reddy Inst. of Engg. & Technology, Rachanapally (V), Bellary Road, Anantapur - 515 001.|0|YES|552
-24.07.09|60|90|90|0|0|60|0|300|www.critatp.com
-CJIT|Christu Jyothi Inst. of Tech. & Science, Kolombonagar, Yashwanthapuram, Jangaon, Warangal Dist.,-506157.|PM|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-CHND|Sri Chundi Ranganayakulu Engg. College, Chilakaluripeta, Guntur dist.-522619.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.crenggcollege.com
-CWET|||||||||||||
-CMCP|||||||||||||
-CMRM|CMR Institute of Technology, Kandlakoya, Medchal Road, R.R.Dist. - 501 401.|0|YES|552
-24.07.09|120|0|120|0|60|120|0|420|http://www.cmritonline.org
-CMRG|CMRTES School of Engineering (E & TS), CMR Technical Education Society Group of Institutions, Kandlkoya (V), Medchal (M), R.R.Dist.|0|YES|74 20.07.09|0|0|60|0|60|60|Aero -60|240|www.cmrcet.org
-CITM|Coastal Inst. of Tech., & Mngt., Narapam (V), Veerabhadrapuram, Kothavalasa, Vizianagaram Dist.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-CAAP|||||||||||||
-CABP|||||||||||||
-CAMS|||||||||||||
-CARH|||||||||||||
-CDTK|||||||||||||
-CFSB|||||||||||||
-CFSP|||||||||||||
-CVST|||||||||||||
-CRKN|||||||||||||
-CRVI|CRV Inst. of Tech. & Science, Sy.No.800/Part, 808/A/B Parts, Lalgadi Malakpet (V), Shamirpet (M), R.R. Dist. - 500 078.|0|YES|552
-24.07.09|60|60|90|30|0|60|0|300|
-CVMP|||||||||||||
-CVRH|CVR College of Engg., Vastu Nagar, S.No.315, Mangalpalli, Ibrahimpatnam, R.R.dist.-501510.|0|YES|552
-24.07.09|120|120|120|120|0|0|60 - Electronics & Instru. Engg.|540|www.cvr.ac.in
-CVSR|CVSR College of Engg., Venkatapur, Korremul, Ghatkesar (M), R.R.Dist. - 501 301.|0|YES|552
-24.07.09|120|90|120|60|60|60|60- Chemical|570|www.cvsrengineeringcollege.com
-DCRM|||||||||||||
-SVHE|Daita Mahdusudana Sastry Sri Venkateswara Hindu (DMSSVH) College of Engg., Pothipalli, Machilipatnam-521002, Krishna.|0|YES|552
-24.07.09|90|60|120|60|60|30|0|420|
-DRKC|DRK College of Engg. & Tech., Bowrampet, Qutbullapur (M), R.R.Dist.,|0|YES|552
-24.07.09|120|0|120|120|0|60|0|420|http://drkinstech.ac.in
-DRKI|DRK Institute of Sci. & Tech., Bowrampet, Qutbullapur, R.R.Dist.-500043.|0|YES|552
-24.07.09|120|30|120|120|30|0|0|420|http://drkinstech.ac.in/
-DVRC|DVR College of Engg. and Tech., Kasipur, Kandi, Sangareddy, Medak Dist. - 502 283.|0|YES|552
-24.07.09|90|40|120|60|60|0|40 - Chemical Engg.|410|www.dvrcollege.com
-DEVK|Devineni Venkata Ramana & Dr.Himasekhar MIC Coll. of Tech, Kanchikacherla, Krishna-521180.|0|YES|552
-24.07.09|120|60|120|0|60|0|60 - Bio. Tech.|420|
-DARE|Daripally Anantharamulu College of Engg., & Tech., Gandhi Chowk, Sathyanarayanapuram, Khammam Rural (M), Khammam.|0|YES|552
-24.07.09|60|60|90|60|0|60|0|330|
-DSIT|Damisetty Bala Suresh Institute of Technology, Maddurupadu (V) Kavali (M), SPSR Nellore Dist -524201.|0|YES|86
-24.07.09|60|60|60|0|60|0|0|240|
-DIET|Dadi Institute of Engg. & Tech., NH-5, Gavarapalem, Anakapalle, Visakhapatnam - 531002.|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|www.dietakp.com
-DAVP|||||||||||||
-DCET|Deccan College of Engg. &Tech, Dar-us-Salam, Near Nampally, Aghapur, Hyderabad - 500 001.|PM|YES|552
-24.07.09|90|60|90|60|60|60|40 - Electronics & Instru. Engg.
-40 - Production Engg.|500|www.deccancollege.ac.in
-DSOP|||||||||||||
-DCPS|||||||||||||
-DHAN|Dhanekula Institute of Engineering & Technology, Ganguru Village, Penmaluru Mandal, Krishna Dist.|0|YES|48 22.06.09|60|60|60|0|60|0|0|240|http://diet.ac.in
-DNVP|||||||||||||
-DIPS|||||||||||||
-DJRC|D J R College of Engineering & Technology, Velpur (V), Via Gudavalli, Vijayawada.|0|YES|79
-24.07.09|60|0|60|0|60|60|0|240|
-DJRV|DJR Inst. of Engg. & Tech., Velpur (V), Via gudavalli, Vijayawada, Krishna Dist. - 521 104.|0|YES|79
-24.07.09
-552
-24.07.09|90|60|90|0|0|0|0|240|
-DBOS|||||||||||||
-DBIT|Don Bosco Inst. of Tech. & Science, 5th Mile, Pulladigunta, Korenepadu, Vaticherukura, Guntur Dist.|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|
-PREC|Dr.Paul Raj's Engg. College, Lutheran Office, SRN College, Gollagutta Road, Bhadrachalam, Khammam Dist. - 507 111.|PM|YES|552
-24.07.09|90|90|90|60|90|0|0|420|www.dprec.com
-SGIT|||||||||||||www.drsgiet.ac.in
-SGIP|Dr. Samuel George Institute of Engg. & Tech., P.B.No.9, George Town, Darimadugu, Thokapally, Markapur, Prakasam Dist.,-523316.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-VRKW|Dr.VRK Women’s College of Engg. & Tech, Aziznagar, Moinabad, R.R.Dist.,|2009-10|YES|552
-24.07.09|60|60|60|0|0|0|0|180|www.drvrkwomenscollege.com
-CSNP|||||||||||||
-KVSP|||||||||||||
-KVSR|Dr. KV Subba Reddy Inst. of Tech., Opp.Dupadu R.S., N.H.7, Laxmipuram, Kallur (M), Kurnool Dist. - 518 218.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|
-KVSW|Dr. K.V. Subba Reddy College of Engg. For Women, Opp: Dupadu R.S. Kallur (M), Kurnool Dist - 518 218|0|YES|552
-24.07.09|90|60|60|90|0|0|0|300|http://drkvsrcew.in
-EVMN|EVM College of Engg. & Tech. Opp.RTO Office, Guntur Road, Jonnalagadda, Narsaraopet, Guntur Dist. - 522 601.|0|YES|552
-24.07.09|90|60|120|60|0|0|0|330|www.evmcet.org
-ECEW|Ellenki College of Engg. for Women, Patelguda (V), Near BHEL, Patancheru (M), Medak Dist.|0|YES|91
-24.07.09|90|60|90|60|0|0|0|300|
-ELEN|||||||||||||
-ELRU|Eluru College of Engg. & Tech., Duggirala (V), Pedavegi, W.G. Dist.-534 004|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.ecet.ac.in
-EMNL|||||||||||||
-ESWR|Eswar College of Engg., Kesanapalli (V), Narasaraopet, Guntur Dist - 522 601|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|eswarcollegeofengg.org
-EVRT|||||||||||||
-FIPK|||||||||||||
-GMRI|GMR Institute of Technology, GMR Nagar, Doolapet, Rajam, Srikakulam Dist. - 532127.|0|YES|552
-24.07.09|120|120|120|120|60|60|60 - Chemical Engg.|660|www.gmrit.org
-GNTW|G.Narayanamma Institute of Tech. & Sci. for Women, 8-1-297/2/1, Shaikpet, Raidurg, Hyderabad - 500 008.|0|YES|552
-24.07.09|120|60|120|120|0|0|60 - Instrumentation & Control Engg.
-60 - Electronics & Telematrics Engg.|540|www.gnits.ac.in
-GPRP|||||||||||||
-GPRE|G.Pulla Reddy Engg. College, G.Pullareddy Nagar, Nandyal Road, Kurnool - 518002.|0|YES|552
-24.07.09|120|120|120|60|120|120|0|660|www.gprec.ac.in
-GVRS|GVR & S College of Eng. & Tech., Ganginenipuram, Near Budampadu, Guntur -522013.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|
-GVIT|Grandhi Varalakshmi Venkatarao Inst. of Tech., Vempa Road, Tinduru Post, Bhimavaram, W.G. Dist - 534 207.|0|YES|552
-24.07.09|60|60|60|0|60|0|0|240|
-GDNW|Gurindapalli Devananda Mary Memorial College of Engg. & Tech., for Women, Nandigama (V&M), Krishna Dist - 521185|0|YES|552
-24.07.09|90|60|120|90|0|0|0|360|
-PCEK|G.Pullaiah College of Engg.& Tech., Nandikotkur Road, Pasupula,  Opp.Jeevasudha Church, Venkayapalle, Kurnool - 518002.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-GNPT|Ganapathy Engineering Collge, Hunter Road, Rangasaipet, Warangal - 506 005.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.ganapathyeng.com
-GNCH|Ganapathy College of Engg., Hunter Road, Rangasaipet, Warangal - 506 005.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.ganapathyeng.com
-GTEN|Gandhi Academy of Tech. Education, Ramapuram (V), Chilukuru (M), Nalgonda Dist. - 508 206.|0|YES|552
-24.07.09|60|60|60|60|60|0|0|300|
-GIST|Gandhiji Inst. of Science & Tech., Bhimavaram (V), Near Jaggayyapet, Vatsavi, Krishna Dist. - 521 178|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.giet.edu
-GNDI|||||||||||||
-GNGP|||||||||||||
-GATE|Gates Institute of Tech., NH-7, Gooty, Peddavaduguru(M), Ananthapur dist. -515401.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-GYTP|||||||||||||
-GVPW|Gayatri Vidya Parishad College of Engg. For Women, Sy.No.4, Madhurawada, Visakhapatnam - 530 041.|0|YES|552
-24.07.09|120|0|120|60|0|0|60 - Bio Medical Engg.|360|www.gvpcoewomen.com
-GVPE|Gayathri Vidya Parishad (GVP) Coll. of Engg., PMP Colony, Madhurawada, Visakhapatnam-530 041.|0|YES|552
-24.07.09|120|120|120|90|60|120|60 - Chemical Engg.|690|www.thegvp.net
-GIEJ|Gayatri Institute of Engineering & Technology, Gayatri Educational Society, Hyderabad Road, Jangareddy Gudem, W.G.Dist.|0|YES|80
-24.07.09|60|60|60|0|0|60|0|240|
-GCTC|Geethanjali College of Engg. & Tech., Sy.No.33 & 34, Cheeryal, Keesara (M), R.R. Dist.-501 301.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.geethanjaliinstitutions.com
-GCPK|||||||||||||
-GISM|Geetanjali Inst. of Science & Tech., Aziz Nagar (V&P), Moinabad (M), R.R. Dist.-500 075.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.gist.ac.in
-GTNN|Geethanjali Inst. of Science & Tech., 3rd Mile, Nellore Bombay Highway, Gangavaram, Kovuru, Nellore Dist - 524 137|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-GIET|GIET College of Engineering, NH-5, Chaitanya Nagar, Rajahmudry, E.G.Dist.|0|YES|92
-25.07.09|60|60|60|0|60|0|0|240|
-GIPR|||||||||||||www.giet.ac.in
-GLBC|Global College of Engg. & Tech., Nr.Satellite City, Chinnamachupalli (V), Chenur (M), Kadapa Dist - 516162|0|YES|552
-24.07.09|60|60|60|0|0|60|0|240|www.giet.co.in
-GBCP|||||||||||||
-GLOB|Global Inst. of Engg. & Tech., Sy.No.179/195, Chilkur, Moinabad, R.R.Dist.,|0|YES|552
-24.07.09|60|60|90|60|0|60|0|330|
-GSCE|Gnyana Saraswati Coll. of Engg. & Tech. Dharmaram, Dichpally(M), Nizamabad Dist. - 503 230.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|
-GIER|Godavari Institute of Engg. & Tech., Chaitanyanagar, NH No.5, Velugubanda, Rajanagaram, Rajahmundry-533294, E.G.Dist.,|0|YES|552
-24.07.09|120|120|120|120|90|60|30 - Bio. Tech.
+60 - Production Engg.",660,www.cbit.ac.in
+CBTK,60,60,"Chaitanya Bharati Inst. of Tech., Pallavolu (V), Chapadu (M), Kadapa Dist.-516 362",120,0,0,60,0,300,www.cbitpdtr.com
+CCRP
+CCPM
+CECB,,,,,,,,,,www.cec.ac.in
+CEVP,120,60,"Chaitanya Engg. College, Kommadi, Chaitanya Valley, Madhurawada, Visakhapatnam - 530 041.",120,0,60,60,0,420
+CETR,60,60,"Chaitanya Inst. of Engg. & Tech., NH-5, Velugubanda, Rajnagaram, Rajahmundry, E.G. Dist.-533294.",90,60,60,60,0,390
+CIPH
+CHKN,60,60,"Chaitanya Inst. of Sci. & Tech., Madhavapatnam, Samarlakota, Kakinada, E.G. Dist.,",120,60,60,0,0,360,http://www.chaitanyacolleges.com
+CIET,60,60,"Chalapathi Inst. of Engg.& Tech., Chalapathinagar, Lam, Guntur Dist. - 522 034.",120,60,0,60,0,360
+CITY,60,60,"Chalapathi Inst. of Tech., A.R. Nagar, Mothadaka, Guntur Dist.-522 016",120,60,0,0,0,300
+CLPT
+CHBR,60,60,"Chebrolu Engg. College Inst. of Computer Electronics & Mgt., Campus, Chebrolu, Guntur Dist. - 522 212.",120,60,0,0,0,300,www.chebroluec.org
+CIPS
+CBCP
+CBTV,60,60,"Chilkur Balaji Institute of Tech., RVS Nagar, Aziznagar, Moinabad Road, Near A.P.Police Academy, Hyderabad Dist. - 500 075.",60,60,0,0,0,240,www.cbitedu.org
+CECC,120,60,"Chirala Engineering College, Kothapeta, Vetapalem, Chirala, Ramapuram Beach Road, Prakasam dist. - 523 155.",120,60,30,0,30 - Electronics & Instru. Engg.,420,www.chiralaengineeringcollege.org
+CRIT,60,90,"Chiranjeevi Reddy Inst. of Engg. & Technology, Rachanapally (V), Bellary Road, Anantapur - 515 001.",90,0,0,60,0,300,www.critatp.com
+CJIT,120,60,"Christu Jyothi Inst. of Tech. & Science, Kolombonagar, Yashwanthapuram, Jangaon, Warangal Dist.,-506157.",120,60,60,0,0,420
+CHND,120,60,"Sri Chundi Ranganayakulu Engg. College, Chilakaluripeta, Guntur dist.-522619.",120,60,60,0,0,420,www.crenggcollege.com
+CWET
+CMCP
+CMRM,120,0,"CMR Institute of Technology, Kandlakoya, Medchal Road, R.R.Dist. - 501 401.",120,0,60,120,0,420,http://www.cmritonline.org
+CMRG,0,0,"CMRTES School of Engineering (E & TS), CMR Technical Education Society Group of Institutions, Kandlkoya (V), Medchal (M), R.R.Dist.",60,0,60,60,Aero -60,240,www.cmrcet.org
+CITM,60,60,"Coastal Inst. of Tech., & Mngt., Narapam (V), Veerabhadrapuram, Kothavalasa, Vizianagaram Dist.",60,60,0,0,0,240
+CAAP
+CABP
+CAMS
+CARH
+CDTK
+CFSB
+CFSP
+CVST
+CRKN
+CRVI,60,60,"CRV Inst. of Tech. & Science, Sy.No.800/Part, 808/A/B Parts, Lalgadi Malakpet (V), Shamirpet (M), R.R. Dist. - 500 078.",90,30,0,60,0,300
+CVMP
+CVRH,120,120,"CVR College of Engg., Vastu Nagar, S.No.315, Mangalpalli, Ibrahimpatnam, R.R.dist.-501510.",120,120,0,0,60 - Electronics & Instru. Engg.,540,www.cvr.ac.in
+CVSR,120,90,"CVSR College of Engg., Venkatapur, Korremul, Ghatkesar (M), R.R.Dist. - 501 301.",120,60,60,60,60- Chemical,570,www.cvsrengineeringcollege.com
+DCRM
+SVHE,90,60,"Daita Mahdusudana Sastry Sri Venkateswara Hindu (DMSSVH) College of Engg., Pothipalli, Machilipatnam-521002, Krishna.",120,60,60,30,0,420
+DRKC,120,0,"DRK College of Engg. & Tech., Bowrampet, Qutbullapur (M), R.R.Dist.,",120,120,0,60,0,420,http://drkinstech.ac.in
+DRKI,120,30,"DRK Institute of Sci. & Tech., Bowrampet, Qutbullapur, R.R.Dist.-500043.",120,120,30,0,0,420,http://drkinstech.ac.in/
+DVRC,90,40,"DVR College of Engg. and Tech., Kasipur, Kandi, Sangareddy, Medak Dist. - 502 283.",120,60,60,0,40 - Chemical Engg.,410,www.dvrcollege.com
+DEVK,120,60,"Devineni Venkata Ramana & Dr.Himasekhar MIC Coll. of Tech, Kanchikacherla, Krishna-521180.",120,0,60,0,60 - Bio. Tech.,420
+DARE,60,60,"Daripally Anantharamulu College of Engg., & Tech., Gandhi Chowk, Sathyanarayanapuram, Khammam Rural (M), Khammam.",90,60,0,60,0,330
+DSIT,60,60,"Damisetty Bala Suresh Institute of Technology, Maddurupadu (V) Kavali (M), SPSR Nellore Dist -524201.",60,0,60,0,0,240
+DIET,120,120,"Dadi Institute of Engg. & Tech., NH-5, Gavarapalem, Anakapalle, Visakhapatnam - 531002.",120,60,0,0,0,420,www.dietakp.com
+DAVP
+DCET,90,60,"Deccan College of Engg. &Tech, Dar-us-Salam, Near Nampally, Aghapur, Hyderabad - 500 001.",90,60,60,60,"40 - Electronics & Instru. Engg.
+40 - Production Engg.",500,www.deccancollege.ac.in
+DSOP
+DCPS
+DHAN,60,60,"Dhanekula Institute of Engineering & Technology, Ganguru Village, Penmaluru Mandal, Krishna Dist.",60,0,60,0,0,240,http://diet.ac.in
+DNVP
+DIPS
+DJRC,60,0,"D J R College of Engineering & Technology, Velpur (V), Via Gudavalli, Vijayawada.",60,0,60,60,0,240
+DJRV,90,60,"DJR Inst. of Engg. & Tech., Velpur (V), Via gudavalli, Vijayawada, Krishna Dist. - 521 104.",90,0,0,0,0,240
+DBOS
+DBIT,60,60,"Don Bosco Inst. of Tech. & Science, 5th Mile, Pulladigunta, Korenepadu, Vaticherukura, Guntur Dist.",120,0,0,60,0,300
+PREC,90,90,"Dr.Paul Raj's Engg. College, Lutheran Office, SRN College, Gollagutta Road, Bhadrachalam, Khammam Dist. - 507 111.",90,60,90,0,0,420,www.dprec.com
+SGIT,,,,,,,,,,www.drsgiet.ac.in
+SGIP,120,60,"Dr. Samuel George Institute of Engg. & Tech., P.B.No.9, George Town, Darimadugu, Thokapally, Markapur, Prakasam Dist.,-523316.",120,60,60,0,0,420
+VRKW,60,60,"Dr.VRK Women’s College of Engg. & Tech, Aziznagar, Moinabad, R.R.Dist.,",60,0,0,0,0,180,www.drvrkwomenscollege.com
+CSNP
+KVSP
+KVSR,60,60,"Dr. KV Subba Reddy Inst. of Tech., Opp.Dupadu R.S., N.H.7, Laxmipuram, Kallur (M), Kurnool Dist. - 518 218.",60,60,0,60,0,300
+KVSW,90,60,"Dr. K.V. Subba Reddy College of Engg. For Women, Opp: Dupadu R.S. Kallur (M), Kurnool Dist - 518 218",60,90,0,0,0,300,http://drkvsrcew.in
+EVMN,90,60,"EVM College of Engg. & Tech. Opp.RTO Office, Guntur Road, Jonnalagadda, Narsaraopet, Guntur Dist. - 522 601.",120,60,0,0,0,330,www.evmcet.org
+ECEW,90,60,"Ellenki College of Engg. for Women, Patelguda (V), Near BHEL, Patancheru (M), Medak Dist.",90,60,0,0,0,300
+ELEN
+ELRU,60,60,"Eluru College of Engg. & Tech., Duggirala (V), Pedavegi, W.G. Dist.-534 004",90,60,0,0,0,270,www.ecet.ac.in
+EMNL
+ESWR,60,60,"Eswar College of Engg., Kesanapalli (V), Narasaraopet, Guntur Dist - 522 601",90,60,0,0,0,270,eswarcollegeofengg.org
+EVRT
+FIPK
+GMRI,120,120,"GMR Institute of Technology, GMR Nagar, Doolapet, Rajam, Srikakulam Dist. - 532127.",120,120,60,60,60 - Chemical Engg.,660,www.gmrit.org
+GNTW,120,60,"G.Narayanamma Institute of Tech. & Sci. for Women, 8-1-297/2/1, Shaikpet, Raidurg, Hyderabad - 500 008.",120,120,0,0,"60 - Instrumentation & Control Engg.
+60 - Electronics & Telematrics Engg.",540,www.gnits.ac.in
+GPRP
+GPRE,120,120,"G.Pulla Reddy Engg. College, G.Pullareddy Nagar, Nandyal Road, Kurnool - 518002.",120,60,120,120,0,660,www.gprec.ac.in
+GVRS,120,60,"GVR & S College of Eng. & Tech., Ganginenipuram, Near Budampadu, Guntur -522013.",120,60,0,0,0,360
+GVIT,60,60,"Grandhi Varalakshmi Venkatarao Inst. of Tech., Vempa Road, Tinduru Post, Bhimavaram, W.G. Dist - 534 207.",60,0,60,0,0,240
+GDNW,90,60,"Gurindapalli Devananda Mary Memorial College of Engg. & Tech., for Women, Nandigama (V&M), Krishna Dist - 521185",120,90,0,0,0,360
+PCEK,60,60,"G.Pullaiah College of Engg.& Tech., Nandikotkur Road, Pasupula,  Opp.Jeevasudha Church, Venkayapalle, Kurnool - 518002.",120,60,0,0,0,300
+GNPT,120,60,"Ganapathy Engineering Collge, Hunter Road, Rangasaipet, Warangal - 506 005.",120,60,0,0,0,360,www.ganapathyeng.com
+GNCH,60,60,"Ganapathy College of Engg., Hunter Road, Rangasaipet, Warangal - 506 005.",120,60,0,0,0,300,www.ganapathyeng.com
+GTEN,60,60,"Gandhi Academy of Tech. Education, Ramapuram (V), Chilukuru (M), Nalgonda Dist. - 508 206.",60,60,60,0,0,300
+GIST,60,60,"Gandhiji Inst. of Science & Tech., Bhimavaram (V), Near Jaggayyapet, Vatsavi, Krishna Dist. - 521 178",120,60,0,0,0,300,www.giet.edu
+GNDI
+GNGP
+GATE,90,60,"Gates Institute of Tech., NH-7, Gooty, Peddavaduguru(M), Ananthapur dist. -515401.",90,60,0,0,0,300
+GYTP
+GVPW,120,0,"Gayatri Vidya Parishad College of Engg. For Women, Sy.No.4, Madhurawada, Visakhapatnam - 530 041.",120,60,0,0,60 - Bio Medical Engg.,360,www.gvpcoewomen.com
+GVPE,120,120,"Gayathri Vidya Parishad (GVP) Coll. of Engg., PMP Colony, Madhurawada, Visakhapatnam-530 041.",120,90,60,120,60 - Chemical Engg.,690,www.thegvp.net
+GIEJ,60,60,"Gayatri Institute of Engineering & Technology, Gayatri Educational Society, Hyderabad Road, Jangareddy Gudem, W.G.Dist.",60,0,0,60,0,240
+GCTC,120,60,"Geethanjali College of Engg. & Tech., Sy.No.33 & 34, Cheeryal, Keesara (M), R.R. Dist.-501 301.",120,120,0,0,0,420,www.geethanjaliinstitutions.com
+GCPK
+GISM,60,60,"Geetanjali Inst. of Science & Tech., Aziz Nagar (V&P), Moinabad (M), R.R. Dist.-500 075.",120,60,0,0,0,300,www.gist.ac.in
+GTNN,60,60,"Geethanjali Inst. of Science & Tech., 3rd Mile, Nellore Bombay Highway, Gangavaram, Kovuru, Nellore Dist - 524 137",120,60,0,0,0,300
+GIET,60,60,"GIET College of Engineering, NH-5, Chaitanya Nagar, Rajahmudry, E.G.Dist.",60,0,60,0,0,240
+GIPR,,,,,,,,,,www.giet.ac.in
+GLBC,60,60,"Global College of Engg. & Tech., Nr.Satellite City, Chinnamachupalli (V), Chenur (M), Kadapa Dist - 516162",60,0,0,60,0,240,www.giet.co.in
+GBCP
+GLOB,60,60,"Global Inst. of Engg. & Tech., Sy.No.179/195, Chilkur, Moinabad, R.R.Dist.,",90,60,0,60,0,330
+GSCE,120,60,"Gnyana Saraswati Coll. of Engg. & Tech. Dharmaram, Dichpally(M), Nizamabad Dist. - 503 230.",120,60,0,0,0,360
+GIER,120,120,"Godavari Institute of Engg. & Tech., Chaitanyanagar, NH No.5, Velugubanda, Rajanagaram, Rajahmundry-533294, E.G.Dist.,",120,120,90,60,"30 - Bio. Tech.
 30 - Bio Medical Engg.
 60- Auto.Mobile
 60-Mining Engg.
-|810|www.giet.ac.in
-GRCP|||||||||||||
-GRRR|Gokaraju Rangaraju Institute of Engg. & Tech., Miyapur, Bachupally, Kukatpally, Hyderabad - 500 072.|0|YES|552
-24.07.09|120|120|120|120|120|120|90 - Bio. Tech.
-30 - Bio Medical Engg.|840|www.gokaraju.org
-GOKP|||||||||||||
-GOKB|Gokul Institute of Tech. & Sci, Pirdi, Bobbili, Vizianagaram dist., - 535 558.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|www.gokulcollege.com
-GKCS|Gokula Krishna College of Engg., Behind RTC Depot, Sullurpet, Nellore Dist., - 524121.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.gkcesp.com
-GKPS|||||||||||||
-GVIC|||||||||||||
-GITS|Gonna Institute of Information Technology & Sciences, Gonnavani 
-Palem, Aganampudi, Visakhapatnam.|0|YES|86
-24.07.09|0|60|60|0|60|60|0|240|http://giits.org
-GCET|Gopal Reddy College of Engg. & Tech., Pedda Kanjerla (V), Patancheru (M), Medak Dist.-502 319|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.gcet.org.in
-GTMW|Goutami Institute of Technology & Management for Women, Peddasettypally (P), Prodatur, Kadapa Dist -516360|0|YES|86
-24.07.09|60|90|90|0|0|60|0|300|
-GHIP|||||||||||||
-GRAP|||||||||||||
-GDLV|Gudlavalleru Engineering College, Gudlavalleru - 521 356, Krishna Dist.|0|YES|552
-24.07.09|120|120|120|90|120|60|0|630|www.gecgudlavalleru.ac.in
-GECG|Guntur Engg. College, Yenamadala (V&P), Prattipadu (M), Guntur Dist. - 522 219.|0|YES|552
-24.07.09|60|60|60|60|60|0|0|300|www.gunturengineeringcollege.com
-GBNP|||||||||||||
-GGIB|||||||||||||
-GNIT|Guru Nanak Inst of Tech., Khanapur, Manchal (M), Ibrahimpatnam, R.R.Dist.|0|YES|552
-24.07.09|60|0|120|60|60|60|0|360|http://www.gnec.ac.in/
-GVRW|G.V.R &S College of Engineering for Women, Ganginenipuram, Near Buddampudi, Guntur Dist.|0|YES|79
-24.07.09|90|90|90|0|0|30|0|300|www.gvrsedinst.org
-GJCP|||||||||||||
-HIET|Hasvita Inst. of Engg. & Tech., (HIET), Temple Road, Keesara, R.R.Dist.-501 301.|0|YES|552
-24.07.09|120|60|120|90|0|0|0|390|www.hasvita.com
-HIMT|Hasvita Inst. of Management & Tech., Keesara, R.R.Dist.-501 301.|0|YES|81
-24.07.09|60|60|60|0|0|60|0|240|http://hasvita.com
-HITE|||||||||||||
-HICP|||||||||||||
-HPTC|Hi-Point College of Engg. & Tech., Chilkur, Moinabad, R.R. Dist.,|2009-10|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.hipointcollege.com
-HTEC|Hi-Tech College of Engg. & Tech., Himayathnagar, Gandipet, Himayatnagar, Moinabad, CB Post, Hyderabad-500075.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-HMKS|Haji Mohammed Kashim Saheb & Mohammed Galab Saheb College of Engineering, Kangala Village, Cherukupally Mandal, Guntur Dist.|0|YES|79
-24.07.09|60|60|60|0|0|60|0|240|
-HMTK|Holy Mary Inst. of Tech., Bogaram (V), Keesara (M), R.R.  Dist.-501 301.|0|YES|552
-24.07.09|60|0|60|60|60|30|0|270|
-HOLY|||||||||||||
-HORZ|||||||||||||
-HITM|Hyderabad Inst. of Technology & Mngt., (Formerly Royal College of Engg.) Gowdevally, Medchal (M), R.R. Dist. (Address changed vide G.O.Rt.No.1003, 06.10.08) (Vivekananda nagar, Pillikotial Medak Town, Medak).|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.hitam.org
-IDEL|Ideal Institute of Technology, Vidyut Nagar, Kakinada, E.G.Dist.|0|YES|81
-24.07.09|60|0|60|0|60|60|0|240|www.idealinstitute.ac.in
-IITM|Indira Institute of Technology & Science, Darmadugu (V), Markapur Mandal, Prakasam Dist.|0|YES|79
-24.07.09|0|60|60|0|60|60|0|240|www.indiraeducational.org
-INPW|Indira Priyadarshini College of Engg. & Tech., for Women, Nannur (V), Oravakal (M), Kurnool Dist - 518023|0|YES|552
-24.07.09|90|60|120|90|0|0|0|360|
-IITT|Indur Institute of Engg. and Tech., Ponnala, Siddipet (M), Medak Dist. - 502 277.|0|YES|552
-24.07.09|120|60|120|60|0|60|0|420|
-SPMS|||||||||||||
-IARE|Inst. of Aeronautical Engineering, Dundigal, Qutbullapur (M), Hyderabad - 500 043.|0|YES|552
-24.07.09|120|60|120|60|60|60|120 - Aeronautical Engg.|600|
-INTL|Intell Engineering College, Intel Campus, Akkampally Cross, Kalyan Durg Road, Anantapur - 515 004.|0|YES|552
-24.07.09|120|90|120|0|60|90|0|480|
-ISTS|||||||||||||
-ISLW|Islamia College of Engg. & Tech. for Women, Bandlaguda (M), Hyderabad Revenue Division, Hyderabad City - 500 007.|0|YES|552
-24.07.09|90|30|90|90|0|0|0|300|www.islamia.org.in
-JJPM|||||||||||||
-JBWC|JB Women's Engg. College, Daminedu (V), Renigunta Road, Tirupati - 517 506|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-JJIT|JJ Inst. of Information Tech., Maheswaram (V), R.R. Dist.- 501 359.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-JGNN|Jagan's College of Engg. & Tech., Chavatapalem (V), Venkatachal, Nellore Dist.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|http://jagans.ac.in
-JAGN|||||||||||||
-JANG|||||||||||||
-JNIT|Jawaharlal Nehru Inst. of Tech., Adarsh Farm, Mangalpally, Patelguda, Ibrahimpatan, R.R Dist.,-501510.|0|YES|552
-24.07.09|120|60|60|60|0|0|0|300|
-JITW|Jaya Institute of Technology & Science for Women, Sy.No.910, Ward No.7, Block 1,Near Padmakshamma Temple, Hanumakonda, Warangal.|0|YES|79
-24.07.09|60|90|90|60|0|0|0|300|
-JPNE|Jaya Prakash Narayan College of Engg., Dharmapur, Mahaboobnagar - 509 001.|0|YES|552
-24.07.09|120|60|120|120|60|60|0|540|
-JPNC|Jaya Prakash Naryan Educational Society Group of Institutions - School of Engineering, 3-81, Christian Pally (V), Boothpur Road, Mahabubnagar Dist. - 509001.|0|YES|79
-24.07.09|60|60|60|0|60|0|0|240|www.jpnes.org
-JCPN|||||||||||||
-JIPS|||||||||||||
-JAYA|Jayamukhi Institute of Tech. & Sci., Moqdumpuram, Narsampet, Waranga Dist., - 506 332.|0|YES|552
-24.07.09|120|120|120|120|0|0|0|480|www.jits.in
-JBIT|JB Institute of Engg. & Tech., Sy.No.220, Yenkapally, Moinabad (M), R.R.Dist.- 500 075.|0|YES|552
-24.07.09|120|120|120|120|120|60|60 - BOT
-60- Bio Medical.|780|www.jbiet.jobkut.com
-JNPA|||||||||||||
-JNTP|||||||||||||www.jntu.ac.in
-JNTA|||||||||||||
-JNTH|||||||||||||
-JNTK|||||||||||||
-JNKR|||||||||||||
-JNTV|||||||||||||
-JNTHMB|||||||||||||
-JNTHMT|||||||||||||
-JNPASF|||||||||||||
-JITE|||||||||||||
-JITS|Jogaiah Institute of Tech. and Science, Kalagampudi, NH-214, Elemanchali(M), W.G. Dist.-268.|0|YES|552
-24.07.09|60|0|120|60|0|60|0|300|
-JOGI|Joginpally B R Engg. College, Sy.No.220, Himayatnagar, Yenkapally, Moinabad, R.R. Dist. - 500 075.|0|YES|552
-24.07.09|120|60|120|60|0|0|60 - Bio. Tech.|420|
-JBCP|||||||||||||
-JCPT|||||||||||||
-JMIP|||||||||||||
-JMTK|Jyothismathi Inst. of Tech. Sciences, Ramakrishnapur Colony, Karimnagar - 505 481.|0|YES|552
-24.07.09|90|0|90|60|0|0|0|240|www.jits.ac.in
-JMTS|Jyothismathi Institute of Tech. & Sci., Nustulapur, Thimmapur, Karimnagar-505481.|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|
-JETT|Jyothismathi Coll. of Engg. & Tech., Thurkapally, Shamirpet, R.R.Dist. - 500 078.|0|YES|552
-24.07.09|120|0|120|0|0|0|60- Aero .Engg
-|300|
-KRCP|||||||||||||
-KCRP|||||||||||||
-KGRP|||||||||||||
-KSRM|KSRM (Kandula) College of Engg., H.No.3/429, Raja Reddy Street, Tadigotla, Chintakommadina, Pulivendula Rd, Yerramasupalli, Kadapa Dist. - 516 003.|0|YES|552
-24.07.09|120|120|120|90|120|120|0|690|www.ksrmce.ac.in
-KSSW|Kothamasu Saraswathamma & Subbaratnam Women's Engg. College, Nelapadu (V), Tenali (M), Guntur Dist. - 522 201.|0|YES|552
-24.07.09|60|60|90|60|0|60|0|330|
-KUCE|||||||||||||
-KUCP|||||||||||||
-KVKP|||||||||||||
-VRSP|||||||||||||
-KJRP|||||||||||||
-KLRT|KLR College of Engg. & Tech., Bhadrachalam Road, Polancha, Khammam Dist. - 507 115.|0|YES|552
-24.07.09|60|60|60|0|60|60|0|300|www.klr.ac.in
-KLMW|Kandula Lakshumma Memorial College of Engg. For Women, Tadigotla (V), Chintakomma Dinne (M), Kadapa Dist. - 516 003.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-KIPS|||||||||||||
-KITW|Kakatiya Institute of Tech. & Science for Women, Manikbhandar Village, Makloor Mandal, Nizamabad Dist.|0|YES|79
-24.07.09|90|60|90|0|0|60|0|300|www.kitswgl.org
-KITS|Kakatiya Institute of Tech. & Sci, Yerragutta, Hillock, Bheemaram(M), Cheemaram, Hasanparthy, Warangal-506 015.|0|YES|552
-24.07.09|120|60|90|60|120|60|60 - Electronics & Instru. Engg.|570|www.kitswgl.org
-KETW|Kakinada Inst. of Engg. & Tech. for Women, No.305, Yanam Road, Corangi (V), Tallarevu (M), E.G. Dist. - 533 461|0|YES|552
-24.07.09|90|30|120|90|0|0|0|330|www.women.kietap.com
-KITK|Kakinada Institute of Engg. & Tech., -II, 306, Korangi (V), Tallarevu Mandal, E.G.Dist.|0|YES|88
-24.07.09|60|60|60|60|0|0|0|240|www.kietap.com
-KIET|Kakinada Institute of Engg. & Tech., Yanam Road, Metlapalem, Tallarevu, Korangi-533461, E.G.Dist.,|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|www.kietap.com
-KTSP|Kakinada Inst. of Tech. & Science, Tirupathi (V), Peddapuram, E.G. Dist. - 533 433|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|www.kietap.com
-KISR|Kakinada Inst. of Tech. & Sciences, Ambikapalli, Agraharam (V), Ramachandrapuram, E.G. Dist - 533 255|0|YES|552
-24.07.09|60|90|90|0|60|0|0|300|www.kietap.com
-KTKM|Kamala Institute of Tech. and Sci., Singapur, Huzurabad, Karimnagar Dist., - 505 468.|0|YES|552
-24.07.09|90|60|90|90|60|0|0|390|www.kitssingapur.com
-KREC|Kamareddy Engineering College, Devanpally, Kamareddy (M), Nizamabad Dist.- 503 111|0|YES|552
-24.07.09|120|60|60|60|0|0|0|300|
-KORK|Kandula Obul Reddy Memorial College of Engg., Tadigotla, Chintakommadinne(M), Kadapa - 516 003.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|www.ksrmce.ac.in
-KNRR|Kasireddy Narayan Reddy College of Engg. & Research, Abdullapur (V), Hayathnagar, R.R. Dist. - 501 582|0|YES|552
-24.07.09|60|0|120|0|60|60|0|300|
-KUSH|Kaushik College of Engineering, Gambheeram - 531 163, Anandapuram (M), Visakhapatnam.|0|YES|552
-24.07.09|120|0|90|60|60|0|Aero - 30|360|
-KBRB|KBR Engg. College, Pagidipalli (V) (Bibinagar), Bhovanagiri (M), Nalgonda Dist. - 508 126.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.kbr.ac.in
-KMIT|Keshav Memorial Inst. of Tech., 3-5-1026, Narayanaguda, Hyderabad - 500 029.|0|YES|552
-24.07.09|60|0|120|60|0|0|60 - Electronics & Instru. Engg.|300|www.kmit.in
-KGRH|KG Reddy College of Engg. & Tech., Chilkur (V), Moinabad (M), R.R. Dist - 501 504|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|www.kgr.ac.in
-KHMP|||||||||||||
-KMTS|Khammam Inst. of Tech. & Science, Ponnekal (VUG), Khammam Rural Mandal, Khammam Dist - 507 170|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-KPES|KITE College of Professional Engg. Sciences, Shabad, Shabad (M), R.R. Dist. - 509 217|0|YES|552
-24.07.09|60|0|60|60|0|0|0|180|www.kitecollege.org
-KPSW|KITE Women's College of Professional Engg. Sciences, Shabad, Shabad (M), R.R. Dist. - 509 217|0|YES|552
-24.07.09|90|0|90|60|0|0|0|240|www.kitecollege.org
-KKCW|KKC Inst. of Tech. & Engg. For Women, Nagari - Tirupati Road,Parameswaramangalam, Puttur, Chittoor Dist - 517 583.|0|YES|552
-24.07.09|90|0|90|90|0|60|0|330|
-KKSR|KKR & KSR Inst. of Tech. & Sciences, Vinjanampadu (V), Vatticherukur (M), Guntur Dist.-522 017.|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|www.kitsgnt.com
-KMMT|KMM Inst. of Tech. & Science, Ramireddypally, Tirupati, Chittoor Dist.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|
-KDDW|Kodada Inst. of Tech. & Science for Women, Near Rangani Gudi, Ananthagiri Road, Kodada, Nalgonda Dist. - 508 206.|0|YES|552
-24.07.09|90|90|90|30|0|0|0|300|www.kitskodad.ac.in
-KPRT|Kommuri Pratap Reddy Inst. of Tech., Edulabad (V), Ghanapur GP., Ghatkesar, R.R. Dist|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|
-KIMS|Konaseema Inst. of Mgt. Sciences & College of Engg., NH-214, Chaitanya Nagar, Near Red Bridge, Kamanagaruvu (V), Amalapuram, E.G. Dist. - 533 201.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-KLCE|||||||||||||www.kluniversity.in
-KCPT|||||||||||||
-KTMK|Kottam College of Engg., Chinnatekur, Kallur, Kurnool - 518 218.|0|YES|552
-24.07.09|120|60|120|0|0|0|Aero-60|360|www.ktmk.in
-KIPH|||||||||||||
-KKIT|Kottam Karunakara Reddy Inst. of Tech., Chinna Tekuru (V), Kallur (M), Kurnool Dist. - 518 218.|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|
-KCIT|Krishna Chaitanya Inst. of Technology & Sciences, Devarajigattu (V), Peddaraveedu (M), Prakasam - 523 320.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.cist.in
-KTPT|||||||||||||
-KITE|Krishna Murthy Inst. of Tech. & Engg., Sy.No.23 & 39, Edulabad, Ghatkesar (M), R.R.Dist.-501301.|0|YES|552
-24.07.09|90|60|90|0|0|60|0|300|www.kite.edu.in
-KPIT|Krishna's Pragati Inst. of Tech., DBV Raju Township, Diwancheruyu, Rajahmundry, E.G. Dist - 533 103|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|www.kpit.in
-KECW|Krishnaveni Engg. College for Women, Kesanaupalli (V), Narasaraopet (M), Guntur Dist-522 601|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-KCEA|Kshatriya College of Engg., Chepur, NH-16, Armoor, Perkit, Nizamabad Dist. - 503 224.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|kshatriyacollegeofengg.org ,www.kcea.ac.in
-KSNK|KSN Institute of Technology
-Kovur (V & M), Nellore Dist -524137.|0|YES|83
-24.07.09|60|60|60|0|60|0|0|240|http://ksnitkovur.com
-KUWLSF|||||||||||||
-KUPM|Kuppam Engineering College,
-KES Nagar, Peddabanganatham, Kuppam-517425, Chittoor Dist.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.kec.ac.in
-LBCE|Lakkireddy Balireddy College of Engg., L.B.Reddy Nagar, Mylavaram,Krishna Dist.-521230.
-(424, 09.05.08 for 08-09)|0|YES|552
-24.07.09|120|90|120|60|120|0|60 - Electronics & Instru. Engg.|570|www.lbrce.com
-LALT|||||||||||||
-LAQS|Laqshya Inst. of Tech. & Sciences, Tenikella (V), Konderla (M), Khammam Dist.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.laqshyakhammam.com
-LSIS|||||||||||||
-LIET|Lendi Inst. of Engg. & Tech., Jonnada (V), Denkada, Vizaianagaram Dist. - 535 005|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|http://lendi.org
-LENO|Lenora College of Engineering, Church Compound, Irlapalli, Rampachodavaram, E.G. Dist., - 533 288.|0|YES|552
-24.07.09|90|0|90|60|0|0|0|240|www.lenoracollegeofengineering.org ,www.kingdomoflord.com
-LRDS|Lords Institute of Engg. & Tech.,
+",810,www.giet.ac.in
+GRCP
+GRRR,120,120,"Gokaraju Rangaraju Institute of Engg. & Tech., Miyapur, Bachupally, Kukatpally, Hyderabad - 500 072.",120,120,120,120,"90 - Bio. Tech.
+30 - Bio Medical Engg.",840,www.gokaraju.org
+GOKP
+GOKB,120,60,"Gokul Institute of Tech. & Sci, Pirdi, Bobbili, Vizianagaram dist., - 535 558.",120,0,60,60,0,420,www.gokulcollege.com
+GKCS,120,60,"Gokula Krishna College of Engg., Behind RTC Depot, Sullurpet, Nellore Dist., - 524121.",120,60,60,0,0,420,www.gkcesp.com
+GKPS
+GVIC
+GITS,0,60,"Gonna Institute of Information Technology & Sciences, Gonnavani 
+Palem, Aganampudi, Visakhapatnam.",60,0,60,60,0,240,http://giits.org
+GCET,60,60,"Gopal Reddy College of Engg. & Tech., Pedda Kanjerla (V), Patancheru (M), Medak Dist.-502 319",90,60,0,0,0,270,www.gcet.org.in
+GTMW,60,90,"Goutami Institute of Technology & Management for Women, Peddasettypally (P), Prodatur, Kadapa Dist -516360",90,0,0,60,0,300
+GHIP
+GRAP
+GDLV,120,120,"Gudlavalleru Engineering College, Gudlavalleru - 521 356, Krishna Dist.",120,90,120,60,0,630,www.gecgudlavalleru.ac.in
+GECG,60,60,"Guntur Engg. College, Yenamadala (V&P), Prattipadu (M), Guntur Dist. - 522 219.",60,60,60,0,0,300,www.gunturengineeringcollege.com
+GBNP
+GGIB
+GNIT,60,0,"Guru Nanak Inst of Tech., Khanapur, Manchal (M), Ibrahimpatnam, R.R.Dist.",120,60,60,60,0,360,http://www.gnec.ac.in/
+GVRW,90,90,"G.V.R &S College of Engineering for Women, Ganginenipuram, Near Buddampudi, Guntur Dist.",90,0,0,30,0,300,www.gvrsedinst.org
+GJCP
+HIET,120,60,"Hasvita Inst. of Engg. & Tech., (HIET), Temple Road, Keesara, R.R.Dist.-501 301.",120,90,0,0,0,390,www.hasvita.com
+HIMT,60,60,"Hasvita Inst. of Management & Tech., Keesara, R.R.Dist.-501 301.",60,0,0,60,0,240,http://hasvita.com
+HITE
+HICP
+HPTC,60,60,"Hi-Point College of Engg. & Tech., Chilkur, Moinabad, R.R. Dist.,",60,60,0,0,0,240,www.hipointcollege.com
+HTEC,120,60,"Hi-Tech College of Engg. & Tech., Himayathnagar, Gandipet, Himayatnagar, Moinabad, CB Post, Hyderabad-500075.",120,60,60,0,0,420
+HMKS,60,60,"Haji Mohammed Kashim Saheb & Mohammed Galab Saheb College of Engineering, Kangala Village, Cherukupally Mandal, Guntur Dist.",60,0,0,60,0,240
+HMTK,60,0,"Holy Mary Inst. of Tech., Bogaram (V), Keesara (M), R.R.  Dist.-501 301.",60,60,60,30,0,270
+HOLY
+HORZ
+HITM,120,60,"Hyderabad Inst. of Technology & Mngt., (Formerly Royal College of Engg.) Gowdevally, Medchal (M), R.R. Dist. (Address changed vide G.O.Rt.No.1003, 06.10.08) (Vivekananda nagar, Pillikotial Medak Town, Medak).",120,60,60,0,0,420,www.hitam.org
+IDEL,60,0,"Ideal Institute of Technology, Vidyut Nagar, Kakinada, E.G.Dist.",60,0,60,60,0,240,www.idealinstitute.ac.in
+IITM,0,60,"Indira Institute of Technology & Science, Darmadugu (V), Markapur Mandal, Prakasam Dist.",60,0,60,60,0,240,www.indiraeducational.org
+INPW,90,60,"Indira Priyadarshini College of Engg. & Tech., for Women, Nannur (V), Oravakal (M), Kurnool Dist - 518023",120,90,0,0,0,360
+IITT,120,60,"Indur Institute of Engg. and Tech., Ponnala, Siddipet (M), Medak Dist. - 502 277.",120,60,0,60,0,420
+SPMS
+IARE,120,60,"Inst. of Aeronautical Engineering, Dundigal, Qutbullapur (M), Hyderabad - 500 043.",120,60,60,60,120 - Aeronautical Engg.,600
+INTL,120,90,"Intell Engineering College, Intel Campus, Akkampally Cross, Kalyan Durg Road, Anantapur - 515 004.",120,0,60,90,0,480
+ISTS
+ISLW,90,30,"Islamia College of Engg. & Tech. for Women, Bandlaguda (M), Hyderabad Revenue Division, Hyderabad City - 500 007.",90,90,0,0,0,300,www.islamia.org.in
+JJPM
+JBWC,90,60,"JB Women's Engg. College, Daminedu (V), Renigunta Road, Tirupati - 517 506",90,60,0,0,0,300
+JJIT,90,60,"JJ Inst. of Information Tech., Maheswaram (V), R.R. Dist.- 501 359.",90,60,0,0,0,300
+JGNN,60,60,"Jagan's College of Engg. & Tech., Chavatapalem (V), Venkatachal, Nellore Dist.",120,60,0,0,0,300,http://jagans.ac.in
+JAGN
+JANG
+JNIT,120,60,"Jawaharlal Nehru Inst. of Tech., Adarsh Farm, Mangalpally, Patelguda, Ibrahimpatan, R.R Dist.,-501510.",60,60,0,0,0,300
+JITW,60,90,"Jaya Institute of Technology & Science for Women, Sy.No.910, Ward No.7, Block 1,Near Padmakshamma Temple, Hanumakonda, Warangal.",90,60,0,0,0,300
+JPNE,120,60,"Jaya Prakash Narayan College of Engg., Dharmapur, Mahaboobnagar - 509 001.",120,120,60,60,0,540
+JPNC,60,60,"Jaya Prakash Naryan Educational Society Group of Institutions - School of Engineering, 3-81, Christian Pally (V), Boothpur Road, Mahabubnagar Dist. - 509001.",60,0,60,0,0,240,www.jpnes.org
+JCPN
+JIPS
+JAYA,120,120,"Jayamukhi Institute of Tech. & Sci., Moqdumpuram, Narsampet, Waranga Dist., - 506 332.",120,120,0,0,0,480,www.jits.in
+JBIT,120,120,"JB Institute of Engg. & Tech., Sy.No.220, Yenkapally, Moinabad (M), R.R.Dist.- 500 075.",120,120,120,60,"60 - BOT
+60- Bio Medical.",780,www.jbiet.jobkut.com
+JNPA
+JNTP,,,,,,,,,,www.jntu.ac.in
+JNTA
+JNTH
+JNTK
+JNKR
+JNTV
+JNTHMB
+JNTHMT
+JNPASF
+JITE
+JITS,60,0,"Jogaiah Institute of Tech. and Science, Kalagampudi, NH-214, Elemanchali(M), W.G. Dist.-268.",120,60,0,60,0,300
+JOGI,120,60,"Joginpally B R Engg. College, Sy.No.220, Himayatnagar, Yenkapally, Moinabad, R.R. Dist. - 500 075.",120,60,0,0,60 - Bio. Tech.,420
+JBCP
+JCPT
+JMIP
+JMTK,90,0,"Jyothismathi Inst. of Tech. Sciences, Ramakrishnapur Colony, Karimnagar - 505 481.",90,60,0,0,0,240,www.jits.ac.in
+JMTS,120,120,"Jyothismathi Institute of Tech. & Sci., Nustulapur, Thimmapur, Karimnagar-505481.",120,60,0,0,0,420
+JETT,120,0,"Jyothismathi Coll. of Engg. & Tech., Thurkapally, Shamirpet, R.R.Dist. - 500 078.",120,0,0,0,"60- Aero .Engg
+",300
+KRCP
+KCRP
+KGRP
+KSRM,120,120,"KSRM (Kandula) College of Engg., H.No.3/429, Raja Reddy Street, Tadigotla, Chintakommadina, Pulivendula Rd, Yerramasupalli, Kadapa Dist. - 516 003.",120,90,120,120,0,690,www.ksrmce.ac.in
+KSSW,60,60,"Kothamasu Saraswathamma & Subbaratnam Women's Engg. College, Nelapadu (V), Tenali (M), Guntur Dist. - 522 201.",90,60,0,60,0,330
+KUCE
+KUCP
+KVKP
+VRSP
+KJRP
+KLRT,60,60,"KLR College of Engg. & Tech., Bhadrachalam Road, Polancha, Khammam Dist. - 507 115.",60,0,60,60,0,300,www.klr.ac.in
+KLMW,90,60,"Kandula Lakshumma Memorial College of Engg. For Women, Tadigotla (V), Chintakomma Dinne (M), Kadapa Dist. - 516 003.",90,60,0,0,0,300
+KIPS
+KITW,90,60,"Kakatiya Institute of Tech. & Science for Women, Manikbhandar Village, Makloor Mandal, Nizamabad Dist.",90,0,0,60,0,300,www.kitswgl.org
+KITS,120,60,"Kakatiya Institute of Tech. & Sci, Yerragutta, Hillock, Bheemaram(M), Cheemaram, Hasanparthy, Warangal-506 015.",90,60,120,60,60 - Electronics & Instru. Engg.,570,www.kitswgl.org
+KETW,90,30,"Kakinada Inst. of Engg. & Tech. for Women, No.305, Yanam Road, Corangi (V), Tallarevu (M), E.G. Dist. - 533 461",120,90,0,0,0,330,www.women.kietap.com
+KITK,60,60,"Kakinada Institute of Engg. & Tech., -II, 306, Korangi (V), Tallarevu Mandal, E.G.Dist.",60,60,0,0,0,240,www.kietap.com
+KIET,120,120,"Kakinada Institute of Engg. & Tech., Yanam Road, Metlapalem, Tallarevu, Korangi-533461, E.G.Dist.,",120,60,0,0,0,420,www.kietap.com
+KTSP,60,60,"Kakinada Inst. of Tech. & Science, Tirupathi (V), Peddapuram, E.G. Dist. - 533 433",120,0,60,0,0,300,www.kietap.com
+KISR,60,90,"Kakinada Inst. of Tech. & Sciences, Ambikapalli, Agraharam (V), Ramachandrapuram, E.G. Dist - 533 255",90,0,60,0,0,300,www.kietap.com
+KTKM,90,60,"Kamala Institute of Tech. and Sci., Singapur, Huzurabad, Karimnagar Dist., - 505 468.",90,90,60,0,0,390,www.kitssingapur.com
+KREC,120,60,"Kamareddy Engineering College, Devanpally, Kamareddy (M), Nizamabad Dist.- 503 111",60,60,0,0,0,300
+KORK,60,60,"Kandula Obul Reddy Memorial College of Engg., Tadigotla, Chintakommadinne(M), Kadapa - 516 003.",60,60,0,60,0,300,www.ksrmce.ac.in
+KNRR,60,0,"Kasireddy Narayan Reddy College of Engg. & Research, Abdullapur (V), Hayathnagar, R.R. Dist. - 501 582",120,0,60,60,0,300
+KUSH,120,0,"Kaushik College of Engineering, Gambheeram - 531 163, Anandapuram (M), Visakhapatnam.",90,60,60,0,Aero - 30,360
+KBRB,60,60,"KBR Engg. College, Pagidipalli (V) (Bibinagar), Bhovanagiri (M), Nalgonda Dist. - 508 126.",120,60,0,0,0,300,www.kbr.ac.in
+KMIT,60,0,"Keshav Memorial Inst. of Tech., 3-5-1026, Narayanaguda, Hyderabad - 500 029.",120,60,0,0,60 - Electronics & Instru. Engg.,300,www.kmit.in
+KGRH,60,60,"KG Reddy College of Engg. & Tech., Chilkur (V), Moinabad (M), R.R. Dist - 501 504",120,0,60,0,0,300,www.kgr.ac.in
+KHMP
+KMTS,60,60,"Khammam Inst. of Tech. & Science, Ponnekal (VUG), Khammam Rural Mandal, Khammam Dist - 507 170",120,60,0,0,0,300
+KPES,60,0,"KITE College of Professional Engg. Sciences, Shabad, Shabad (M), R.R. Dist. - 509 217",60,60,0,0,0,180,www.kitecollege.org
+KPSW,90,0,"KITE Women's College of Professional Engg. Sciences, Shabad, Shabad (M), R.R. Dist. - 509 217",90,60,0,0,0,240,www.kitecollege.org
+KKCW,90,0,"KKC Inst. of Tech. & Engg. For Women, Nagari - Tirupati Road,Parameswaramangalam, Puttur, Chittoor Dist - 517 583.",90,90,0,60,0,330
+KKSR,60,60,"KKR & KSR Inst. of Tech. & Sciences, Vinjanampadu (V), Vatticherukur (M), Guntur Dist.-522 017.",120,0,0,60,0,300,www.kitsgnt.com
+KMMT,60,60,"KMM Inst. of Tech. & Science, Ramireddypally, Tirupati, Chittoor Dist.",60,60,0,60,0,300
+KDDW,90,90,"Kodada Inst. of Tech. & Science for Women, Near Rangani Gudi, Ananthagiri Road, Kodada, Nalgonda Dist. - 508 206.",90,30,0,0,0,300,www.kitskodad.ac.in
+KPRT,60,60,"Kommuri Pratap Reddy Inst. of Tech., Edulabad (V), Ghanapur GP., Ghatkesar, R.R. Dist",90,60,0,0,0,270
+KIMS,60,60,"Konaseema Inst. of Mgt. Sciences & College of Engg., NH-214, Chaitanya Nagar, Near Red Bridge, Kamanagaruvu (V), Amalapuram, E.G. Dist. - 533 201.",60,60,0,0,0,240
+KLCE,,,,,,,,,,www.kluniversity.in
+KCPT
+KTMK,120,60,"Kottam College of Engg., Chinnatekur, Kallur, Kurnool - 518 218.",120,0,0,0,Aero-60,360,www.ktmk.in
+KIPH
+KKIT,60,60,"Kottam Karunakara Reddy Inst. of Tech., Chinna Tekuru (V), Kallur (M), Kurnool Dist. - 518 218.",120,0,0,60,0,300
+KCIT,60,60,"Krishna Chaitanya Inst. of Technology & Sciences, Devarajigattu (V), Peddaraveedu (M), Prakasam - 523 320.",60,60,0,0,0,240,www.cist.in
+KTPT
+KITE,90,60,"Krishna Murthy Inst. of Tech. & Engg., Sy.No.23 & 39, Edulabad, Ghatkesar (M), R.R.Dist.-501301.",90,0,0,60,0,300,www.kite.edu.in
+KPIT,60,60,"Krishna's Pragati Inst. of Tech., DBV Raju Township, Diwancheruyu, Rajahmundry, E.G. Dist - 533 103",60,60,0,60,0,300,www.kpit.in
+KECW,90,60,"Krishnaveni Engg. College for Women, Kesanaupalli (V), Narasaraopet (M), Guntur Dist-522 601",90,60,0,0,0,300
+KCEA,120,60,"Kshatriya College of Engg., Chepur, NH-16, Armoor, Perkit, Nizamabad Dist. - 503 224.",120,120,0,0,0,420,"kshatriyacollegeofengg.org ,www.kcea.ac.in"
+KSNK,60,60,"KSN Institute of Technology
+Kovur (V & M), Nellore Dist -524137.",60,0,60,0,0,240,http://ksnitkovur.com
+KUWLSF
+KUPM,120,60,"Kuppam Engineering College,
+KES Nagar, Peddabanganatham, Kuppam-517425, Chittoor Dist.",120,60,0,0,0,360,www.kec.ac.in
+LBCE,120,90,"Lakkireddy Balireddy College of Engg., L.B.Reddy Nagar, Mylavaram,Krishna Dist.-521230.
+(424, 09.05.08 for 08-09)",120,60,120,0,60 - Electronics & Instru. Engg.,570,www.lbrce.com
+LALT
+LAQS,60,60,"Laqshya Inst. of Tech. & Sciences, Tenikella (V), Konderla (M), Khammam Dist.",60,60,0,0,0,240,www.laqshyakhammam.com
+LSIS
+LIET,60,60,"Lendi Inst. of Engg. & Tech., Jonnada (V), Denkada, Vizaianagaram Dist. - 535 005",120,60,0,0,0,300,http://lendi.org
+LENO,90,0,"Lenora College of Engineering, Church Compound, Irlapalli, Rampachodavaram, E.G. Dist., - 533 288.",90,60,0,0,0,240,"www.lenoracollegeofengineering.org ,www.kingdomoflord.com"
+LRDS,120,30,"Lords Institute of Engg. & Tech.,
 Sy.No.32, Himayath Sagar,
-Hyderabad - 500 008|0|YES|552
-24.07.09|120|30|120|30|60|60|0|420|www.lordsinstitute.in
-LOYL|Loyola Institute of Tech & Mgt., Loyola Nagar, Dhulipalla, Sattenapally (M), Guntur-522403. |0|YES|552
-24.07.09|90|60|120|60|60|0|0|390|www.litam.ac.in
-LYDP|||||||||||||
-MJCT|Muffakham Jah (MJ) College of Engg. & Tech., 8-2-249, Mount Pleasant, Road No.3, Banjara Hills, Hyderabad – 500 155.|PM|YES|552
-24.07.09|120|60|120|120|120|120|60 - Production Engg.
-60 - Electronics & Instru. Engg.|780|www.mjcollege.ac.in
-MLIP|||||||||||||
-MLID|MLR Institute of Technology, Dundigal, Qutbullapur, Hyderabad - 043.|0|YES|552
-24.07.09|120|0|120|0|60|0|120 - Aeronautical Engg.|420|
-MNRP|||||||||||||
-MVRG|Maharaj Vijayaram Gajapathiraj (MVGR) College of Engineerng, Vijayaram Nagar, Chintalavalasa, Vizianagaram - 535005.|0|YES|552
-24.07.09|120|60|120|60|120|60|60 - Chemical Engg.|600|
-MVSR|MVSR (Maturi Venkata Subba Rao) Engg. College, Nadargul, Saroor Nagar(M), Hyderabad.|0|YES|552
-24.07.09|120|60|120|90|120|120|Auto -30|660|www.mvsrec.ac.in
-MAMN|||||||||||||
-MKTW|Modugula Kalavathama Inst. of Tech. for Women, New Boyanapalli, Rajampet, Kadapa Dist. - 516 115.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-MNRT|MNR College of Engg. & Tech., MNR Nagar, Narsapur Road, Fasalwadi, Sangareddy, Medak Dist.|0|YES|552
-24.07.09|60|0|60|60|0|0|60 - Aeronautical Engg.|240|www.mrnindia.org
-MNRW|MN Rao Women's Engg. College, Amdapur 'X' Road, Yenkapally (V), Himayatnagar (P), Moinabad (M), R.R. Dist.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-MVRS|MVR College of Engg. & Tech., Besides Hanuman Statue & NH-9, Paritala, Krishna Dist. - 521180|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|www.mvrcoe.ac.in
-MITS|Madanapalle Institute of Tech. & Sci., P.B.No.14, Angallu, Madanapally-517325, Chittoor.|0|YES|552
-24.07.09|120|60|120|60|30|0|30 - Bio. Tech.|420|www.mits.edu
-MDCE|Madhira College of Engg., Madhiranagar, Paleannaram (V), Chilkur (M), Nalgonda Dist. - 508 238.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|www.mitsk.com
-MDIH|||||||||||||
-MDRK|Madhira Institute of Tech. & Sci., Madhira Nagar, Paleannaram, Chilkur, Kodad, Nalgonda-508238|0|YES|552
-24.07.09|90|90|120|60|60|0|0|420|www.mitskodad.ac.in
-MDRP|||||||||||||
-MHRJ|||||||||||||
-MIPS|||||||||||||
-MGIT|Mahatma Gandhi Institute of Tech., Chaitanya Bharathi, Kokapet, Gandipet, Hyderabad-500075.|0|YES|552
-24.07.09|120|60|120|60|60|0|60 - Metallurgy & Material Tech.|480|
-MHVR|Mahaveer Institute of Sci. & Tech., Vyasapuri, Bandlaguda, Kesavagiri, Hyderabad - 500 005.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.mist.ac.in
-MECP|Maheshwara Engg. College, Chitkul, Isnapur X Road, Patencheru, Medak Dist.- 502307, (Bapuji Engg. Coll.)|0|YES|552
-24.07.09|120|60|120|0|60|0|0|360|www.maheshwaragroup.com
-MITP|Maheshwara Inst. of Tech., Chitkul, Isnapur X Road, Patencheru, Medak Dist.-502 307. (Jatipita Coll. of Engg.)|0|YES|552
-24.07.09|120|0|120|60|0|0| 60 - Aero |360|www.maheshwaragroup.com
-MCPP|||||||||||||www.maheshwaragroup.com
-MIPP|||||||||||||www.maheshwaragroup.com
-MLCP|||||||||||||www.malinenicolleges.ac.in
-MLEC|Malineni Lakshmaiah Engineering College, Kanumalla, Singarayakonda-523 101, Prakasam Dist.,|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.malinenicolleges.ac.in
-MLET|Malineni Lakshmaiah Inst. of Engg. & Tech., Near Ramannapalem, North Raju Palem (V), Kodavaluru, Nellore Dist.-524 366.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.malinenicolleges.ac.in
-MLEW|Malineni Lakshmaiah Women's Engg. College, Pulladigunta (V), Kornepadu (P), Vatticherukuru (M), Guntur Dist.-522 017|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.malinenicolleges.ac.in
-MPES|Malineni Perumallu Educational Society's Group of Colleges (Integrated Campus), Pulladigunta, Kornapadu, Vatticherukuru Mandal, Guntur Dist.|0|yes|74
-20.07.09|0|60|60|0|60|60|0|240|www.malinenicolleges.ac.in
-MRCP|||||||||||||
-MRIP|||||||||||||
-MLRD|||||||||||||www.mrcet.com
-MCEW|Malla Reddy College of Engineering for Women, Sy.No.43, 46, 47, 48, 53, 113, 114, 115, 116, 128, 130, Suraram 'X' Road, Quthubullapur Municipality, R.R. Dist|0|YES|552
-24.07.09|90|90|120|0|0|0|0|300|
-MRCW|Malla Reddy Engineering College for Women, Sy.No.640a, 641/2, 646/c, Maisammaguda, Dhulapally (Post via Hakimpet), Secunderabad - 500114|0|YES|552
-24.07.09|90|60|120|0|0|0|0|270|www.chmrec.com
-MLTM|Malla Reddy Inst. of Tech., Sy.No.645, 642/1, 643/1, 644/1, 645/P, Maisammaguda, Dhulapally Post, Via Hakimpet, Secunderabad - 500 014|0|YES|552
-24.07.09|60|0|90|0|0|120|0|270|www.chmrec.com
-MRET|Malla Reddy Inst. of Engg. & Tech., Sy.No.631, 632/1, 629, 630, 632, 641/1, Mysammaguda, Dhulapalli, (post via hakimpet), Sec-bad - 14.|0|YES|552
-24.07.09|90|60|60|60|0|0|0|270|
-MRIT|Malla Reddy Inst. of Tech. & Sci, Sy.No.640-646, Mysammaguda, Dhulapally, Gundlapochampally, Medchal, R.R. Dist.,|0|YES|552
-24.07.09|120|0|120|120|0|60|0|420|www.chmrits.com
-MANN|Mannan Institute of Sci. & Tech., Sy.No.228 & 229, Aloor, Chevella (M), R.R.Dist. - 501 503.|0|YES|552
-24.07.09|60|60|120|0|60|0|60 - Auto Mobile|360|www.mannaninstitute.org
-MARC|Marconi Inst. of Tech., Mudimyal (V), Chevella (M), R.R. Dist. - 501 503|0|YES|552
-24.07.09|90|60|120|0|0|0|0|270|www.marconi.ac.in
-MLRS|Marri Laxman Reddy Institute of Tehcnology and Management, Marri Laxman Reddy School of Engineering, Dundigal, Qutbullapur (M), R.R.Dist., Hyderabad|0|yes|78
-21.07.09|0|0|60|0|60|60|Aero -60|240|www.mlrinstitutions.ac.in
-MXIT|Matrix Inst. of Tech., Cheekatimamidi (V), Mommalaramaram (M), Nalgonda Dist. - 508 116|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.matrix.ac.in
-MAXP|||||||||||||
-MDKP|||||||||||||www.medakenggcollege.com
-MDHA|Medha College of Engg., Laxmi Devi gudem, Bibinagar, Nalgonda Dist.-508 126.|0|YES|552
-24.07.09|60|0|120|0|60|60|0|300|www.medhacollege.com
-MISW|Medha Institute of Science & Technology for Women, Sai Prabhat Nagar, Pedathanda (V), Khammam Mandal, Khammam.|0|YES|88
-24.07.09|90|60|90|60|0|0|0|300|
-MGHA|Megha Inst. of Engg. & Tech. for Women, Sy.No.7, Edulabad, Ghatkesar (M), R.R. Dist. - 501 301.|0|YES|552
-24.07.09|90|60|90|0|0|60|0|300|
-MRMU|Mekapati Rajamohan Reddy Institute of Tech & Sci., Udayagiri, Nellore Dist., - 524 226.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.meritstech.com
-MPTB|Mentey Pedmanabham College of Engg. & Tech., Dirusumarru Road, Bhimavaram, W.G. Dist.-534 201.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-MESP|||||||||||||
-METH|Methodist College of Engg. & Tech., 4-1-1001, 4-1-1045, 878-B, & 3-2, King Koti Road, Abids, Hyderabad - 500 001.|0|YES|552
-24.07.09|60|60|60|60|60|0|0|300|www.methodist.edu.in
-MINA|Mina Inst. of Engg. & Tech. for Women, Miryalaguda, Nalgonda Dist. |0|YES|552
-24.07.09|120|60|90|60|0|0|0|330|
-MRCL|Miracle Educational Society Group of Institutions, Kongavanipalem (V),Miracle City, Bhaogapuram Mandal, Vizianagaram Dist.|0|YES|76
-21.07.09|60|60|60|0|60|0|0|240|
-MITR|Mithra Inst.of Technology, Mithra  Hospital Complex, Beside KR Stadium, Srikakulam
-|0|YES|79
-24.07.09|60|60|60|0|0|60|0|240|http://mithrait.org
-MJRT|||||||||||||
-MOGH|Moghal College of Engg. & Tech., 8-5-2/181, Moghal Campus, Bandlaguda, Near Chandrayangutta X Roads, Hyderabad - 500 004.|2009-10|YES|552
-24.07.09|60|30|60|60|0|0|0|210|
-MITK|Mohammadiya Institute of Technology, Barugudem, Warangal Highway, Khammam -507163|0|YES|87
-24.07.09|60|60|60|0|60|0|0|240|
-MSIT|Montessori Siva Sivani Inst. of Science & Tech., Mailavaram, Mailavaram (M), Krishna Dist. - 521 230|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.mmcolleges.com
-MSIP|||||||||||||
-MIPM|||||||||||||
-MOTK|Mother Theresa Institute of Sci. and Tech., Sanketika Nagar, Kothur, Sattupalli, Khammam Dist.-507 303.|0|YES|552
-24.07.09|120|60|120|60|0|30|0|390|www.mistech.ac.in
-MOTP|||||||||||||
-MTEC|Mother Theresa College of Engg. & Tech., PP Colony, Peddapalli, Peddabonkuru, Karimnagar Dist., - 505 174.|0|YES|552
-24.07.09|120|120|120|0|60|0|0|420|www.mistech.ac.in
-MALI|Moula Ali College of Engg. and Tech., Gonipeta, Penukonda, Ananthapur Dist.,|0|YES|552
-24.07.09|90|60|90|0|0|0|0|240|
-MRMP|||||||||||||
-MRRP|||||||||||||
-MRNP|||||||||||||
-MMTZ|Mumtaz College of Engineering & Tehchonology, 15-2-737, Malakpet, Hyderabad-500036|0|YES|87
-24.07.09|60|60|60|0|0|60|0|240|www.mumtazcollege.org
-MUTK|Murthy Institute of Tech. & Sci., Ankireddypally, Keesara, R.R.Dist.,|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.mutk.ac.in
-NRIP|||||||||||||
-NVRT|Nannapaneni Venkata Rao College of Engineering  & Technology, Nannapaneni Venkata Rao Nagar, Itha Nagar, Tenali,Guntur.|0|YES|87
-24.07.09|60|60|60|0|0|60|0|240|
-NGTS|Nagarjuna Institute of Tech. & Sci., SBI Complex, Srinivasanagar, Miryalguda, Nalgonda Dist.-508207|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.nitsmiryalguda.ac.in
-NAGL|Nagole Institute of Technology & Science, Kuntloor Village, Hayathnagar Mandal, R.R.Dist.|0|YES|79
-24.07.09|60|60|60|0|0|60|0|240|
-NCOP|||||||||||||
-NNTS|Nalanda Inst. of Tech., Siddharthanagar, Kantepuri (V), Sattenapalli (M), Guntur Dist - 522 438|0|YES|552
-24.07.09|60|0|60|60|60|60|0|300|www.niet.edu.in
-NLND|Nalanda Inst. of Engg. & Tech, Siddharth Nagar, Kantepudi, Sattenapally(M), Guntur Dist.-522438.|0|YES|552
-24.07.09|120|60|120|120|60|60|0|540|www.niet.edu.in
-NLGN|Nalgonda Inst. of Tech. & Sciences, Charlapally (V), Hyderabad Road, Nalgonda Dist.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.nitsnlg.ac.in
-NNRG|Nalla Narasimha Reddy Education Society's Group of Institutions, Chowdariguda, Korremula (V), Ghatkesar (M), R.R.Dist.- 500088.|0|Yes|95
-27.07.09|60|60|60|0|60|0|0|240|
-NREC|Nallamalla Reddy Engg. College, 7-01, Divyanagar, Kachvanisingaram, Ghatkesar, R.R.Dist.-501 301.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.nmrec.edu.in
-NARN|Narayana Engineering College,
-Narayana Avenue, N.C.Factory, Opp. Apollo Hospital, A.K. Nagar, Nellore - 524 004.|0|YES|552
-24.07.09|120|60|120|60|0|0|60 - Electronics & Instru. Engg.
-60 - ECM |480|www.necnellore.com
-NRNG|Narayana Engineering College,
+Hyderabad - 500 008",120,30,60,60,0,420,www.lordsinstitute.in
+LOYL,90,60,"Loyola Institute of Tech & Mgt., Loyola Nagar, Dhulipalla, Sattenapally (M), Guntur-522403. ",120,60,60,0,0,390,www.litam.ac.in
+LYDP
+MJCT,120,60,"Muffakham Jah (MJ) College of Engg. & Tech., 8-2-249, Mount Pleasant, Road No.3, Banjara Hills, Hyderabad – 500 155.",120,120,120,120,"60 - Production Engg.
+60 - Electronics & Instru. Engg.",780,www.mjcollege.ac.in
+MLIP
+MLID,120,0,"MLR Institute of Technology, Dundigal, Qutbullapur, Hyderabad - 043.",120,0,60,0,120 - Aeronautical Engg.,420
+MNRP
+MVRG,120,60,"Maharaj Vijayaram Gajapathiraj (MVGR) College of Engineerng, Vijayaram Nagar, Chintalavalasa, Vizianagaram - 535005.",120,60,120,60,60 - Chemical Engg.,600
+MVSR,120,60,"MVSR (Maturi Venkata Subba Rao) Engg. College, Nadargul, Saroor Nagar(M), Hyderabad.",120,90,120,120,Auto -30,660,www.mvsrec.ac.in
+MAMN
+MKTW,90,60,"Modugula Kalavathama Inst. of Tech. for Women, New Boyanapalli, Rajampet, Kadapa Dist. - 516 115.",90,60,0,0,0,300
+MNRT,60,0,"MNR College of Engg. & Tech., MNR Nagar, Narsapur Road, Fasalwadi, Sangareddy, Medak Dist.",60,60,0,0,60 - Aeronautical Engg.,240,www.mrnindia.org
+MNRW,60,60,"MN Rao Women's Engg. College, Amdapur 'X' Road, Yenkapally (V), Himayatnagar (P), Moinabad (M), R.R. Dist.",60,60,0,0,0,240
+MVRS,60,60,"MVR College of Engg. & Tech., Besides Hanuman Statue & NH-9, Paritala, Krishna Dist. - 521180",120,0,0,60,0,300,www.mvrcoe.ac.in
+MITS,120,60,"Madanapalle Institute of Tech. & Sci., P.B.No.14, Angallu, Madanapally-517325, Chittoor.",120,60,30,0,30 - Bio. Tech.,420,www.mits.edu
+MDCE,60,60,"Madhira College of Engg., Madhiranagar, Paleannaram (V), Chilkur (M), Nalgonda Dist. - 508 238.",60,60,0,60,0,300,www.mitsk.com
+MDIH
+MDRK,90,90,"Madhira Institute of Tech. & Sci., Madhira Nagar, Paleannaram, Chilkur, Kodad, Nalgonda-508238",120,60,60,0,0,420,www.mitskodad.ac.in
+MDRP
+MHRJ
+MIPS
+MGIT,120,60,"Mahatma Gandhi Institute of Tech., Chaitanya Bharathi, Kokapet, Gandipet, Hyderabad-500075.",120,60,60,0,60 - Metallurgy & Material Tech.,480
+MHVR,120,60,"Mahaveer Institute of Sci. & Tech., Vyasapuri, Bandlaguda, Kesavagiri, Hyderabad - 500 005.",120,60,60,0,0,420,www.mist.ac.in
+MECP,120,60,"Maheshwara Engg. College, Chitkul, Isnapur X Road, Patencheru, Medak Dist.- 502307, (Bapuji Engg. Coll.)",120,0,60,0,0,360,www.maheshwaragroup.com
+MITP,120,0,"Maheshwara Inst. of Tech., Chitkul, Isnapur X Road, Patencheru, Medak Dist.-502 307. (Jatipita Coll. of Engg.)",120,60,0,0, 60 - Aero ,360,www.maheshwaragroup.com
+MCPP,,,,,,,,,,www.maheshwaragroup.com
+MIPP,,,,,,,,,,www.maheshwaragroup.com
+MLCP,,,,,,,,,,www.malinenicolleges.ac.in
+MLEC,120,60,"Malineni Lakshmaiah Engineering College, Kanumalla, Singarayakonda-523 101, Prakasam Dist.,",120,120,0,0,0,420,www.malinenicolleges.ac.in
+MLET,60,60,"Malineni Lakshmaiah Inst. of Engg. & Tech., Near Ramannapalem, North Raju Palem (V), Kodavaluru, Nellore Dist.-524 366.",60,60,0,0,0,240,www.malinenicolleges.ac.in
+MLEW,90,60,"Malineni Lakshmaiah Women's Engg. College, Pulladigunta (V), Kornepadu (P), Vatticherukuru (M), Guntur Dist.-522 017",90,60,0,0,0,300,www.malinenicolleges.ac.in
+MPES,0,60,"Malineni Perumallu Educational Society's Group of Colleges (Integrated Campus), Pulladigunta, Kornapadu, Vatticherukuru Mandal, Guntur Dist.",60,0,60,60,0,240,www.malinenicolleges.ac.in
+MRCP
+MRIP
+MLRD,,,,,,,,,,www.mrcet.com
+MCEW,90,90,"Malla Reddy College of Engineering for Women, Sy.No.43, 46, 47, 48, 53, 113, 114, 115, 116, 128, 130, Suraram 'X' Road, Quthubullapur Municipality, R.R. Dist",120,0,0,0,0,300
+MRCW,90,60,"Malla Reddy Engineering College for Women, Sy.No.640a, 641/2, 646/c, Maisammaguda, Dhulapally (Post via Hakimpet), Secunderabad - 500114",120,0,0,0,0,270,www.chmrec.com
+MLTM,60,0,"Malla Reddy Inst. of Tech., Sy.No.645, 642/1, 643/1, 644/1, 645/P, Maisammaguda, Dhulapally Post, Via Hakimpet, Secunderabad - 500 014",90,0,0,120,0,270,www.chmrec.com
+MRET,90,60,"Malla Reddy Inst. of Engg. & Tech., Sy.No.631, 632/1, 629, 630, 632, 641/1, Mysammaguda, Dhulapalli, (post via hakimpet), Sec-bad - 14.",60,60,0,0,0,270
+MRIT,120,0,"Malla Reddy Inst. of Tech. & Sci, Sy.No.640-646, Mysammaguda, Dhulapally, Gundlapochampally, Medchal, R.R. Dist.,",120,120,0,60,0,420,www.chmrits.com
+MANN,60,60,"Mannan Institute of Sci. & Tech., Sy.No.228 & 229, Aloor, Chevella (M), R.R.Dist. - 501 503.",120,0,60,0,60 - Auto Mobile,360,www.mannaninstitute.org
+MARC,90,60,"Marconi Inst. of Tech., Mudimyal (V), Chevella (M), R.R. Dist. - 501 503",120,0,0,0,0,270,www.marconi.ac.in
+MLRS,0,0,"Marri Laxman Reddy Institute of Tehcnology and Management, Marri Laxman Reddy School of Engineering, Dundigal, Qutbullapur (M), R.R.Dist., Hyderabad",60,0,60,60,Aero -60,240,www.mlrinstitutions.ac.in
+MXIT,60,60,"Matrix Inst. of Tech., Cheekatimamidi (V), Mommalaramaram (M), Nalgonda Dist. - 508 116",60,60,0,0,0,240,www.matrix.ac.in
+MAXP
+MDKP,,,,,,,,,,www.medakenggcollege.com
+MDHA,60,0,"Medha College of Engg., Laxmi Devi gudem, Bibinagar, Nalgonda Dist.-508 126.",120,0,60,60,0,300,www.medhacollege.com
+MISW,90,60,"Medha Institute of Science & Technology for Women, Sai Prabhat Nagar, Pedathanda (V), Khammam Mandal, Khammam.",90,60,0,0,0,300
+MGHA,90,60,"Megha Inst. of Engg. & Tech. for Women, Sy.No.7, Edulabad, Ghatkesar (M), R.R. Dist. - 501 301.",90,0,0,60,0,300
+MRMU,120,60,"Mekapati Rajamohan Reddy Institute of Tech & Sci., Udayagiri, Nellore Dist., - 524 226.",120,60,60,0,0,420,www.meritstech.com
+MPTB,60,60,"Mentey Pedmanabham College of Engg. & Tech., Dirusumarru Road, Bhimavaram, W.G. Dist.-534 201.",60,60,0,0,0,240
+MESP
+METH,60,60,"Methodist College of Engg. & Tech., 4-1-1001, 4-1-1045, 878-B, & 3-2, King Koti Road, Abids, Hyderabad - 500 001.",60,60,60,0,0,300,www.methodist.edu.in
+MINA,120,60,"Mina Inst. of Engg. & Tech. for Women, Miryalaguda, Nalgonda Dist. ",90,60,0,0,0,330
+MRCL,60,60,"Miracle Educational Society Group of Institutions, Kongavanipalem (V),Miracle City, Bhaogapuram Mandal, Vizianagaram Dist.",60,0,60,0,0,240
+MITR,60,60,"Mithra Inst.of Technology, Mithra  Hospital Complex, Beside KR Stadium, Srikakulam
+",60,0,0,60,0,240,http://mithrait.org
+MJRT
+MOGH,60,30,"Moghal College of Engg. & Tech., 8-5-2/181, Moghal Campus, Bandlaguda, Near Chandrayangutta X Roads, Hyderabad - 500 004.",60,60,0,0,0,210
+MITK,60,60,"Mohammadiya Institute of Technology, Barugudem, Warangal Highway, Khammam -507163",60,0,60,0,0,240
+MSIT,60,60,"Montessori Siva Sivani Inst. of Science & Tech., Mailavaram, Mailavaram (M), Krishna Dist. - 521 230",90,60,0,0,0,270,www.mmcolleges.com
+MSIP
+MIPM
+MOTK,120,60,"Mother Theresa Institute of Sci. and Tech., Sanketika Nagar, Kothur, Sattupalli, Khammam Dist.-507 303.",120,60,0,30,0,390,www.mistech.ac.in
+MOTP
+MTEC,120,120,"Mother Theresa College of Engg. & Tech., PP Colony, Peddapalli, Peddabonkuru, Karimnagar Dist., - 505 174.",120,0,60,0,0,420,www.mistech.ac.in
+MALI,90,60,"Moula Ali College of Engg. and Tech., Gonipeta, Penukonda, Ananthapur Dist.,",90,0,0,0,0,240
+MRMP
+MRRP
+MRNP
+MMTZ,60,60,"Mumtaz College of Engineering & Tehchonology, 15-2-737, Malakpet, Hyderabad-500036",60,0,0,60,0,240,www.mumtazcollege.org
+MUTK,60,60,"Murthy Institute of Tech. & Sci., Ankireddypally, Keesara, R.R.Dist.,",120,60,0,0,0,300,www.mutk.ac.in
+NRIP
+NVRT,60,60,"Nannapaneni Venkata Rao College of Engineering  & Technology, Nannapaneni Venkata Rao Nagar, Itha Nagar, Tenali,Guntur.",60,0,0,60,0,240
+NGTS,90,60,"Nagarjuna Institute of Tech. & Sci., SBI Complex, Srinivasanagar, Miryalguda, Nalgonda Dist.-508207",90,60,0,0,0,300,www.nitsmiryalguda.ac.in
+NAGL,60,60,"Nagole Institute of Technology & Science, Kuntloor Village, Hayathnagar Mandal, R.R.Dist.",60,0,0,60,0,240
+NCOP
+NNTS,60,0,"Nalanda Inst. of Tech., Siddharthanagar, Kantepuri (V), Sattenapalli (M), Guntur Dist - 522 438",60,60,60,60,0,300,www.niet.edu.in
+NLND,120,60,"Nalanda Inst. of Engg. & Tech, Siddharth Nagar, Kantepudi, Sattenapally(M), Guntur Dist.-522438.",120,120,60,60,0,540,www.niet.edu.in
+NLGN,60,60,"Nalgonda Inst. of Tech. & Sciences, Charlapally (V), Hyderabad Road, Nalgonda Dist.",60,60,0,0,0,240,www.nitsnlg.ac.in
+NNRG,60,60,"Nalla Narasimha Reddy Education Society's Group of Institutions, Chowdariguda, Korremula (V), Ghatkesar (M), R.R.Dist.- 500088.",60,0,60,0,0,240
+NREC,120,60,"Nallamalla Reddy Engg. College, 7-01, Divyanagar, Kachvanisingaram, Ghatkesar, R.R.Dist.-501 301.",120,60,60,0,0,420,www.nmrec.edu.in
+NARN,120,60,"Narayana Engineering College,
+Narayana Avenue, N.C.Factory, Opp. Apollo Hospital, A.K. Nagar, Nellore - 524 004.",120,60,0,0,"60 - Electronics & Instru. Engg.
+60 - ECM ",480,www.necnellore.com
+NRNG,120,60,"Narayana Engineering College,
 Gunduru Durjati Nagar, Gudur,
-Nellore Dist., - 524 101.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.necnellore.com
-NRNP|||||||||||||
-NIST|Narayanadri Institute of Science & Technology, Anantharajapuram, Rajampet -Venkatpally Road, Rajampet, Kadapa Dist -516115.|0|YES|83
-24.07.09|60|60|60|0|60|0|0|240|http://nistrjp.com/ftpadmin/index.htm
-NITL|||||||||||||
-NITN|Narasaraopet Inst. of Tech., Kotappakonda Road, Yellamanda Post, Narasaraopet, Guntur Dist - 522 601|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.nrtenggcollege.com
-NSPP|||||||||||||
-NSPE|Narasaraopeta Engg. College, Kotappakonda Road, Yelamanda, Narsaraopet, Guntur Dist.-522601|0|YES|552
-24.07.09|120|120|120|90|60|60|0|570|
-NRCM|Narsimha Reddy Engg. College, Sy.No.518, Maisammaguda, Gundlapochampally, Medchal (M), R.R. Dist.,|0|YES|552
-24.07.09|120|0|120|0|60|0|0|300|www.narsimhareddyinstitutions.com
-NBIP|||||||||||||
-NBKR|NBKR Institute of Sci. and Tech., Vidyanagar, Nellore Dist.-524413|0|YES|552
-24.07.09|120|120|120|0|60|60|60 - Electronics, Instrumentation & Control Engg.|540|nbkrist.org
-NIPH|||||||||||||
-NIET|Netaji Institute of Engg. & Tech., Tupranpet, Near Ramoji Film City, Choutuppal (M), Nalgonda Dist. - 508 252.|PM|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.nietians.org
-NTJP|||||||||||||
-NICT|New India College of Engg. & Tech., Gollapalli, Chevella, R.R. Dist.,|2009-10|YES|552
-24.07.09|60|0|60|60|60|0|0|240|www.nsitonline.in
-NNIT|New Netaji Inst. of Tech., Toopranpet, Near Ramoji Film City, Choutuppal (M), Nalgonda Dist. - 508 252|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-NEWT|Newton's Institute of Engg., Alugurajapally, Kupunoor(p), Macherla, Guntur dist.-522426.|0|YES|552
-24.07.09|120|60|120|90|0|0|0|390|http://www.nista1.com/
-NEXS|Nexus College of Science & Tech, Yacharam (V), R.R. Dist - 501 509|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.nexusinstitutions.com
-NGMA|Nigama Engg. College, Sambaiahpally (V), Karimnagar Dist. - 505 186|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.nigamacollege.com
-NECW|Nightingale Engineering College (Women), Girijala Village, Anandapuram Mandal, Visakhapatnam Dist.|0|YES|81
-24.07.09|60|60|60|0|60|60|0|300|
-NMRW|Nimra Women's College of Engg., Nimra Nagar, Jupudi - 521 456, Ibrahimpatnam, Vijayawada, Krishna Dist.,|0|YES|552
-24.07.09|120|30|120|90|0|0|0|360|www.nimra.in
-NRML|||||||||||||
-NICP|||||||||||||
-NSHT|Nishitha College of Engg. & Tech, Lemoor, Kandukur (M), R.R.Dist.,|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-NETW|Noble College Engg. & Tech. for Women, Nadargul (V), Saroornagar (M), R.R. Dist.|0|YES|552
-24.07.09|90|0|120|90|0|0|0|300|www.ncet.ac.in
-NOOR|Noor College of Engg., & Tech., Noor Gate, Solipur, Amangal Road, Shadnagar-509216, Mahabubnagar dist.|PM|YES|552
-24.07.09|60|0|90|60|30|30|0|270|www.noorenggcollege.com
-NOVP|||||||||||||
-NOVH|Nova College of Engg & Tech, Jafferguda, Batasingaram (V), Hayatnagar (M), R.R.Dist-501 512.|2008-09|YES|552
-24.07.09|120|30|120|90|0|0|0|360|http://www.nova.ac.in
-NOVA|||||||||||||http://www.novaenggjaff.ac.in/
-NOVW|Nova College of Engg & Tech for Women, Judpudi, Ibrahimpatnam, Krishna Dist|0|YES|552
-24.07.09|120|0|120|120|0|0|0|360|http://www.novaenggwomenvja.ac.in
-NVAV|Nova College of Engg. & Tech., Ibrahimpatnam (M), Krishna Dist - 521 105|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|http://novaenggjaff.ac.in/
-NCPV|||||||||||||http://www.novaenggelr.ac.in/
-NBSP|||||||||||||
-NVEW|Nova's Inst. of Tech. for Women, Sanivarapupet, Thangellamudi (V), Elugu (M), W.G.Dist - 521 106|0|YES|552
-24.07.09|90|60|90|0|0|60|0|300|http://www.novaenggwomenelr.ac.in
-NVHW|Nova Institute of Technological Research for Women, Jafferguda, Batasingaram (V), Hayathnagar, R.R.Dist.|0|YES|91
-24.07.09|90|60|90|0|60|0|0|300|
-NRIH|NRI Institute of Technology, Srisailam Highway, Kothur Village, R.R.Dist.|0|YES|79
-24.07.09|60|0|60|0|60|60|0|240|http://www.nricolleges.com
-NRIA|NRI Inst. of Tech., Pothavarappadu (V), Via Nunna Agiripalli, Krishna Dist. - 521 212|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|www.nriit.ac.in
-NRIT|NRI Inst. of Tech., Perecharla, Visadala Road, Guntur - 522 009|0|YES|552
-24.07.09
-568
-28.07.09|60|60|60|60|0|60|0|300|
-OUCE|||||||||||||
-OUCT|||||||||||||
-PPDG|||||||||||||
-VITK|Parvathareddy Babul Reddy (PBR) Visvodaya Inst. of Tech. & Sci., Kavali-524201, Nellore Dist.,|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-IRMC|P.Indra Reddy Memorial Engg. College, Chevella, R.R.Dist. - 501 503.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.pirmec.org
-PNCV|Paladugu Nagaiah Chowdary & Vijai Inst. of Engg. & Tech., (PNC) Repudi (V), Pirangipuram, Guntur Dist. - 522 529.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.pnckr.com
-PRMP|||||||||||||
-PVKK|PVKK Inst. of Tech., Sanapa Road, Rudrampeta, Anantapur Dist.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.pvkkinstitution.com
-PACE|PACE Inst. of Tech. & Sciences, Vallur (V), NH-5, Ongole, Prakasam Dist - 523 001.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|
-PPDV|Paladugu Parvathidevi College of Engg. & Tech., Surampalli (V), Gannavaram (M), Krishna Dist - 521 212.|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.ppdcet.ac.in
-PLMU|||||||||||||
-PANI|Panineeya Institute of Technology & Science, Vivekananda Nagar, Dilsukhnagar, Hyderabad|0|YES|87
-24.07.09|60|0|60|0|60|60|0|240|www.pmids.org
-PECH|Pathfinder Engineering College, Thimmapur, Hanmakonda, Warangal -506005|0|yes|92
-25.07.09|60|60|60|0|0|60|0|240|
-PATH|||||||||||||http://pathfinderwgl.com
-PECC|Ponnur Engineering College, Chintalapudi, Ponnur Mandal,Guntur Dist.|0|Yes|93
-27.07.09|60|60|60|0|0|60|0|240|http://ponnurec.org
-PSCV|Potti Sriramulu College of Engg. & Tech., Kothapeta, Vijayawada, Krishna Dist. - 520 001.|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.psrcmr.com
-PBTP|||||||||||||
-PPCJ|||||||||||||www.pragati.ac.in
-PRAG|Pragati Engineering College, 1-378, ADB Road, Surampalem, Peddapuram, E.G.Dist -533437.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.pragati.ac.in
-PITM|Prajna Instt. of Tech. & Mgmt, NH-5, Ramakrishnapuram, Palasa-532243, Ragoi, Via Haripuram, Srikakulam dist.,|0|YES|552
-24.07.09|90|60|90|60|60|0|0|360|www.prajnaitm.com
-PKSK|Prakasam Engineering College, O.V.Road, Kandukur, Kanigiri Road, Prakasam Dist., - 523 105.|0|YES|552
-24.07.09|120|90|120|90|0|0|0|420|www.prakasamec.com
-PECJ|Prasad Engineering College, Shameerpet (V), Jangaon (M), Warangal Dist. 506167.|0|YES|93
-27.07.09|60|60|60|0|0|60|0|240|www.prasadengineeringcollege.ac.in
-PPSJ|||||||||||||
-PITS|Prasad Inst. of Tech. & Sci. Vidyanagar, Jaggayyapet, Krishna Dist.,|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-PPSV|Prasad V Potluri Siddhartha Institute of Tech., Kanuru, Vijayawada, Krishna Dist.-520 007.|0|YES|552
-24.07.09|120|90|120|90|60|60|60 - Electronics, Computer & Engg.
-30- Aero|630|www.pvpsiddhartha.ac.in
-PCET|Prasiddeha College of Engineering & Technology, Ananthavaram Village, Amalapuram, E.G.Dist.|0|YES|79
-24.07.09|60|60|60|0|60|0|0|240|www.prasiddhaamp.com
-PNRP|||||||||||||
-PTBP|||||||||||||
-PIPS|||||||||||||
-PIME|Praveenya Inst. of Marine Engg., Modavalsai (V), Denkada (M), Vijayanagaram Dist - 531 162|0|YES|552
-24.07.09|0|60|60|0|60|60|0|240|www.primevisakha.com
-PRIN|Princeton College of Engg. & Tech., Ankushapur, Ghatkesar (M), R.R.Dist. - 501 301.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-PCOP|||||||||||||
-PETW|||||||||||||
-PRIK|Priyadarshini Coll of Engg. & Tech, Kanuparthipadu, A.K.Nagar, Nellore-524004.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|
-PDCS|Priyadarshini College of Engineering, Sullurpet, Nellore Dist., - 524 121|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.priyadarshini.org
-PDIT|Priyadarshini Inst. of Tech., C.Ramachandrapuram, Tirupati, Chittoor Dist.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-PINN|||||||||||||
-PRIP|||||||||||||
-PITW|Priyadarshini Inst. of Tech. & Science for Women, Sy.No.153, 152/3, 137/1, 137/2, 140/5, Chintalapudi, Tenali, Guntur Dist.- 522 306|0|YES|552
-24.07.09|90|0|90|90|0|30|0|300|
-PITT|Priyadarshini Instt. of Tech. &Sci, Sy.No.152, 154, Chintalapudi,Tenali, Guntur Dist.-522306.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|
-PRKP|||||||||||||
-PPSG|||||||||||||
-RREP|Prof. Rama Reddy College of Engg. & Tech., Nandigama (V), Patancheru, Medak Dist. - 502 300|0|YES|552
-24.07.09|120|60|60|0|60|0|0|300|http://prrcet.blog.co.in
-PROG|Progressive Engg. College,
-ChikatiMamidi, Bhongir(v), Bommalaramaram, Nalgonda Dist- 508 116.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|
-PRRP|||||||||||||
-PRRM|PRR Memorial Engineering College, Shabad, R.R.Dist. - 509 217.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-PJMS|Pujya Shri Madhavanji College of Engg. & Tech., Karmanghat,
-Near Sagar 'X' Road, Hyderabad|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|
-PJSM|Pujya Shri Madhavanji Inst. of Science & Tech., Bhagavathipuram, Mohabatnagar, Tummuluru G.P. Maheswaram, R.R. Dist. - 501 359|0|YES|552
-24.07.09|60|60|90|0|60|0|0|270|www.pjsmist.org
-PULI|||||||||||||
-PPIT|Pulipati Prasad Inst. of Tech. & Science, Sri Balaji Nagar, Near Ammapalem, Waya Road, Khammam - 507 305|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.pulipatinursing.org
-PREM|Pulla Reddy Engg.College, Wargal Village, Medak Mandal|0|YES|79
-24.07.09|0|60|60|0|60|60|0|240|
-PURD|||||||||||||
-PRTM|Pulla Reddy Inst. of Tech., S.No.2096, Wargal (V&M), Medak Dist.-502 278|0|YES|552
-24.07.09|60|0|120|60|0|0|60 - Aerunautical Engg.|300|www.prit.ac.in
-PYDE|Pydah College of Engineering, Patavala, Kakinada, E.G.Dist.|0|YES|86
-24.07.09|60|60|60|0|0|60|0|240|www.pydaheee.com
-PYDA|Pydah College of Engg. & Tech., Gambheeram, Anandapuram (M), Visakhapatnam - 531 163.|0|YES|552
-24.07.09|120|60|120|0|0|120|0|420|www.pydaheee.com
-PYDP|||||||||||||
-QISE|QIS College of Engg. & Tech., Vengamukkapalem, Pondur Road, Ongole-523272, Prakasam Dist.,|0|YES|552
-24.07.09|120|120|120|60|120|0|0|540|www.qiscet.com
-QISP|||||||||||||
-QITO|QIS Inst. of Tech., Vengamukkapalem, Pondur Road, Ongole, Prakasam Dist - 523 272|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.qisit.edu.in
-RBVW|||||||||||||
-RGRS|||||||||||||
-RVJC|RVR & JC College of Engg., Chandramoulipuram, Chowdavaram, Guntur Dist.,|0|YES|552
-24.07.09|120|120|120|120|120|120|60 - Chemical Engg.
-60- Bio Tech|840|rvrjcce.ac.in
-RVRI|||||||||||||
-RKCE|RK College of Engg., R.S.No.52, 53, Navepotavaram (V), Ketana Konda, Ibrahimpatnam, Vijayawada -521 456.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.rkce.in
-RRST|RRS College of engg. & Tech. (St. Stanley), Sy.No.230, 295 & 296, Muthangi (V), Patancheru (M), R.R. Dist.|0|YES|552
-24.07.09|120|0|120|120|0|0|60 - Bio-Technology|420|www.rrscet.com
-RIPA|||||||||||||
-RCPV|||||||||||||
-RAGU|Raghu Engineering College, Dakamarri, Bheemili, Bheemunipatnam(M), Visakhapatnam -531162.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.raghuenggcollege.com
-RITV|Raghu institute of Technology, Dakamarri, Bheeminipatnam, Visakhapatnam Dist.,|0|YES|552
-24.07.09|60|60|60|60|60|0|0|300|www.rit-vsp.com
-RHLP|||||||||||||
-RMCK|Raja Mahendra College of Engg., Khalsa, Ibrahimpatnam, R.R.Dist., - 501 506.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.rajamahendra.org
-RECR|||||||||||||
-RIET|Rajamahendri Inst. of Engg. & Tech., Bhupalapatnam, Rajahmundry, E.G. Dist.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-RGIT|Rajeev Gandhi Memorial College of Engg. & Tech., Nandyal, Kurnool - 518 501.|0|YES|552
-24.07.09|120|120|120|120|120|60|120 - Electronics & Instru. Engg.|780|www.rgitnandyal.com
-RVPW|Rajoli Veera Reddy Padmaja Engg. College for Women, Pulivendula Road, Tadigotia (V), C.K. Dinne (M), Kadapa - 516 003|0|YES|552
-24.07.09|90|60|90|90|0|0|0|330|
-RCEE|Ramachandra College of Engg., Vatluru (V), Peddapadu (M), Eluru - 534 007.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-RECN|Ramanandatirtha Engg. College, Ramanada Nagar, Cherlagowraram (V), Kangal, Nalgonda Dist.- 508 004|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.srtist.ac.in
-RAMP|Ramappa Engineering College, Maheshwaram, Hunter Road, Shyampet Jagir, Hanamkonda, Warangal Dist., - 506 101.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|
-RSRN|Rami Reddy Subbarami Reddy Engg. College, Kadanthula (V), Bogole (M), Nellore Dist - 524 201|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.rsrec.in
-RNEC|Rao & Naidu Engg. College,
-Near South By-pass Road, Ongole-523001, Prakasam Dist.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.rnec-ongole.com
-RAOS|||||||||||||
-RESN|||||||||||||
-RAVW|Ravindra College of Engg. For Women, nandikotkur Road, Pasupala (V), Kurnool Dist - 518 002.|0|YES|552
-24.07.09|120|60|90|60|0|0|0|330|www.recw.ac.in
-SEAT|Rayalaseema School of Engg. & Research, Chinthagunta (V), Near C.Gollapalli, Tirupati, Chittoor Dist -517505.|0|YES|77
-21.07.09|60|60|60|0|0|60|0|240|
-RGAN|RISE Gandhi Group of Institutions, Valluru Village, Tanguturu Mandal, Prakasam Dist.|0|YES|93
-27.07.09|60|60|60|0|0|60|0|240|
-RPRA|RISE Prakasam Group of Institutions, Valluru Village, Tanguturu Mandal, Prakasam Dist.|0|YES|93
-27.07.09|60|60|60|0|0|60|0|240|
-RITW|Rishi M.S. Institute of Engineering and Technology for Women, 
-1-2-54/1, Opp.JNTU, Kukatpally, Hyderabad-85.|0|YES|108 01.08.09|90|60|90|60|0|0|0|300|
-SKCP|||||||||||||
-SLCP|||||||||||||
-SNVM|||||||||||||
-SPRG|SPR College of Engg. & Tech.,
+Nellore Dist., - 524 101.",120,120,0,0,0,420,www.necnellore.com
+NRNP
+NIST,60,60,"Narayanadri Institute of Science & Technology, Anantharajapuram, Rajampet -Venkatpally Road, Rajampet, Kadapa Dist -516115.",60,0,60,0,0,240,http://nistrjp.com/ftpadmin/index.htm
+NITL
+NITN,60,60,"Narasaraopet Inst. of Tech., Kotappakonda Road, Yellamanda Post, Narasaraopet, Guntur Dist - 522 601",120,60,0,0,0,300,www.nrtenggcollege.com
+NSPP
+NSPE,120,120,"Narasaraopeta Engg. College, Kotappakonda Road, Yelamanda, Narsaraopet, Guntur Dist.-522601",120,90,60,60,0,570
+NRCM,120,0,"Narsimha Reddy Engg. College, Sy.No.518, Maisammaguda, Gundlapochampally, Medchal (M), R.R. Dist.,",120,0,60,0,0,300,www.narsimhareddyinstitutions.com
+NBIP
+NBKR,120,120,"NBKR Institute of Sci. and Tech., Vidyanagar, Nellore Dist.-524413",120,0,60,60,"60 - Electronics, Instrumentation & Control Engg.",540,nbkrist.org
+NIPH
+NIET,120,60,"Netaji Institute of Engg. & Tech., Tupranpet, Near Ramoji Film City, Choutuppal (M), Nalgonda Dist. - 508 252.",120,120,0,0,0,420,www.nietians.org
+NTJP
+NICT,60,0,"New India College of Engg. & Tech., Gollapalli, Chevella, R.R. Dist.,",60,60,60,0,0,240,www.nsitonline.in
+NNIT,60,60,"New Netaji Inst. of Tech., Toopranpet, Near Ramoji Film City, Choutuppal (M), Nalgonda Dist. - 508 252",120,60,0,0,0,300
+NEWT,120,60,"Newton's Institute of Engg., Alugurajapally, Kupunoor(p), Macherla, Guntur dist.-522426.",120,90,0,0,0,390,http://www.nista1.com/
+NEXS,60,60,"Nexus College of Science & Tech, Yacharam (V), R.R. Dist - 501 509",120,60,0,0,0,300,www.nexusinstitutions.com
+NGMA,90,60,"Nigama Engg. College, Sambaiahpally (V), Karimnagar Dist. - 505 186",90,60,0,0,0,300,www.nigamacollege.com
+NECW,60,60,"Nightingale Engineering College (Women), Girijala Village, Anandapuram Mandal, Visakhapatnam Dist.",60,0,60,60,0,300
+NMRW,120,30,"Nimra Women's College of Engg., Nimra Nagar, Jupudi - 521 456, Ibrahimpatnam, Vijayawada, Krishna Dist.,",120,90,0,0,0,360,www.nimra.in
+NRML
+NICP
+NSHT,120,60,"Nishitha College of Engg. & Tech, Lemoor, Kandukur (M), R.R.Dist.,",120,60,60,0,0,420
+NETW,90,0,"Noble College Engg. & Tech. for Women, Nadargul (V), Saroornagar (M), R.R. Dist.",120,90,0,0,0,300,www.ncet.ac.in
+NOOR,60,0,"Noor College of Engg., & Tech., Noor Gate, Solipur, Amangal Road, Shadnagar-509216, Mahabubnagar dist.",90,60,30,30,0,270,www.noorenggcollege.com
+NOVP
+NOVH,120,30,"Nova College of Engg & Tech, Jafferguda, Batasingaram (V), Hayatnagar (M), R.R.Dist-501 512.",120,90,0,0,0,360,http://www.nova.ac.in
+NOVA,,,,,,,,,,http://www.novaenggjaff.ac.in/
+NOVW,120,0,"Nova College of Engg & Tech for Women, Judpudi, Ibrahimpatnam, Krishna Dist",120,120,0,0,0,360,http://www.novaenggwomenvja.ac.in
+NVAV,60,60,"Nova College of Engg. & Tech., Ibrahimpatnam (M), Krishna Dist - 521 105",60,60,0,60,0,300,http://novaenggjaff.ac.in/
+NCPV,,,,,,,,,,http://www.novaenggelr.ac.in/
+NBSP
+NVEW,90,60,"Nova's Inst. of Tech. for Women, Sanivarapupet, Thangellamudi (V), Elugu (M), W.G.Dist - 521 106",90,0,0,60,0,300,http://www.novaenggwomenelr.ac.in
+NVHW,90,60,"Nova Institute of Technological Research for Women, Jafferguda, Batasingaram (V), Hayathnagar, R.R.Dist.",90,0,60,0,0,300
+NRIH,60,0,"NRI Institute of Technology, Srisailam Highway, Kothur Village, R.R.Dist.",60,0,60,60,0,240,http://www.nricolleges.com
+NRIA,60,60,"NRI Inst. of Tech., Pothavarappadu (V), Via Nunna Agiripalli, Krishna Dist. - 521 212",120,0,0,60,0,300,www.nriit.ac.in
+NRIT,60,60,"NRI Inst. of Tech., Perecharla, Visadala Road, Guntur - 522 009",60,60,0,60,0,300
+OUCE
+OUCT
+PPDG
+VITK,120,60,"Parvathareddy Babul Reddy (PBR) Visvodaya Inst. of Tech. & Sci., Kavali-524201, Nellore Dist.,",120,60,60,0,0,420
+IRMC,120,60,"P.Indra Reddy Memorial Engg. College, Chevella, R.R.Dist. - 501 503.",120,60,60,0,0,420,www.pirmec.org
+PNCV,60,60,"Paladugu Nagaiah Chowdary & Vijai Inst. of Engg. & Tech., (PNC) Repudi (V), Pirangipuram, Guntur Dist. - 522 529.",60,60,0,0,0,240,www.pnckr.com
+PRMP
+PVKK,60,60,"PVKK Inst. of Tech., Sanapa Road, Rudrampeta, Anantapur Dist.",60,60,0,0,0,240,www.pvkkinstitution.com
+PACE,60,60,"PACE Inst. of Tech. & Sciences, Vallur (V), NH-5, Ongole, Prakasam Dist - 523 001.",60,60,0,60,0,300
+PPDV,60,60,"Paladugu Parvathidevi College of Engg. & Tech., Surampalli (V), Gannavaram (M), Krishna Dist - 521 212.",90,60,0,0,0,270,www.ppdcet.ac.in
+PLMU
+PANI,60,0,"Panineeya Institute of Technology & Science, Vivekananda Nagar, Dilsukhnagar, Hyderabad",60,0,60,60,0,240,www.pmids.org
+PECH,60,60,"Pathfinder Engineering College, Thimmapur, Hanmakonda, Warangal -506005",60,0,0,60,0,240
+PATH,,,,,,,,,,http://pathfinderwgl.com
+PECC,60,60,"Ponnur Engineering College, Chintalapudi, Ponnur Mandal,Guntur Dist.",60,0,0,60,0,240,http://ponnurec.org
+PSCV,60,60,"Potti Sriramulu College of Engg. & Tech., Kothapeta, Vijayawada, Krishna Dist. - 520 001.",90,60,0,0,0,270,www.psrcmr.com
+PBTP
+PPCJ,,,,,,,,,,www.pragati.ac.in
+PRAG,120,60,"Pragati Engineering College, 1-378, ADB Road, Surampalem, Peddapuram, E.G.Dist -533437.",120,60,60,0,0,420,www.pragati.ac.in
+PITM,90,60,"Prajna Instt. of Tech. & Mgmt, NH-5, Ramakrishnapuram, Palasa-532243, Ragoi, Via Haripuram, Srikakulam dist.,",90,60,60,0,0,360,www.prajnaitm.com
+PKSK,120,90,"Prakasam Engineering College, O.V.Road, Kandukur, Kanigiri Road, Prakasam Dist., - 523 105.",120,90,0,0,0,420,www.prakasamec.com
+PECJ,60,60,"Prasad Engineering College, Shameerpet (V), Jangaon (M), Warangal Dist. 506167.",60,0,0,60,0,240,www.prasadengineeringcollege.ac.in
+PPSJ
+PITS,60,60,"Prasad Inst. of Tech. & Sci. Vidyanagar, Jaggayyapet, Krishna Dist.,",60,60,0,0,0,240
+PPSV,120,90,"Prasad V Potluri Siddhartha Institute of Tech., Kanuru, Vijayawada, Krishna Dist.-520 007.",120,90,60,60,"60 - Electronics, Computer & Engg.
+30- Aero",630,www.pvpsiddhartha.ac.in
+PCET,60,60,"Prasiddeha College of Engineering & Technology, Ananthavaram Village, Amalapuram, E.G.Dist.",60,0,60,0,0,240,www.prasiddhaamp.com
+PNRP
+PTBP
+PIPS
+PIME,0,60,"Praveenya Inst. of Marine Engg., Modavalsai (V), Denkada (M), Vijayanagaram Dist - 531 162",60,0,60,60,0,240,www.primevisakha.com
+PRIN,120,60,"Princeton College of Engg. & Tech., Ankushapur, Ghatkesar (M), R.R.Dist. - 501 301.",120,60,60,0,0,420
+PCOP
+PETW
+PRIK,120,60,"Priyadarshini Coll of Engg. & Tech, Kanuparthipadu, A.K.Nagar, Nellore-524004.",120,120,0,0,0,420
+PDCS,120,60,"Priyadarshini College of Engineering, Sullurpet, Nellore Dist., - 524 121",120,120,0,0,0,420,www.priyadarshini.org
+PDIT,60,60,"Priyadarshini Inst. of Tech., C.Ramachandrapuram, Tirupati, Chittoor Dist.",120,60,0,0,0,300
+PINN
+PRIP
+PITW,90,0,"Priyadarshini Inst. of Tech. & Science for Women, Sy.No.153, 152/3, 137/1, 137/2, 140/5, Chintalapudi, Tenali, Guntur Dist.- 522 306",90,90,0,30,0,300
+PITT,120,60,"Priyadarshini Instt. of Tech. &Sci, Sy.No.152, 154, Chintalapudi,Tenali, Guntur Dist.-522306.",120,60,0,0,0,360
+PRKP
+PPSG
+RREP,120,60,"Prof. Rama Reddy College of Engg. & Tech., Nandigama (V), Patancheru, Medak Dist. - 502 300",60,0,60,0,0,300,http://prrcet.blog.co.in
+PROG,120,60,"Progressive Engg. College,
+ChikatiMamidi, Bhongir(v), Bommalaramaram, Nalgonda Dist- 508 116.",120,0,60,60,0,420
+PRRP
+PRRM,120,60,"PRR Memorial Engineering College, Shabad, R.R.Dist. - 509 217.",120,60,60,0,0,420
+PJMS,60,60,"Pujya Shri Madhavanji College of Engg. & Tech., Karmanghat,
+Near Sagar 'X' Road, Hyderabad",120,0,0,60,0,300
+PJSM,60,60,"Pujya Shri Madhavanji Inst. of Science & Tech., Bhagavathipuram, Mohabatnagar, Tummuluru G.P. Maheswaram, R.R. Dist. - 501 359",90,0,60,0,0,270,www.pjsmist.org
+PULI
+PPIT,90,60,"Pulipati Prasad Inst. of Tech. & Science, Sri Balaji Nagar, Near Ammapalem, Waya Road, Khammam - 507 305",90,60,0,0,0,300,www.pulipatinursing.org
+PREM,0,60,"Pulla Reddy Engg.College, Wargal Village, Medak Mandal",60,0,60,60,0,240
+PURD
+PRTM,60,0,"Pulla Reddy Inst. of Tech., S.No.2096, Wargal (V&M), Medak Dist.-502 278",120,60,0,0,60 - Aerunautical Engg.,300,www.prit.ac.in
+PYDE,60,60,"Pydah College of Engineering, Patavala, Kakinada, E.G.Dist.",60,0,0,60,0,240,www.pydaheee.com
+PYDA,120,60,"Pydah College of Engg. & Tech., Gambheeram, Anandapuram (M), Visakhapatnam - 531 163.",120,0,0,120,0,420,www.pydaheee.com
+PYDP
+QISE,120,120,"QIS College of Engg. & Tech., Vengamukkapalem, Pondur Road, Ongole-523272, Prakasam Dist.,",120,60,120,0,0,540,www.qiscet.com
+QISP
+QITO,60,60,"QIS Inst. of Tech., Vengamukkapalem, Pondur Road, Ongole, Prakasam Dist - 523 272",120,60,0,0,0,300,www.qisit.edu.in
+RBVW
+RGRS
+RVJC,120,120,"RVR & JC College of Engg., Chandramoulipuram, Chowdavaram, Guntur Dist.,",120,120,120,120,"60 - Chemical Engg.
+60- Bio Tech",840,rvrjcce.ac.in
+RVRI
+RKCE,60,60,"RK College of Engg., R.S.No.52, 53, Navepotavaram (V), Ketana Konda, Ibrahimpatnam, Vijayawada -521 456.",120,60,0,0,0,300,www.rkce.in
+RRST,120,0,"RRS College of engg. & Tech. (St. Stanley), Sy.No.230, 295 & 296, Muthangi (V), Patancheru (M), R.R. Dist.",120,120,0,0,60 - Bio-Technology,420,www.rrscet.com
+RIPA
+RCPV
+RAGU,120,60,"Raghu Engineering College, Dakamarri, Bheemili, Bheemunipatnam(M), Visakhapatnam -531162.",120,60,60,0,0,420,www.raghuenggcollege.com
+RITV,60,60,"Raghu institute of Technology, Dakamarri, Bheeminipatnam, Visakhapatnam Dist.,",60,60,60,0,0,300,www.rit-vsp.com
+RHLP
+RMCK,120,60,"Raja Mahendra College of Engg., Khalsa, Ibrahimpatnam, R.R.Dist., - 501 506.",120,120,0,0,0,420,www.rajamahendra.org
+RECR
+RIET,60,60,"Rajamahendri Inst. of Engg. & Tech., Bhupalapatnam, Rajahmundry, E.G. Dist.",120,60,0,0,0,300
+RGIT,120,120,"Rajeev Gandhi Memorial College of Engg. & Tech., Nandyal, Kurnool - 518 501.",120,120,120,60,120 - Electronics & Instru. Engg.,780,www.rgitnandyal.com
+RVPW,90,60,"Rajoli Veera Reddy Padmaja Engg. College for Women, Pulivendula Road, Tadigotia (V), C.K. Dinne (M), Kadapa - 516 003",90,90,0,0,0,330
+RCEE,60,60,"Ramachandra College of Engg., Vatluru (V), Peddapadu (M), Eluru - 534 007.",120,60,0,0,0,300
+RECN,60,60,"Ramanandatirtha Engg. College, Ramanada Nagar, Cherlagowraram (V), Kangal, Nalgonda Dist.- 508 004",120,60,0,0,0,300,www.srtist.ac.in
+RAMP,120,60,"Ramappa Engineering College, Maheshwaram, Hunter Road, Shyampet Jagir, Hanamkonda, Warangal Dist., - 506 101.",120,120,0,0,0,420
+RSRN,60,60,"Rami Reddy Subbarami Reddy Engg. College, Kadanthula (V), Bogole (M), Nellore Dist - 524 201",120,60,0,0,0,300,www.rsrec.in
+RNEC,120,60,"Rao & Naidu Engg. College,
+Near South By-pass Road, Ongole-523001, Prakasam Dist.",120,60,60,0,0,420,www.rnec-ongole.com
+RAOS
+RESN
+RAVW,120,60,"Ravindra College of Engg. For Women, nandikotkur Road, Pasupala (V), Kurnool Dist - 518 002.",90,60,0,0,0,330,www.recw.ac.in
+SEAT,60,60,"Rayalaseema School of Engg. & Research, Chinthagunta (V), Near C.Gollapalli, Tirupati, Chittoor Dist -517505.",60,0,0,60,0,240
+RGAN,60,60,"RISE Gandhi Group of Institutions, Valluru Village, Tanguturu Mandal, Prakasam Dist.",60,0,0,60,0,240
+RPRA,60,60,"RISE Prakasam Group of Institutions, Valluru Village, Tanguturu Mandal, Prakasam Dist.",60,0,0,60,0,240
+RITW,90,60,"Rishi M.S. Institute of Engineering and Technology for Women, 
+1-2-54/1, Opp.JNTU, Kukatpally, Hyderabad-85.",90,60,0,0,0,300
+SKCP
+SLCP
+SNVM
+SPRG,60,60,"SPR College of Engg. & Tech.,
 Ankushapur, Ghatkesar,
-R.R.Dist. - 501 301.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|www.sprcollegeofengineering.com
-SRPH|||||||||||||
-SRHP|SR Engineering College,
-Ananthasagar, Hasanparthy (M), Warangal Dist. - 506 371.|0|YES|552
-24.07.09|120|90|120|60|60|60|0|510|www.srecwarangal.ac.in
-SRKI|SRK Institute of Technology, NH-5, Enikepadu, Vijayawada, Krishna Dist., - 521108.|0|YES|552
-24.07.09|90|0|120|60|0|90|0|360|www.srkit.in
-SRKR|Sagi Ramakrishna Raju (SRKR) Engg. College, Bhimavaram, West Godavari Dist.,|0|YES|552
-24.07.09|120|120|120|120|120|120|0|720|www.srkrec.ac.in
-SRCP|||||||||||||
-SRTI|Swami Ramanandha Thirtha Institute of Science & Tech., SLBC Post, Ramananda Nagar, Nalgonda Dist., - 508 004.|0|YES|552
-24.07.09|120|90|120|60|60|60|60 - Electronics & Instru. Engg.|570|www.svsit.ac.in
-SSJP|||||||||||||
-SVUC|||||||||||||
-CHVN|||||||||||||
-SCON|||||||||||||
-SAGR|Sagar Institute of Technology (SVVR Educational Society Group of Inst.) Urella (V), Chevella (M), Ranga Reddy Dist -501 503.|0|YES|76 21.07.09|60|60|60|0|0|60|0|240|www.svvr.org
-SAJW|Sahaja Inst. of Tech. Sciences for Women, Kothapalli (H), Rekurthy, Karimnagar Dist - 505 451|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|
-SCEW|Sahasra College of Engineering For Women, Vangapahad Village, Hasanparthi Mandal, Warangal Dist.|0|YES|86
-24.07.09|90|60|90|0|0|60|0|300|
-SHIP|||||||||||||
-SPCP|||||||||||||
-SAIS|Sai Spurty Institute of Tech., B.Gangaram, Sattupally, Khammam - 507 303.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-SSUW|Sai Sudhir Inst.of Engineering & Tech. for Women, Sy.No.112 & 106, Godhumakunta, Keesara Mandal, R.R.Dist.-500 062.|0|YES|G.O.Ms.No.73
-20.07.09|90|60|90|0|60|0|0|300|www.ssietw.com
-SMSK|Samskruti College of Engg., & Tech., (St.Vincent) Kondapur, Ghatkesar, R.R. Dist.- 501301.|2008-09|YES|552
-24.07.09|120|60|120|60|0|60|0|420|www.samskrutienggcollege.com
-SNAA|||||||||||||
-SANA|Sana Engineering college, NH-9, Kodad, Nalgonda - 508206.|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|
-STMV|Sankethika Institute of Technolgy & Management, Pothinamallyyapalem Educational Complex, Visakhapatnam.|0|YES|79
-24.07.09|0|60|60|0|60|60|0|240|
-SAVE|Sankethika Vidya Parishad Engg. Coll., Pothinamallaya Palem, Visakhapatnam - 530 041.|0|YES|552
-24.07.09|90|60|90|0|90|60|0|390|
-SRCN|||||||||||||
-SREC|Santhiram Engg. College, NH-18, Nandyal, Kurnool dist|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.srecnandyal.com
-SITM|Sarada Institute of Sci. & Tech. & Mngt, Sy.No.164,165,174,175, 176,177,178 Ampolu Road, Srikakulam - 532 404.|0|YES|552
-24.07.09|60|60|60|60|60|0|0|300|www.sistam.org
-SITK|Sarada Institute of Tech. & Sci., Sarada Nagar,Raghunathapalem, Khammam - 507 002.|0|YES|552
-24.07.09|60|60|90|60|0|60|0|330|
-SPCS|||||||||||||
-SITT|Sarojini Inst. of Tech., Telaprolu (V), Unguturu (M), Krishna Dist. - 521 109|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-SRPN|||||||||||||
-SASI|Sasi Institute of Tech. & Engg., Kadakatia-534101, Tadepalligudem, W.G.Dist.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.sasi.ac.in
-SVHU|||||||||||||
-SVHUSF|||||||||||||
-SPMU|||||||||||||
-SPMUSF|||||||||||||
-SNTI|Scient Institute of Tech., Sy.No.324,323,326, Khalsa, Ibrahimpatnam, R.R.Dist.-505 506|0|YES|552
-24.07.09|120|60|120|90|0|30|0|420|www.scientinst.ac.in
-SESP|||||||||||||
-SEST|Seshachala Inst. of Tech., Tirupati Chennai Highway, Puttur, Chittoor Dist. - 517 583.|0|YES|552
-24.07.09|60|90|90|0|60|0|0|300|
-SHCP|||||||||||||
-SCOP|||||||||||||
-SCET|Shadan College of Engg. & Tech, Peerancheru, Himayatsagar Road, Hyderabad – 500 008.|PM|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.swcet.in
-SWET|Shadan Women’s College of Engg. & Tech., 6-2-978, Khairatabad, Hyderabad - 500 004.|2009-10|YES|552
-24.07.09|60|60|120|120|0|0|0|360|
-SWCP|||||||||||||
-SJHN|Shahjehan College of Engg.& Tech., Sy.No.232&239, Nyalata, Ramannaguda Rd, Chevella (M), R.R. Dist.-501 503.|0|YES|552
-24.07.09|60|30|60|0|0|0|0|150|
-SNTP|||||||||||||
-SCPK|||||||||||||
-SHAZ|Shaaz College of Engg. & Tech., Himayatnagar, Moinabad, R.R. dist.,-500 075|2009-10|YES|552
-24.07.09|90|60|90|0|60|0|0|300|www.shaaz.org
-SRKT|Shiva Rama Krishna College of Engineering & Technology, Turakala Kota, Nandigam Mandal Srikakulam Dist.|0|YES|107
- 01.08.09|60|60|60|0|0|60|0|240|
-SHRE|Shree Inst. of Tech. Education, Krishnapuram (V), Renigunta (M), Chittoor dist. - 517 520|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-SSEA|Shri Sai Institute of Engg. & Tech., NH-7, Podaralla (V), Bukkarayasamudram (M), Ananthapur Dist - 515 001.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.srisaiinstitutes.com
-SSSS|||||||||||||
-VISW|Shri Vishnu Engg. College for Women, Kovvada, Vishnupur, Bhimavaram, W.G.dist. - 534202.|0|YES|552
-24.07.09|120|60|120|120|0|60|Chemical Engg. -60|540|www.svecw.edu.in
-SIOP|||||||||||||
-SDTN|Siddharth Institute of Engg. and Tech., Siddharth Nagar, Narayanavanam Road, Puttur, Chittoor Dist. - 517583.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|
-SIPS|||||||||||||
-SIPN|||||||||||||
-SIST|Siddhartha Inst. of Science & Tech., Siddharth Nagar, Narayanavaram Road, Puttur, Chittoor Dist - 517 583.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-SIEI|Siddhartha Inst. of Engg. & Tech., Bagayath Ibrahimpatnam, Ibrahimpatnam (M), R.R. Dist - 501 506|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|
-SISG|Siddhartha Inst. of Tech. & Sciences, Korremula (V), Ghatkesar (M), R.R. Dist. - 501 301|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|http://ssit.edu.in
-SIMH|||||||||||||
-SIMS|||||||||||||
-SIND|Sindhura College of Engg. and Tech., Jyothinagar, Medipally, Godavarikhani, Ramagundam, Karimnagar - 505209.|0|YES|552
-24.07.09|90|120|120|0|0|0|0|330|
-CRRE|Sir CR Reddy College of Engg.,Vatluru, Eluru - 534 007, W.G.Dist.|0|YES
-|552
-24.07.09|120|90|120|60|60|60|60 - Electronics & Instru. Engg.|570|www.sircrrengg.ac.in,www.sircrrce.org
-CRRP|||||||||||||
-CVRT|Sir C.V.Raman Institute of Tech & Sciences, Anantapur Road, Behind Bharath Petroleum Bunk, Tadipatri, Anantapur Dist -515411.
-|0|YES|86
-24.07.09|60|60|60|0|0|60|0|240|
-SVTM|Sir Vishveshwaraiah Inst. of Science & Tech., Angallu, Madanapally, Chittoor Dist.-517325|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-SITA|||||||||||||
-SKRT|SKR College of Engineering & Technology, Konduru Satram (V), Manubolu (M), Nellore Dist - 524405|0|YES|83
-24.07.09|60|60|60|0|0|60|0|240|
-SLCH|SLC's Inst. of Engg. & Tech, Piglipur, Hayatnagar,Near Ramoji Film City, R.R.Dist.,-501512.|0|YES|552
-24.07.09|120|0|120|120|0|0|0|360|www.slciet.com
-SSRP|||||||||||||
-SPHN|Sphoorthy Engineering College (Bhagyanagar Inst. of Tech),  Nadargul, Saroornagar (M), Near Vanasthalipuram, R.R. Dist.-501510|0|YES|552
-24.07.09|120|0|120|60|0|60|0|360|
-SSST|Sri Sarada Inst. of Sci. & Tech., Anantharam, Near Bibinagar, Bhongir, Nalgonda dist.-508116.|0|YES|552
-24.07.09|120|60|90|0|0|0|0|270|
-VETS|Sri Venkateswara College of Engg. & Tech., Etcherla, Srikakulam - 532 402|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|
-SCIP|||||||||||||
-SCIT|Sree Chaitanya Inst. of Technological Sciences, LMD Colony, Thimmapoor, Karimnagar Dist. 505 527.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-SREE|||||||||||||
-SKEC|Sri Kavitha Engg. College, Karepalli, Yellandu, Khammam Dist., -507122.|0|YES|552
-24.07.09|120|60|120|60|0|60|0|420|www.sreekavithaengg.ac.in
-SKIT|Sree Kavitha Institute of Science & Technology, Krishnapuram (V), Madhira Mandal, Khammam.|0|YES|86
-24.07.09|60|60|60|0|60|0|0|240|
-SNCP|||||||||||||
-SRET|Sree Rama Engg. College, Karakambadi Road, Opp: LIC Training Centre, Venkatapuram (V), Ranigunta (M), Chittoor District - 517 520.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.srectpt.org
-SRIT|Sree Rama Instt. of Tech & Sci., Kuppenakuntla, Penuballi, Khammam Dist.-507302.|0|YES|552
-24.07.09|90|30|60|60|0|0|0|240|
-VHNI|Sree Vahini Inst. of Science & Tech., Nadim Tiruvuru, Beside Ganesh Temple, By Pass Road, Tiruvuru, Krishna Dist - 521 235.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-SECT|Srinivasa College of Engineering & Technology NH-7, Near Sakshi Paper, Lakshmi Puram, Kurnool|0|YES|81
-24.07.09|60|60|60|0|60|0|0|240|
-SKUA|Sri Krishnadevaraya Engg. College, NH-7, Gooty, Anantapur-515401.|0|YES|552
-24.07.09|60|60|120|30|60|60|0|390|
-SACS|Sri Aditya Engg. College, Aditya Nagar, Surampalem, Gandepalli (M), E.G. Dist. - 533 437.|0|YES|552
-24.07.09|60|120|120|0|0|0|0|300|adityaedu.org
-SBCP|||||||||||||
-CHTN|Sree Chaitanya College of Engg., LMD Colony, Thimmapur, Karimnagar Dist., - 505 527.|0|YES|552
-24.07.09|60|60|120|60|60|60|0|420|www.scce.ac.in
-SCEC|Sri Chaitanya Engineering College, Kommadi, Madhurawada, Visakhapatnam|0|YES|92
-25.07.09|60|60|60|0|60|0|0|240|
-CHET|Sri Chaitanya College of Engineering & Technology And Sri Chaitanya College of Business Management (MBA), (Integrated Campus),Sheriguda (V), Ibrahimpatnam (M), Ranga Reddy Dist.-501510|0|YES|104
-01.08.09|0|60|60|0|60|60|0|240|
-SDES|Sri Datta Inst. of Engg.& Science, (Narayanpet Inst.) Sheriguda, Ibrahimpatan, R.R.Dist.-501510.|0|YES|552
-24.07.09|120|60|60|60|60|60|0|420|http://www.sreedattha.ac.in
-SDIP|||||||||||||
-GNAW|Sri Gnaneswari Research & Technological Academy for Women, Kavulavada (V), Bhogapuram (M), Vizianagaram.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|http://avanthi.edu.in/avanthi-gnaneswari/index.html
-INDU|Sri Indu College of Engg. & Tech., Main Road, Sheriguda, Ibrahimpatnam, R.R.Dist.-501510.|2009-10|YES|552
-24.07.09|120|60|120|60|120|60|60 - Bio. Tech.
-60 - Aero. Engg.|660|www.sriindu.ac.in
-INDP|||||||||||||www.sriindu.ac.in
-KSIT|Sri K.S. Raju Inst. of Tech. and Sci., Kanakamamidi, Moinabad, R.R. Dist., - 501 504.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.ksit.co.in
-SKIH|||||||||||||
-SKHE|Sri Kalahastiswara Institute of Tech., Panagal, Srikalahasti, Chittoor Dist.,-517 644.|0|YES|552
-24.07.09|60|60|60|0|60|60|0|300|
-KTMC|Sri Kottam Tulasi Reddy Memorial College of Engg., Kondair, Itikyal(M), Mahabubnagar Dist. - 509 125|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.kottam.org
-SKUASF|||||||||||||
-KRUP|||||||||||||
-LNCP|||||||||||||
-SLVP|||||||||||||
-MPLG|Sri Mittapalli College of Engg., Tummapalem, NH-5, Guntur-522 233, Guntur Dist.,|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.srimittapallicollegeofengg.com
-MPLW|Sri Mittapalli Inst. of Tech. for Women, Tummalapalem, NH-5, Guntur Dist. - 522 233.|0|YES|552
-24.07.09|120|30|120|90|0|0|0|360|
-SNRM|Sri Nagoji Rao Institute of Tech.& Science for Women, Thirumala Hills, Appannapally.|0|YES|79
-24.07.09|60|60|90|0|0|0|EIE-90|300|
-SPCK|||||||||||||
-SPSP|||||||||||||
-SPCT|Sri Prakash College of Engg., Rajupeta, Kothuru, Tuni, E.G.Dist.,-533 401.|0|YES|552
-24.07.09|60|60|120|60|0|0|Chemical Engg. -30|330|www.spcetuni.ac.in
-SRVT|Sri Raghavendra Inst. of Science & Tech., Kavali Udayagiri Road, Vinjamur (P&M), Nellore dist.-524 228.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|http://srist.org
-SISP|||||||||||||
-SISS|Sri Sai Aditya Institute of Sci. & Tech., Aditya Nagar, ADB Road, Surampalem-533 437, Gundepalli, E.G.Dist.|0|YES|552
-24.07.09|120|120|120|60|0|0|0|420|
-SSCT|Sri Sai College of Engg. & Tech., Loluru (V), Ananthapur - 515 004.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-SAIP|||||||||||||
-SAIK|Gate School of Engineering ( Sri sai Educational Society's Group of Institutions), Ramapuram (V), Kodad (P), Chilkur (M), Nalgonda Dist.-508206|0|YES|79
-24.07.09|60|60|60|0|60|0|0|240|
-SRSR|Sri Sai Institute of Tech. & Sci., 2/714-18, Gollapally, Rayachoti, Kadapa Dist., - 516270.|0|YES|552
-24.07.09|120|90|120|90|0|0|0|420|www.srisaiinstitutes.com
-SSMR|Sri Sai Madhavi Inst. of Science & Tech., Near Rajahmundry, Rajanagaram, E.G. Dist. - 533 294|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-SSPC|||||||||||||
-SIEN|Sri Sarathi Institute of Engg. & Tech., Nuzvid - 521201,
-Krishna Dist.,|0|YES|552
-24.07.09|90|90|120|60|60|0|0|420|www.ssiet.ac.in
-SSNE|Sri Satya Narayana (SSN) Engg. Coll., Kurnool Road, Ongole, Prakasam Dist., - 523 225.|0|YES|552
-24.07.09|90|60|120|60|0|0|0|330|www.ssn.ac.in
-SVNP|||||||||||||
-SPCN|||||||||||||
-SSCE|Sri Sivani College of Engg, NH-5, Chilakalapalem Jn, Etcherla (M), Srikakulam - 532 402.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|http://srisivani.ac.in
-SSCP|||||||||||||http://srisivani.ac.in
-SITS|Sri Sivani Inst. of Tech., Chilakapalem Jn. Etcherla (M), Srikakulam Dist. - 532 402|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|http://srisivani.ac.in
-SUNL|Sri Sunflower College of Engg & Tech., Lankapalli, Ghantasala, Krishna Dist.,|0|YES|552
-24.07.09|120|60|120|60|0|60|0|420|www.sunflowercet.org
-VKRT|Sri Vatsavi Krishnam Raju College of Engg. & Tech., Gollalakoderu, Palakoderu (M), W.G. Dist. - 534 212.|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|
-VAIS|Sri Vaishnavi College of Engg., Singupuram (V), Srikakulam (M), Srikakulam Dist - 532 185|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.srivaishnavi.co.in
-VANI|Sri Vani School of Engineering, Chevuturu Village, G.Konduru Mandal, W.G.Dist.|0|YES|108 01.08.09|60|60|60|0|60|0|0|240|
-VSVT|Sri Vasavi Engineering College, Pedatadepalli, Tadepalligudem. W.G.Dist. - 534 101.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.srivasaviengg.ac.in
-VSEK|Sri Vasavi Inst. of Engg. & Tech., Kanuru (V), Peravali (M), W.G. Dist.-534 329|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|www.srivasaviengg.ac.in
-VSVP|||||||||||||
-SVET|Sri Vasavi Inst. of Engg. & Tech., Nandamuru Pedana (M), Krishna Dist - 521 369|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|www.svietk.org.in
-SSNO|Sri Veeravenkata Satyanarayana (SVVSN) Engg. Coll., Ongole, Santhanutalapadu, Prakasam-523225.|0|YES|552
-24.07.09|120|60|120|0|60|60|0|420|www.ssneco.org
-SVPP|Sri Venkatesa Perumal College of Engg. and Tech, RVS Nagar, Chinnaraja, Kuppam, Puttur, Chittoor Dist.,-517583|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|
-SVCE|Sri Venkateswara College of Engg., Opp.LIC Training Centre, Karakambadi Road, Mangalam, Tirupati-517507, Thimminaidupalem, Chittoor.|0|YES|552
-24.07.09|90|60|60|60|0|0|0|270|
-SVCT|Sri Venkateswara Coll. of Engg. & Tech., Thenepalli, Puthalpat, RVS Nagar, Marukambattu, Chittoor dist.,-517127|0|YES|552
-24.07.09|60|90|120|60|90|60|0|480|
-SVCP|||||||||||||
-VCOP|||||||||||||
-VNKS|||||||||||||
-SVEW|Sri Venkateswara Engg. College for Women, Opp. LIC Training Centre, Karakambadi Road, Tirupati, Chittoor Dist -517507.|0|YES|86
-24.07.09|90|90|90|0|0|0|0|270|
-SVES|Sri Venkateswara Engg. College, NH-9, Amaravadhi Nagar, Suryapet, Nalgonda Dist.-508213.|0|YES|552
-24.07.09|60|60|60|40|60|0|45 - Chemical Engg.|325|www.sves-srpt.ac.in
-VIST|Sri Venkateswara Inst. of Science & Information Tech. (VISIT), Parakasaraopalem (V), Nallajerla (M), W.G. Dist.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-SVAP|Sri Venkateswara Institute of Technology, Hampapuram, Rapthadu (M), Anantapur Dist - 515001. |0|YES|49
-22.06.09|60|60|60|0|60|0|0|240|
-SVIK|Sri Venkateswara Inst. of Science & Tech., Tadigotla, C.K.Divine, Kadapa Dist.,|0|YES|552
-24.07.09|120|60|60|0|0|60|0|300|www.svis-tech.com
-SVNE|Sri Vidyaniketan Engg. College, Sri Sainath Nagar, A.Rangampet, Near Tirupathi, Chittoor Dist.,-517102.|0|YES|552
-24.07.09|120|120|120|120|0|60|30 - Bio. Tech.
+R.R.Dist. - 501 301.",60,60,0,60,0,300,www.sprcollegeofengineering.com
+SRPH
+SRHP,120,90,"SR Engineering College,
+Ananthasagar, Hasanparthy (M), Warangal Dist. - 506 371.",120,60,60,60,0,510,www.srecwarangal.ac.in
+SRKI,90,0,"SRK Institute of Technology, NH-5, Enikepadu, Vijayawada, Krishna Dist., - 521108.",120,60,0,90,0,360,www.srkit.in
+SRKR,120,120,"Sagi Ramakrishna Raju (SRKR) Engg. College, Bhimavaram, West Godavari Dist.,",120,120,120,120,0,720,www.srkrec.ac.in
+SRCP
+SRTI,120,90,"Swami Ramanandha Thirtha Institute of Science & Tech., SLBC Post, Ramananda Nagar, Nalgonda Dist., - 508 004.",120,60,60,60,60 - Electronics & Instru. Engg.,570,www.svsit.ac.in
+SSJP
+SVUC
+CHVN
+SCON
+SAGR,60,60,"Sagar Institute of Technology (SVVR Educational Society Group of Inst.) Urella (V), Chevella (M), Ranga Reddy Dist -501 503.",60,0,0,60,0,240,www.svvr.org
+SAJW,120,60,"Sahaja Inst. of Tech. Sciences for Women, Kothapalli (H), Rekurthy, Karimnagar Dist - 505 451",120,60,0,0,0,360
+SCEW,90,60,"Sahasra College of Engineering For Women, Vangapahad Village, Hasanparthi Mandal, Warangal Dist.",90,0,0,60,0,300
+SHIP
+SPCP
+SAIS,120,60,"Sai Spurty Institute of Tech., B.Gangaram, Sattupally, Khammam - 507 303.",120,60,60,0,0,420
+SSUW,90,60,"Sai Sudhir Inst.of Engineering & Tech. for Women, Sy.No.112 & 106, Godhumakunta, Keesara Mandal, R.R.Dist.-500 062.",90,0,60,0,0,300,www.ssietw.com
+SMSK,120,60,"Samskruti College of Engg., & Tech., (St.Vincent) Kondapur, Ghatkesar, R.R. Dist.- 501301.",120,60,0,60,0,420,www.samskrutienggcollege.com
+SNAA
+SANA,120,120,"Sana Engineering college, NH-9, Kodad, Nalgonda - 508206.",120,60,0,0,0,420
+STMV,0,60,"Sankethika Institute of Technolgy & Management, Pothinamallyyapalem Educational Complex, Visakhapatnam.",60,0,60,60,0,240
+SAVE,90,60,"Sankethika Vidya Parishad Engg. Coll., Pothinamallaya Palem, Visakhapatnam - 530 041.",90,0,90,60,0,390
+SRCN
+SREC,60,60,"Santhiram Engg. College, NH-18, Nandyal, Kurnool dist",120,60,0,0,0,300,www.srecnandyal.com
+SITM,60,60,"Sarada Institute of Sci. & Tech. & Mngt, Sy.No.164,165,174,175, 176,177,178 Ampolu Road, Srikakulam - 532 404.",60,60,60,0,0,300,www.sistam.org
+SITK,60,60,"Sarada Institute of Tech. & Sci., Sarada Nagar,Raghunathapalem, Khammam - 507 002.",90,60,0,60,0,330
+SPCS
+SITT,60,60,"Sarojini Inst. of Tech., Telaprolu (V), Unguturu (M), Krishna Dist. - 521 109",60,60,0,0,0,240
+SRPN
+SASI,120,60,"Sasi Institute of Tech. & Engg., Kadakatia-534101, Tadepalligudem, W.G.Dist.",120,60,60,0,0,420,www.sasi.ac.in
+SVHU
+SVHUSF
+SPMU
+SPMUSF
+SNTI,120,60,"Scient Institute of Tech., Sy.No.324,323,326, Khalsa, Ibrahimpatnam, R.R.Dist.-505 506",120,90,0,30,0,420,www.scientinst.ac.in
+SESP
+SEST,60,90,"Seshachala Inst. of Tech., Tirupati Chennai Highway, Puttur, Chittoor Dist. - 517 583.",90,0,60,0,0,300
+SHCP
+SCOP
+SCET,120,60,"Shadan College of Engg. & Tech, Peerancheru, Himayatsagar Road, Hyderabad – 500 008.",120,60,60,0,0,420,www.swcet.in
+SWET,60,60,"Shadan Women’s College of Engg. & Tech., 6-2-978, Khairatabad, Hyderabad - 500 004.",120,120,0,0,0,360
+SWCP
+SJHN,60,30,"Shahjehan College of Engg.& Tech., Sy.No.232&239, Nyalata, Ramannaguda Rd, Chevella (M), R.R. Dist.-501 503.",60,0,0,0,0,150
+SNTP
+SCPK
+SHAZ,90,60,"Shaaz College of Engg. & Tech., Himayatnagar, Moinabad, R.R. dist.,-500 075",90,0,60,0,0,300,www.shaaz.org
+SRKT,60,60,"Shiva Rama Krishna College of Engineering & Technology, Turakala Kota, Nandigam Mandal Srikakulam Dist.",60,0,0,60,0,240
+SHRE,60,60,"Shree Inst. of Tech. Education, Krishnapuram (V), Renigunta (M), Chittoor dist. - 517 520",60,60,0,0,0,240
+SSEA,60,60,"Shri Sai Institute of Engg. & Tech., NH-7, Podaralla (V), Bukkarayasamudram (M), Ananthapur Dist - 515 001.",120,60,0,0,0,300,www.srisaiinstitutes.com
+SSSS
+VISW,120,60,"Shri Vishnu Engg. College for Women, Kovvada, Vishnupur, Bhimavaram, W.G.dist. - 534202.",120,120,0,60,Chemical Engg. -60,540,www.svecw.edu.in
+SIOP
+SDTN,120,60,"Siddharth Institute of Engg. and Tech., Siddharth Nagar, Narayanavanam Road, Puttur, Chittoor Dist. - 517583.",120,0,60,60,0,420
+SIPS
+SIPN
+SIST,60,60,"Siddhartha Inst. of Science & Tech., Siddharth Nagar, Narayanavaram Road, Puttur, Chittoor Dist - 517 583.",60,60,0,0,0,240
+SIEI,60,60,"Siddhartha Inst. of Engg. & Tech., Bagayath Ibrahimpatnam, Ibrahimpatnam (M), R.R. Dist - 501 506",120,0,60,0,0,300
+SISG,60,60,"Siddhartha Inst. of Tech. & Sciences, Korremula (V), Ghatkesar (M), R.R. Dist. - 501 301",60,60,0,60,0,300,http://ssit.edu.in
+SIMH
+SIMS
+SIND,90,120,"Sindhura College of Engg. and Tech., Jyothinagar, Medipally, Godavarikhani, Ramagundam, Karimnagar - 505209.",120,0,0,0,0,330
+CRRE,120,90,"Sir CR Reddy College of Engg.,Vatluru, Eluru - 534 007, W.G.Dist.",120,60,60,60,60 - Electronics & Instru. Engg.,570,"www.sircrrengg.ac.in,www.sircrrce.org"
+CRRP
+CVRT,60,60,"Sir C.V.Raman Institute of Tech & Sciences, Anantapur Road, Behind Bharath Petroleum Bunk, Tadipatri, Anantapur Dist -515411.
+",60,0,0,60,0,240
+SVTM,60,60,"Sir Vishveshwaraiah Inst. of Science & Tech., Angallu, Madanapally, Chittoor Dist.-517325",60,60,0,0,0,240
+SITA
+SKRT,60,60,"SKR College of Engineering & Technology, Konduru Satram (V), Manubolu (M), Nellore Dist - 524405",60,0,0,60,0,240
+SLCH,120,0,"SLC's Inst. of Engg. & Tech, Piglipur, Hayatnagar,Near Ramoji Film City, R.R.Dist.,-501512.",120,120,0,0,0,360,www.slciet.com
+SSRP
+SPHN,120,0,"Sphoorthy Engineering College (Bhagyanagar Inst. of Tech),  Nadargul, Saroornagar (M), Near Vanasthalipuram, R.R. Dist.-501510",120,60,0,60,0,360
+SSST,120,60,"Sri Sarada Inst. of Sci. & Tech., Anantharam, Near Bibinagar, Bhongir, Nalgonda dist.-508116.",90,0,0,0,0,270
+VETS,60,60,"Sri Venkateswara College of Engg. & Tech., Etcherla, Srikakulam - 532 402",120,0,60,0,0,300
+SCIP
+SCIT,60,60,"Sree Chaitanya Inst. of Technological Sciences, LMD Colony, Thimmapoor, Karimnagar Dist. 505 527.",120,60,0,0,0,300
+SREE
+SKEC,120,60,"Sri Kavitha Engg. College, Karepalli, Yellandu, Khammam Dist., -507122.",120,60,0,60,0,420,www.sreekavithaengg.ac.in
+SKIT,60,60,"Sree Kavitha Institute of Science & Technology, Krishnapuram (V), Madhira Mandal, Khammam.",60,0,60,0,0,240
+SNCP
+SRET,60,60,"Sree Rama Engg. College, Karakambadi Road, Opp: LIC Training Centre, Venkatapuram (V), Ranigunta (M), Chittoor District - 517 520.",120,60,0,0,0,300,www.srectpt.org
+SRIT,90,30,"Sree Rama Instt. of Tech & Sci., Kuppenakuntla, Penuballi, Khammam Dist.-507302.",60,60,0,0,0,240
+VHNI,60,60,"Sree Vahini Inst. of Science & Tech., Nadim Tiruvuru, Beside Ganesh Temple, By Pass Road, Tiruvuru, Krishna Dist - 521 235.",120,60,0,0,0,300
+SECT,60,60,"Srinivasa College of Engineering & Technology NH-7, Near Sakshi Paper, Lakshmi Puram, Kurnool",60,0,60,0,0,240
+SKUA,60,60,"Sri Krishnadevaraya Engg. College, NH-7, Gooty, Anantapur-515401.",120,30,60,60,0,390
+SACS,60,120,"Sri Aditya Engg. College, Aditya Nagar, Surampalem, Gandepalli (M), E.G. Dist. - 533 437.",120,0,0,0,0,300,adityaedu.org
+SBCP
+CHTN,60,60,"Sree Chaitanya College of Engg., LMD Colony, Thimmapur, Karimnagar Dist., - 505 527.",120,60,60,60,0,420,www.scce.ac.in
+SCEC,60,60,"Sri Chaitanya Engineering College, Kommadi, Madhurawada, Visakhapatnam",60,0,60,0,0,240
+CHET,0,60,"Sri Chaitanya College of Engineering & Technology And Sri Chaitanya College of Business Management (MBA), (Integrated Campus),Sheriguda (V), Ibrahimpatnam (M), Ranga Reddy Dist.-501510",60,0,60,60,0,240
+SDES,120,60,"Sri Datta Inst. of Engg.& Science, (Narayanpet Inst.) Sheriguda, Ibrahimpatan, R.R.Dist.-501510.",60,60,60,60,0,420,http://www.sreedattha.ac.in
+SDIP
+GNAW,90,60,"Sri Gnaneswari Research & Technological Academy for Women, Kavulavada (V), Bhogapuram (M), Vizianagaram.",90,60,0,0,0,300,http://avanthi.edu.in/avanthi-gnaneswari/index.html
+INDU,120,60,"Sri Indu College of Engg. & Tech., Main Road, Sheriguda, Ibrahimpatnam, R.R.Dist.-501510.",120,60,120,60,"60 - Bio. Tech.
+60 - Aero. Engg.",660,www.sriindu.ac.in
+INDP,,,,,,,,,,www.sriindu.ac.in
+KSIT,60,60,"Sri K.S. Raju Inst. of Tech. and Sci., Kanakamamidi, Moinabad, R.R. Dist., - 501 504.",120,60,0,0,0,300,www.ksit.co.in
+SKIH
+SKHE,60,60,"Sri Kalahastiswara Institute of Tech., Panagal, Srikalahasti, Chittoor Dist.,-517 644.",60,0,60,60,0,300
+KTMC,120,60,"Sri Kottam Tulasi Reddy Memorial College of Engg., Kondair, Itikyal(M), Mahabubnagar Dist. - 509 125",120,120,0,0,0,420,www.kottam.org
+SKUASF
+KRUP
+LNCP
+SLVP
+MPLG,120,60,"Sri Mittapalli College of Engg., Tummapalem, NH-5, Guntur-522 233, Guntur Dist.,",120,60,0,0,0,360,www.srimittapallicollegeofengg.com
+MPLW,120,30,"Sri Mittapalli Inst. of Tech. for Women, Tummalapalem, NH-5, Guntur Dist. - 522 233.",120,90,0,0,0,360
+SNRM,60,60,"Sri Nagoji Rao Institute of Tech.& Science for Women, Thirumala Hills, Appannapally.",90,0,0,0,EIE-90,300
+SPCK
+SPSP
+SPCT,60,60,"Sri Prakash College of Engg., Rajupeta, Kothuru, Tuni, E.G.Dist.,-533 401.",120,60,0,0,Chemical Engg. -30,330,www.spcetuni.ac.in
+SRVT,60,60,"Sri Raghavendra Inst. of Science & Tech., Kavali Udayagiri Road, Vinjamur (P&M), Nellore dist.-524 228.",60,60,0,0,0,240,http://srist.org
+SISP
+SISS,120,120,"Sri Sai Aditya Institute of Sci. & Tech., Aditya Nagar, ADB Road, Surampalem-533 437, Gundepalli, E.G.Dist.",120,60,0,0,0,420
+SSCT,60,60,"Sri Sai College of Engg. & Tech., Loluru (V), Ananthapur - 515 004.",120,60,0,0,0,300
+SAIP
+SAIK,60,60,"Gate School of Engineering ( Sri sai Educational Society's Group of Institutions), Ramapuram (V), Kodad (P), Chilkur (M), Nalgonda Dist.-508206",60,0,60,0,0,240
+SRSR,120,90,"Sri Sai Institute of Tech. & Sci., 2/714-18, Gollapally, Rayachoti, Kadapa Dist., - 516270.",120,90,0,0,0,420,www.srisaiinstitutes.com
+SSMR,60,60,"Sri Sai Madhavi Inst. of Science & Tech., Near Rajahmundry, Rajanagaram, E.G. Dist. - 533 294",60,60,0,0,0,240
+SSPC
+SIEN,90,90,"Sri Sarathi Institute of Engg. & Tech., Nuzvid - 521201,
+Krishna Dist.,",120,60,60,0,0,420,www.ssiet.ac.in
+SSNE,90,60,"Sri Satya Narayana (SSN) Engg. Coll., Kurnool Road, Ongole, Prakasam Dist., - 523 225.",120,60,0,0,0,330,www.ssn.ac.in
+SVNP
+SPCN
+SSCE,120,60,"Sri Sivani College of Engg, NH-5, Chilakalapalem Jn, Etcherla (M), Srikakulam - 532 402.",120,0,60,60,0,420,http://srisivani.ac.in
+SSCP,,,,,,,,,,http://srisivani.ac.in
+SITS,60,60,"Sri Sivani Inst. of Tech., Chilakapalem Jn. Etcherla (M), Srikakulam Dist. - 532 402",120,0,60,0,0,300,http://srisivani.ac.in
+SUNL,120,60,"Sri Sunflower College of Engg & Tech., Lankapalli, Ghantasala, Krishna Dist.,",120,60,0,60,0,420,www.sunflowercet.org
+VKRT,60,60,"Sri Vatsavi Krishnam Raju College of Engg. & Tech., Gollalakoderu, Palakoderu (M), W.G. Dist. - 534 212.",90,60,0,0,0,270
+VAIS,60,60,"Sri Vaishnavi College of Engg., Singupuram (V), Srikakulam (M), Srikakulam Dist - 532 185",90,60,0,0,0,270,www.srivaishnavi.co.in
+VANI,60,60,"Sri Vani School of Engineering, Chevuturu Village, G.Konduru Mandal, W.G.Dist.",60,0,60,0,0,240
+VSVT,120,60,"Sri Vasavi Engineering College, Pedatadepalli, Tadepalligudem. W.G.Dist. - 534 101.",120,120,0,0,0,420,www.srivasaviengg.ac.in
+VSEK,60,60,"Sri Vasavi Inst. of Engg. & Tech., Kanuru (V), Peravali (M), W.G. Dist.-534 329",60,60,0,60,0,300,www.srivasaviengg.ac.in
+VSVP
+SVET,60,60,"Sri Vasavi Inst. of Engg. & Tech., Nandamuru Pedana (M), Krishna Dist - 521 369",120,0,0,60,0,300,www.svietk.org.in
+SSNO,120,60,"Sri Veeravenkata Satyanarayana (SVVSN) Engg. Coll., Ongole, Santhanutalapadu, Prakasam-523225.",120,0,60,60,0,420,www.ssneco.org
+SVPP,120,60,"Sri Venkatesa Perumal College of Engg. and Tech, RVS Nagar, Chinnaraja, Kuppam, Puttur, Chittoor Dist.,-517583",120,120,0,0,0,420
+SVCE,90,60,"Sri Venkateswara College of Engg., Opp.LIC Training Centre, Karakambadi Road, Mangalam, Tirupati-517507, Thimminaidupalem, Chittoor.",60,60,0,0,0,270
+SVCT,60,90,"Sri Venkateswara Coll. of Engg. & Tech., Thenepalli, Puthalpat, RVS Nagar, Marukambattu, Chittoor dist.,-517127",120,60,90,60,0,480
+SVCP
+VCOP
+VNKS
+SVEW,90,90,"Sri Venkateswara Engg. College for Women, Opp. LIC Training Centre, Karakambadi Road, Tirupati, Chittoor Dist -517507.",90,0,0,0,0,270
+SVES,60,60,"Sri Venkateswara Engg. College, NH-9, Amaravadhi Nagar, Suryapet, Nalgonda Dist.-508213.",60,40,60,0,45 - Chemical Engg.,325,www.sves-srpt.ac.in
+VIST,60,60,"Sri Venkateswara Inst. of Science & Information Tech. (VISIT), Parakasaraopalem (V), Nallajerla (M), W.G. Dist.",120,60,0,0,0,300
+SVAP,60,60,"Sri Venkateswara Institute of Technology, Hampapuram, Rapthadu (M), Anantapur Dist - 515001. ",60,0,60,0,0,240
+SVIK,120,60,"Sri Venkateswara Inst. of Science & Tech., Tadigotla, C.K.Divine, Kadapa Dist.,",60,0,0,60,0,300,www.svis-tech.com
+SVNE,120,120,"Sri Vidyaniketan Engg. College, Sri Sainath Nagar, A.Rangampet, Near Tirupathi, Chittoor Dist.,-517102.",120,120,0,60,"30 - Bio. Tech.
 60 - Comp. Sci. & System Engg.
 120 - Electronics & Instr. Engg.
-60 - Electronics & Control System|810|www.vidyanikethan.edu
-SCPB|||||||||||||
-VITS|Sri Visveswaraya Inst. of Tech. & Sci., Chowdarpally, Devarakadra (M), Mahabubnagar - 509204.|0|YES|552
-24.07.09|120|40|120|60|40|40|0|420|http//www.svits.org
-VIVK|Sri Viveka Inst. of Tech., Vivek Nagar, Madalavarigudem, Gannavaram (M), Krishna Dist.-521 212.|0|YES|552
-24.07.09|60|90|90|60|0|0|0|300|
-SDEW|Sridevi Women's Engg. College, Vattinagulpally, C.B.Post, Gandipet, Hyderabad - 500 075.|0|YES|552
-24.07.09|120|60|120|60|0|0|60 - Electronics & Instru. Engg.|420|www.srideviengg.com
-KDEG|||||||||||||
-SNIS|Srinidhi Institute of Sci. & Tech., Yamnampet, Ghatkesar, R.R. Dist.,-501301.|0|YES|552
-24.07.09|120|120|120|120|120|0|120 - Bio. Tech.
-120 - ECM|840|www.snist.com
-SNRJ|Srinivas Reddy Institute of Tech., Munipally, Jakrampalli, Nizamabad Dist., - 503 224.|0|YES|552
-24.07.09|120|0|120|60|0|0|0|300|www.sritedu.in
-SRIN|Srinivasa Institute of Engineering & Technology, Kakinada - Amalapuram Road, NH-214, Katrenikona Mandal, Amalapuram,E.G.Dist.|0|YES|86
-24.07.09|60|60|60|0|0|60|0|240|www.siet.edu.in
-SIPP|||||||||||||
-SRTS|Srinivasa Institute of Technology & Science, Ukkayapalli (V), Hyderabad-Chennai Bypass Road, Kadapa-516002.|0|YES|81
-24.07.09|60|60|60|0|0|60|0|240|www.sitams.org
-SSCC|Srinivasa Institute of Tech. & Mngt Studies, Thimmasamudram, Bangalore-Tirupati By-pass Rd,
-Chittoor - 517 127.|0|YES|552
-24.07.09|120|120|120|90|0|0|90 - Electronics & Instru. Engg.|540|www.sitams.org
-SPIV|||||||||||||
-RITA|Srinivasa Ramanujan Inst. of Tech., Bodiganidoddi (V), B.K.Samudram (M), Anantapur Dist.- 515 701.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.sritatp.org
-SRPV|||||||||||||
-VNCP|||||||||||||
-SRLP|||||||||||||
-SRRK|SRR Engineering College, Karepally, Yellandu, Khammam Dist.,-507122.|0|YES|552
-24.07.09|60|90|90|60|60|0|0|360|www.srrec.ac.in
-SSIT|SS Institute of Tech., Gandimaisamma X Road, Dundigal, Qutbullapur, R.R.Dist. - 500 043.|0|YES|552
-24.07.09|120|0|120|120|0|60|0|420|
-SSJV|Sri Sai Jyothi (SSJ) Engg. College, Vattinagulapally, Gandipet, Hyderabad - 500 075. (shifted from 8-6-275/1, Padmavathy Colony, Opp. Bhageeratha Colony, Mahabubnagar vide G.O.Rt.No.865, dt:27.10.07)|0|YES|552
-24.07.09|60|60|120|60|60|0|0|360|www.ssjec.com
-SSRS|SSR Engg. College, Chinnagundavelli (V), Siddipet, Medak Dist. - 502 103.|0|YES|552
-24.07.09|60|60|60|0|0|60|0|240|
-SSRT|SSR Inst. of Engg. & Tech., Patelguda (V), Near BHEL, Patancheru, Medak Dist.- 502 319.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-XAVP|||||||||||||
-SMPD|||||||||||||
-ANSN|St. Ann's College of Engg & Tech., Nayunipalli, Challareddipalem, Vetapalem (M), Chirala, Prakasam Dist. - 523 187.|2009-10|YES|552
-24.07.09|120|60|120|90|30|0|0|420|www.sacet.ac.in
-JONY|St. John's College of Engg & Tech Yerrakota, Yemmiganur, Kurnool Dist - 518 360.|2009-10|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.sjcet.com
-MRTN|St.Martin's Engg. College, Dulapally, Medchal, R.R. Dist., - 500 014.|0|YES|552
-24.07.09|120|60|120|60|60|60|60 - Bio. Tech.|540|www.smec.ac.in
-SMCP|||||||||||||
-SPEC|St.Peter's Engineering College, Gundlapally, Medchal, R.R. Dist., - 500 014.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.spec.ac.in
-SPOP|||||||||||||
-STIC|St.Theresa Inst. of Engg & Tech, Garividi - 535101, Chipurupalli, Vizianagaram Dist.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|sttheressaengg.ac.in
-ANNP|||||||||||||
-SAPV|||||||||||||
-SACE|St. Ann's Engg. College, Nayunipalli (V), Challareddypalem Vetapalem, Chirala, Prakasam Dist.-523 187|0|YES|552
-24.07.09|60|0|60|60|0|0|60-Electronics & Instru. Engg.|240|www.sacet.ac.in
-JNYP|||||||||||||
-SMPS|||||||||||||
-STMW|St. Mary's Womens Engg. College, Budampadu (V), Guntur Rural Mandal, Guntur Dist - 522 _13|0|YES|552
-24.07.09|120|0|120|90|0|0|0|330|www.stmarysguntur.org
-SPLP|||||||||||||
-PETR|||||||||||||
-STLW|Stanley College of Engg. & Tech. for Women, D.No.5-9-78 to 82, B-1-80 & 5-9-81, Chapel Road, Abids, Hyderabad - 500 001.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.stanley.edu.in
-STFN|||||||||||||
-SRCW|Sudheer Reddy College of Engg. & Tech. for Women, Bardipur (V), Dichpally (M), Nizamabad Dist. - 503 001.|0|YES|552
-24.07.09|90|0|90|90|0|0|0|270|
-SBIO|Sujala Bharathi Institute of Tehcnology, 2-4/1, Ogulapur (V), Atmakur (M), Warangal.|0|YES|92
-25.07.09|60|60|60|0|0|60|0|240|
-SUUP|||||||||||||
-SRIW|Sumathi Reddy Institute of Technology for Women, Ananthasagar, Hasanparthy, Warangal -506371|0|YES|91
-24.07.09|90|90|90|0|0|0|0|270|
-SUNP|||||||||||||
-SUPR|||||||||||||
-SUIT|Supraja Institute of Technology & Sciences, Nemaligonda (V), Ghanpur, Warangal Dist.-506114|0|YES|92
-25.07.09|60|60|60|0|60|0|0|240|www.supraja.org
-SVEC|SV College of Engg. & Tech., Sy.No.72/P, Eathabarpally, Moinabad, R.R.Dist. - 501504.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-SVIE|S.V.Institute of Engineering & Technology, Sy.No.74/P, Eathaberpally Village, Moinabad Mandal, R.R.Dist.-501504.|0|YES|81
-24.07.09|0|0|60|0|60|60|Aero -60|240|
-SVSP|||||||||||||
-SVSE|SVS Inst. of Tech., H.No.1-96, Bheemaram (V), Hasanparthy (M), Warangal Dist.-506 015|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.svsit.ac.in
-SVIP|||||||||||||
-SVIT|Swami Vivekananda Inst.of Tech, (SVIT), 8-1-377 to 379, Mahbub College Campus, Patny Center, Sec-Bad - 003|0|YES|552
-24.07.09|120|30|120|120|30|0|0|420|www.sviet.ac.in
-SRTN|||||||||||||
-SVEB|Swamy Vivekananda Engineering College, Kalavarai (V), Bobbili (Mandal), Vizianagaram Dist.-535558|0|YES|79
-24.07.09|0|60|60|0|60|60|0|240|
-SBCE|Swarna Bharathi College of Engg., Kodad X Road, Maddulapally, Khammam Rural (M), Khammam Dist.-507170.|0|YES|552
-24.07.09|120|60|120|60|0|60|0|420|www.sbce-khammam.com
-SBIT|Swarna Bharathi Institute of Sci. & Tech., Near Mamatha General Hospital, Pakabanda Street, Khammam - 507 002.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.sbit.ac.in
-SWRN|Swarnandhra College of Engg. & Tech, Sitaramapuram, Narsapur, W.G.Dist. - 534 280.|0|YES|552
-24.07.09|120|120|120|60|120|60|0|600|www.swarnandhra.ac.in
-SIET|Swarnandhra Instt. of Engg. & Tech. Sitharampuram, Narsapur, W.G. Dist.,|0|YES|552
-24.07.09|120|0|120|60|0|0|0|300|www.swarnandhra.ac.in
-SCPN|||||||||||||
-SWIT|Swathi Institute of Technology & Sciences, Anajpur, Hayatnagar, R.R.Dist.|0|YES|83
-24.07.09|60|60|60|0|60|0|0|240|
-SWTW|Swetha Inst. of Tech. & Science for Women, C.Ramapuram, Tirupati, Ramachandrapuram(M), Chittoor Dist - 517567.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-SYLW|Syamaladevi Inst. of Tech. for Women, NH-18, Nandyal, Kurnool Dist. - 518 501.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|http://sditwnandyal.com
-SYMB|Symbiosis Institute of Technology & Science, Shamirpet, R.R.Dist|0|YES|79
-24.07.09|60|0|60|0|60|60|0|240|
-TKRC|TKR College of Engg. & Tech., Medbowli, Meerpet, Hyderabad - 500 079.|0|YES|552
-24.07.09|120|60|120|60|120|60|60 - Bio. Tech. |600|www.tkrcet.ac.in
-TRRE|||||||||||||
-TRRP|||||||||||||
-TPCE|Talla Padmavathi College of Engg., Tekulagudem (Somidi), Kazipet, Warangal Dist. - 506 003|0|YES|552
-24.07.09|90|0|90|60|0|0|0|240|www.tallapadmavathiengg.com
-TALP|||||||||||||
-TKRP|||||||||||||
-TKEM|Teegala Krishna Reddy Engg. College, Medbowli, Meerpet, Saroornagar, Hyderabad-500079.|0|YES|552
-24.07.09|120|60|120|60|0|60|0|420|www.tkrcet.ac.in
-TRPM|||||||||||||
-TEJA|||||||||||||
-TECA|Tenali Engineering College, Anumarlapudi, Tenali, Sangamjagarlamudi, Pedakakani(M), Guntur-522 213.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.tec.edu.in
-TPIB|Thandra Paparaya Inst. of Sci. & Tech., Komatipalli, Bobbili, Vizianagaram Dist. -535558.|0|YES|552
-24.07.09|60|90|90|45|60|0|0|345|www.tpist.com
-TMLP|||||||||||||
-TMLN|Tirumala Engg. College, Jonnalagadda (V), Narasaraopet (M), Guntur Dist - 522 601|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.trmlenggcollegehyd.com
-TRML|Tirumala Engineering College, 
-Sy.No.289,290,296,306,Bogaram, Keesara(M), R.R. Dist. - 501301.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|http://tmecnrt.org
-TCEK|Trinity College of Engg. & Tech., Peddapalli, Karimnagar Dist.- 505 172.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.kjeducation.in
-TCTK|Trinity College of Engg. & Tech., Saleh Nagar, Rekurthi, Karimnagar - 505 002|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.kjeducation.in
-TRNP|||||||||||||www.kjeducation.in
-TRRT|TRR College of Engg. & Tech., Inole (V), Patancheru (M), Medak Dist - 502 319|0|YES|552
-24.07.09|60|0|120|0|0|60|0|240|www.trrinstitutions.com
-TRIP|||||||||||||www.trrinstitutions.com
-TRRW|TRR Engineering College for Women, TRR Nagar, Inole (V), Patancheru (M), Medak Dist.-502319|0|YES|108 01.08.09|90|60|90|0|0|60|0|300|www.trrinstitutions.com
-TNRI|Tudi Narsimha Reddy Inst. of Tech. & Sciences, Gudur (V), Bibinagar (M), Nalgonda Dist.|0|YES|552
-24.07.09|60|0|60|60|0|60|0|240|www.tudiinstitutions.ac.in
-TUDI|Tudi Ram Reddy Inst. of Tech. & Sciences, Gudur (V), Bibinagar (M), Nalgonda Dist.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.tudiinstitutions.ac.in
-TIST|Turbomachinary Inst. of Tech. & Sciences, Indersham (V), Patancheu (M), Medak Dist. 502 319|0|YES|552
-24.07.09|60|90|60|0|90|0|0|240|
-UCPB|||||||||||||
-UNIV|Universal College of Engg. & Tech., Dokiparru (V), Medikondur (M), Guntur Dist. - 522 438|0|YES|552
-24.07.09|60|60|120|0|0|60|0|300|
-URCE|Usha Rama College of Engg. & Tech., Rs.Nos.1278, 1287, 1288, Tellaprolu (V), Unguturu (M), Krishna Dist.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-VJCP|||||||||||||
-VJEC|VNR Vignan Jyothi Institute of Engg. & Tech., Bachupally, Kukatpally, Hyderabad - 500 072|0|YES|552
-24.07.09|120|60|120|60|60|60|60 - Electronics & Instru. Engg.|540|www.vnrvjiet.ac.in, www.vignanajyothi.com
-VRSE|VR Siddhartha Engg. College, Kanuru, Vijayawada - 520 007, Krishna Dist.|0|YES
-04.07.08|552
-24.07.09|120|120|120|120|120|120|120 - Electronics & Instru. Engg.|840|www.vrsiddhartha.com
-VMIT|VMR Inst. of Tech. & Mgt. Sciences, Sy.No.652, 653, 654, 658, 656, 721, 722, 726 & 727, Medchal, R.R. Dist.-501 401.|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|
-VSLW|VS Lakshmi Engg. College for Women, NH-214, Metlapalem, G.Vemavaram (V), Tallarevu (M), Kakinada, E.G. Dist.-533 461|0|YES|552
-24.07.09|90|60|120|90|0|0|0|360|http://vslengg.com
-VSMR|V.S.M College of Engineering, Ramachandrapuram, E.G.Dist.|0|YES|86
-24.07.09|60|0|60|0|60|60|0|240|www.vsmcollege.org
-VAGE|Vaagdevi College of Engineering, Near Mamnoor Camp, Bollikunta, Warangal - 506 005.|0|YES|552
-24.07.09|120|120|120|120|60|0|0|540|
-VPWL|||||||||||||
-VGPT|Vaagdevi Institute of Tech. & Sci., Peddasettipalli, Proddatur, Kadapa Dist., - 516 361.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|www.vitspdtr.ac.in
-VGSE|Vaageshwari College of Engg., LMD Police Station,Ramakrishna Colony, Karimnagar-505 481.|0|YES|552
-24.07.09|120|60|120|120|0|0|0|420|
-VGSP|||||||||||||
-VIPS|||||||||||||
-VDPN|||||||||||||
-VAGP|||||||||||||
-VCPG|||||||||||||
-VGWL|Vaagdevi Engg. College, Billikunta, Warangal - 506 005.|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|www.vaagdevieng.com
-VGPC|||||||||||||
-VECK|Vaageswari Engg. College, Beside LMD Police Station, Ramakrishna Colony, Karimnagar - 505 481.|0|YES|552
-24.07.09|90|0|90|60|0|0|0|240|
-VITT|Vaishnavi Inst. of Tech.,
-Thanapalli, Kuntrapakam(P), Tirupati, Chittoor Dist., -517561.|0|YES|552
-24.07.09|120|60|60|60|0|0|0|300|
-VTTW|Vaishnavi Institute of Technology for Women, Tanapalli (V), Kuntrapakam (P), Tirupati rural, Tirupati, Chittoor Dist -517501.|0|YES|81
-24.07.09|90|60|90|60|0|0|0|300|
-VSMB|Vanjari Seetaiah Memorial Engg. College, Bandlaguda, Keshavagiri, Chandrayangutta, Hyderabad - 500 005.|0|YES|552
-24.07.09|120|60|60|60|0|0|0|300|
-VRCE|Varadha Reddy College of Engg. Ananthasagar (V), Hasanparthy (M), Warangal dist.|0|YES|552
-24.07.09|120|0|120|0|0|0|0|240|
-VLNV|||||||||||||
-VMEG|Vardhaman College of Engg., Kacharam, Nanajipur, Shamshabad(M), R.R.Dist. - 501 218.|0|YES|552
-24.07.09|120|90|120|60|30|0|60 - Aero. Engg.|480|www.vardhaman.ac.in
-VASV|Vasavi College of Engineering, 9-5-81, Ibrahimbagh, Hyderabad - 500 031.|0|YES|552
-24.07.09|120|60|120|60|120|60|0|540|www.vce.ac.in
-VSPP|||||||||||||
-VVIG|Vasireddy Venkatadri Inst. of Tech. Namburu, Pedakakani, Guntur Dist. - 522 508.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.vvitguntur.com
-VISA|Vathsalya Institute of Sci. & Tech., Anantharam, Bhongir (M), Nalgonda - 508 116.|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|www.vathsalyaenggcoll.ac.in, vathsalyaengg.com
-VSLP|||||||||||||
-VSEC|Vazir Sultan College of Engg, Younis Sultan Campus, Near VV.Palem, Wyra Road, Khammam - 507 318.|PM|YES|552
-24.07.09|90|90|90|30|60|0|0|360|
-VNRC|Velaga Nageswara Rao College of Engg., Chintalapudi, Ponnur PO & M, Guntur Dist. - 522 124.|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|
-VEMU|Vemu Inst. of Tech., P.Kothakota Post, Chittoor dist - 517 112.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-VIPN|||||||||||||
-VICG|||||||||||||
-VBJN|Vidya Bharathi Institute of Tech., Pembarthi, Jangaon, Warangal Dist., - 506 167.|0|YES|552
-24.07.09|120|60|120|0|0|0|0|300|
-VVIT|Vidya Vikas Inst. of Tech., (Farah College of Engg. & Tech.,) Sur.No.103 &104, Chevella (V),  R.R.Dist.-501503.|0|YES|552
-24.07.09|120|30|120|30|60|60|0|420|www.vvit.in
-VDJM|Vidya Jyothi Inst. of Tech., Aziznagar gate, Himayathnagar, CB Post, Moinabad, Hyderabad - 500 075.|0|YES|552
-24.07.09|60|120|120|60|60|0|0|420|www.vjit.info
-VBIT|Vignana Bharati Institute of Tech., Aushapur (V), Ghatkesar (M), R.R.Dist. - 501 301|0|YES|552
-24.07.09|120|60|120|60|60|0|0|420|
-VGNP|||||||||||||
-VIPV|||||||||||||
-VGNT|Vignan Inst. of Tech. & Sci., Vignan Hills, Deshmukhi, Pochampalli(M), Nalgonda Dist. - 508 284.|0|YES|552
-24.07.09|120|60|120|0|60|0|60 - Electronics & Instru. Engg.|420|www.vignanits.ac.in
-VPCV|||||||||||||
-VBTK|Vignana Bharati Institute of Technology, Vidyanagar, Pallavolu (V), Chapadu (M), Proddatur, Kadapa Dist - 516362.|0|YES|81
-24.07.09|60|60|60|0|60|0|0|240|www.vbithyd.ac.in
-VECV|||||||||||||
-VMTW|Vignan's Inst. of Management & Technology for Women, Kondapur (V), Ghatkesar (M), R.R.Dist-501301|0|YES|552
-24.07.09|90|60|90|60|0|0|0|300|
-VITA|Vignan's Inst. of Tech. & Aeronautical Engg., Vignan Hills, Deshmukhi (V), Pochampally (M), Nalgonda Dist - 508 284|0|YES|552
-24.07.09|60|60|60|0|0|0|60 - Aerunautical Engg.|240|http://vitae.vignan.org
-VIVP|Vignan's Inst. of Engg. For Women, Jaggarajupeta, Vadlapudi (Post), Visakhapatnam - 530 046|0|YES|552
-24.07.09|90|60|120|60|0|0|0|330|www.vignaniit.com
-VIEW|Vignan's Inst. of Info. Tech., Duvvada,  Gajuwaka, Vadlapudi, Gajuwaka, Visakhapatnam-530046.|0|YES|552
-24.07.09|120|90|90|60|60|0|0|420|
-VLIT|Vignan's Lara Inst.of Tech. & Science, Vadlamudi, Chebrolu,
-Guntur Dist. - 522 213.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|
-VNIW|Vignan's Nirula Inst. of Tech., & Science for Women, Pedapalakaluru (V), Guntur Rural Mandal, Guntur Dist.- 522 005.|0|YES|552
-24.07.09|90|60|60|90|0|0|0|300|www.vignannirula.org
-VCEW|Vijay College of Engineering for Women, Manikbhandar, Nizamabad -503003|0|YES|89
-24.07.09|90|60|90|60|0|0|0|300|www.vcewedu.in
-VJAY|Vijay Institute of Tech. & Sci.,
+60 - Electronics & Control System",810,www.vidyanikethan.edu
+SCPB
+VITS,120,40,"Sri Visveswaraya Inst. of Tech. & Sci., Chowdarpally, Devarakadra (M), Mahabubnagar - 509204.",120,60,40,40,0,420,http//www.svits.org
+VIVK,60,90,"Sri Viveka Inst. of Tech., Vivek Nagar, Madalavarigudem, Gannavaram (M), Krishna Dist.-521 212.",90,60,0,0,0,300
+SDEW,120,60,"Sridevi Women's Engg. College, Vattinagulpally, C.B.Post, Gandipet, Hyderabad - 500 075.",120,60,0,0,60 - Electronics & Instru. Engg.,420,www.srideviengg.com
+KDEG
+SNIS,120,120,"Srinidhi Institute of Sci. & Tech., Yamnampet, Ghatkesar, R.R. Dist.,-501301.",120,120,120,0,"120 - Bio. Tech.
+120 - ECM",840,www.snist.com
+SNRJ,120,0,"Srinivas Reddy Institute of Tech., Munipally, Jakrampalli, Nizamabad Dist., - 503 224.",120,60,0,0,0,300,www.sritedu.in
+SRIN,60,60,"Srinivasa Institute of Engineering & Technology, Kakinada - Amalapuram Road, NH-214, Katrenikona Mandal, Amalapuram,E.G.Dist.",60,0,0,60,0,240,www.siet.edu.in
+SIPP
+SRTS,60,60,"Srinivasa Institute of Technology & Science, Ukkayapalli (V), Hyderabad-Chennai Bypass Road, Kadapa-516002.",60,0,0,60,0,240,www.sitams.org
+SSCC,120,120,"Srinivasa Institute of Tech. & Mngt Studies, Thimmasamudram, Bangalore-Tirupati By-pass Rd,
+Chittoor - 517 127.",120,90,0,0,90 - Electronics & Instru. Engg.,540,www.sitams.org
+SPIV
+RITA,60,60,"Srinivasa Ramanujan Inst. of Tech., Bodiganidoddi (V), B.K.Samudram (M), Anantapur Dist.- 515 701.",120,60,0,0,0,300,www.sritatp.org
+SRPV
+VNCP
+SRLP
+SRRK,60,90,"SRR Engineering College, Karepally, Yellandu, Khammam Dist.,-507122.",90,60,60,0,0,360,www.srrec.ac.in
+SSIT,120,0,"SS Institute of Tech., Gandimaisamma X Road, Dundigal, Qutbullapur, R.R.Dist. - 500 043.",120,120,0,60,0,420
+SSJV,60,60,"Sri Sai Jyothi (SSJ) Engg. College, Vattinagulapally, Gandipet, Hyderabad - 500 075. (shifted from 8-6-275/1, Padmavathy Colony, Opp. Bhageeratha Colony, Mahabubnagar vide G.O.Rt.No.865, dt:27.10.07)",120,60,60,0,0,360,www.ssjec.com
+SSRS,60,60,"SSR Engg. College, Chinnagundavelli (V), Siddipet, Medak Dist. - 502 103.",60,0,0,60,0,240
+SSRT,60,60,"SSR Inst. of Engg. & Tech., Patelguda (V), Near BHEL, Patancheru, Medak Dist.- 502 319.",120,60,0,0,0,300
+XAVP
+SMPD
+ANSN,120,60,"St. Ann's College of Engg & Tech., Nayunipalli, Challareddipalem, Vetapalem (M), Chirala, Prakasam Dist. - 523 187.",120,90,30,0,0,420,www.sacet.ac.in
+JONY,120,60,"St. John's College of Engg & Tech Yerrakota, Yemmiganur, Kurnool Dist - 518 360.",120,60,60,0,0,420,www.sjcet.com
+MRTN,120,60,"St.Martin's Engg. College, Dulapally, Medchal, R.R. Dist., - 500 014.",120,60,60,60,60 - Bio. Tech.,540,www.smec.ac.in
+SMCP
+SPEC,90,60,"St.Peter's Engineering College, Gundlapally, Medchal, R.R. Dist., - 500 014.",90,60,0,0,0,300,www.spec.ac.in
+SPOP
+STIC,120,60,"St.Theresa Inst. of Engg & Tech, Garividi - 535101, Chipurupalli, Vizianagaram Dist.",120,120,0,0,0,420,sttheressaengg.ac.in
+ANNP
+SAPV
+SACE,60,0,"St. Ann's Engg. College, Nayunipalli (V), Challareddypalem Vetapalem, Chirala, Prakasam Dist.-523 187",60,60,0,0,60-Electronics & Instru. Engg.,240,www.sacet.ac.in
+JNYP
+SMPS
+STMW,120,0,"St. Mary's Womens Engg. College, Budampadu (V), Guntur Rural Mandal, Guntur Dist - 522 _13",120,90,0,0,0,330,www.stmarysguntur.org
+SPLP
+PETR
+STLW,120,60,"Stanley College of Engg. & Tech. for Women, D.No.5-9-78 to 82, B-1-80 & 5-9-81, Chapel Road, Abids, Hyderabad - 500 001.",120,60,0,0,0,360,www.stanley.edu.in
+STFN
+SRCW,90,0,"Sudheer Reddy College of Engg. & Tech. for Women, Bardipur (V), Dichpally (M), Nizamabad Dist. - 503 001.",90,90,0,0,0,270
+SBIO,60,60,"Sujala Bharathi Institute of Tehcnology, 2-4/1, Ogulapur (V), Atmakur (M), Warangal.",60,0,0,60,0,240
+SUUP
+SRIW,90,90,"Sumathi Reddy Institute of Technology for Women, Ananthasagar, Hasanparthy, Warangal -506371",90,0,0,0,0,270
+SUNP
+SUPR
+SUIT,60,60,"Supraja Institute of Technology & Sciences, Nemaligonda (V), Ghanpur, Warangal Dist.-506114",60,0,60,0,0,240,www.supraja.org
+SVEC,120,60,"SV College of Engg. & Tech., Sy.No.72/P, Eathabarpally, Moinabad, R.R.Dist. - 501504.",120,60,60,0,0,420
+SVIE,0,0,"S.V.Institute of Engineering & Technology, Sy.No.74/P, Eathaberpally Village, Moinabad Mandal, R.R.Dist.-501504.",60,0,60,60,Aero -60,240
+SVSP
+SVSE,60,60,"SVS Inst. of Tech., H.No.1-96, Bheemaram (V), Hasanparthy (M), Warangal Dist.-506 015",90,60,0,0,0,270,www.svsit.ac.in
+SVIP
+SVIT,120,30,"Swami Vivekananda Inst.of Tech, (SVIT), 8-1-377 to 379, Mahbub College Campus, Patny Center, Sec-Bad - 003",120,120,30,0,0,420,www.sviet.ac.in
+SRTN
+SVEB,0,60,"Swamy Vivekananda Engineering College, Kalavarai (V), Bobbili (Mandal), Vizianagaram Dist.-535558",60,0,60,60,0,240
+SBCE,120,60,"Swarna Bharathi College of Engg., Kodad X Road, Maddulapally, Khammam Rural (M), Khammam Dist.-507170.",120,60,0,60,0,420,www.sbce-khammam.com
+SBIT,120,60,"Swarna Bharathi Institute of Sci. & Tech., Near Mamatha General Hospital, Pakabanda Street, Khammam - 507 002.",120,60,60,0,0,420,www.sbit.ac.in
+SWRN,120,120,"Swarnandhra College of Engg. & Tech, Sitaramapuram, Narsapur, W.G.Dist. - 534 280.",120,60,120,60,0,600,www.swarnandhra.ac.in
+SIET,120,0,"Swarnandhra Instt. of Engg. & Tech. Sitharampuram, Narsapur, W.G. Dist.,",120,60,0,0,0,300,www.swarnandhra.ac.in
+SCPN
+SWIT,60,60,"Swathi Institute of Technology & Sciences, Anajpur, Hayatnagar, R.R.Dist.",60,0,60,0,0,240
+SWTW,90,60,"Swetha Inst. of Tech. & Science for Women, C.Ramapuram, Tirupati, Ramachandrapuram(M), Chittoor Dist - 517567.",90,60,0,0,0,300
+SYLW,90,60,"Syamaladevi Inst. of Tech. for Women, NH-18, Nandyal, Kurnool Dist. - 518 501.",90,60,0,0,0,300,http://sditwnandyal.com
+SYMB,60,0,"Symbiosis Institute of Technology & Science, Shamirpet, R.R.Dist",60,0,60,60,0,240
+TKRC,120,60,"TKR College of Engg. & Tech., Medbowli, Meerpet, Hyderabad - 500 079.",120,60,120,60,60 - Bio. Tech. ,600,www.tkrcet.ac.in
+TRRE
+TRRP
+TPCE,90,0,"Talla Padmavathi College of Engg., Tekulagudem (Somidi), Kazipet, Warangal Dist. - 506 003",90,60,0,0,0,240,www.tallapadmavathiengg.com
+TALP
+TKRP
+TKEM,120,60,"Teegala Krishna Reddy Engg. College, Medbowli, Meerpet, Saroornagar, Hyderabad-500079.",120,60,0,60,0,420,www.tkrcet.ac.in
+TRPM
+TEJA
+TECA,120,60,"Tenali Engineering College, Anumarlapudi, Tenali, Sangamjagarlamudi, Pedakakani(M), Guntur-522 213.",120,60,0,0,0,360,www.tec.edu.in
+TPIB,60,90,"Thandra Paparaya Inst. of Sci. & Tech., Komatipalli, Bobbili, Vizianagaram Dist. -535558.",90,45,60,0,0,345,www.tpist.com
+TMLP
+TMLN,60,60,"Tirumala Engg. College, Jonnalagadda (V), Narasaraopet (M), Guntur Dist - 522 601",120,60,0,0,0,300,www.trmlenggcollegehyd.com
+TRML,120,60,"Tirumala Engineering College, 
+Sy.No.289,290,296,306,Bogaram, Keesara(M), R.R. Dist. - 501301.",120,120,0,0,0,420,http://tmecnrt.org
+TCEK,60,60,"Trinity College of Engg. & Tech., Peddapalli, Karimnagar Dist.- 505 172.",120,60,0,0,0,300,www.kjeducation.in
+TCTK,60,60,"Trinity College of Engg. & Tech., Saleh Nagar, Rekurthi, Karimnagar - 505 002",90,60,0,0,0,270,www.kjeducation.in
+TRNP,,,,,,,,,,www.kjeducation.in
+TRRT,60,0,"TRR College of Engg. & Tech., Inole (V), Patancheru (M), Medak Dist - 502 319",120,0,0,60,0,240,www.trrinstitutions.com
+TRIP,,,,,,,,,,www.trrinstitutions.com
+TRRW,90,60,"TRR Engineering College for Women, TRR Nagar, Inole (V), Patancheru (M), Medak Dist.-502319",90,0,0,60,0,300,www.trrinstitutions.com
+TNRI,60,0,"Tudi Narsimha Reddy Inst. of Tech. & Sciences, Gudur (V), Bibinagar (M), Nalgonda Dist.",60,60,0,60,0,240,www.tudiinstitutions.ac.in
+TUDI,60,60,"Tudi Ram Reddy Inst. of Tech. & Sciences, Gudur (V), Bibinagar (M), Nalgonda Dist.",120,60,0,0,0,300,www.tudiinstitutions.ac.in
+TIST,60,90,"Turbomachinary Inst. of Tech. & Sciences, Indersham (V), Patancheu (M), Medak Dist. 502 319",60,0,90,0,0,240
+UCPB
+UNIV,60,60,"Universal College of Engg. & Tech., Dokiparru (V), Medikondur (M), Guntur Dist. - 522 438",120,0,0,60,0,300
+URCE,60,60,"Usha Rama College of Engg. & Tech., Rs.Nos.1278, 1287, 1288, Tellaprolu (V), Unguturu (M), Krishna Dist.",60,60,0,0,0,240
+VJCP
+VJEC,120,60,"VNR Vignan Jyothi Institute of Engg. & Tech., Bachupally, Kukatpally, Hyderabad - 500 072",120,60,60,60,60 - Electronics & Instru. Engg.,540,"www.vnrvjiet.ac.in, www.vignanajyothi.com"
+VRSE,120,120,"VR Siddhartha Engg. College, Kanuru, Vijayawada - 520 007, Krishna Dist.",120,120,120,120,120 - Electronics & Instru. Engg.,840,www.vrsiddhartha.com
+VMIT,60,60,"VMR Inst. of Tech. & Mgt. Sciences, Sy.No.652, 653, 654, 658, 656, 721, 722, 726 & 727, Medchal, R.R. Dist.-501 401.",90,60,0,0,0,270
+VSLW,90,60,"VS Lakshmi Engg. College for Women, NH-214, Metlapalem, G.Vemavaram (V), Tallarevu (M), Kakinada, E.G. Dist.-533 461",120,90,0,0,0,360,http://vslengg.com
+VSMR,60,0,"V.S.M College of Engineering, Ramachandrapuram, E.G.Dist.",60,0,60,60,0,240,www.vsmcollege.org
+VAGE,120,120,"Vaagdevi College of Engineering, Near Mamnoor Camp, Bollikunta, Warangal - 506 005.",120,120,60,0,0,540
+VPWL
+VGPT,120,60,"Vaagdevi Institute of Tech. & Sci., Peddasettipalli, Proddatur, Kadapa Dist., - 516 361.",120,120,0,0,0,420,www.vitspdtr.ac.in
+VGSE,120,60,"Vaageshwari College of Engg., LMD Police Station,Ramakrishna Colony, Karimnagar-505 481.",120,120,0,0,0,420
+VGSP
+VIPS
+VDPN
+VAGP
+VCPG
+VGWL,90,60,"Vaagdevi Engg. College, Billikunta, Warangal - 506 005.",90,60,0,0,0,300,www.vaagdevieng.com
+VGPC
+VECK,90,0,"Vaageswari Engg. College, Beside LMD Police Station, Ramakrishna Colony, Karimnagar - 505 481.",90,60,0,0,0,240
+VITT,120,60,"Vaishnavi Inst. of Tech.,
+Thanapalli, Kuntrapakam(P), Tirupati, Chittoor Dist., -517561.",60,60,0,0,0,300
+VTTW,90,60,"Vaishnavi Institute of Technology for Women, Tanapalli (V), Kuntrapakam (P), Tirupati rural, Tirupati, Chittoor Dist -517501.",90,60,0,0,0,300
+VSMB,120,60,"Vanjari Seetaiah Memorial Engg. College, Bandlaguda, Keshavagiri, Chandrayangutta, Hyderabad - 500 005.",60,60,0,0,0,300
+VRCE,120,0,"Varadha Reddy College of Engg. Ananthasagar (V), Hasanparthy (M), Warangal dist.",120,0,0,0,0,240
+VLNV
+VMEG,120,90,"Vardhaman College of Engg., Kacharam, Nanajipur, Shamshabad(M), R.R.Dist. - 501 218.",120,60,30,0,60 - Aero. Engg.,480,www.vardhaman.ac.in
+VASV,120,60,"Vasavi College of Engineering, 9-5-81, Ibrahimbagh, Hyderabad - 500 031.",120,60,120,60,0,540,www.vce.ac.in
+VSPP
+VVIG,120,60,"Vasireddy Venkatadri Inst. of Tech. Namburu, Pedakakani, Guntur Dist. - 522 508.",120,60,0,0,0,360,www.vvitguntur.com
+VISA,120,60,"Vathsalya Institute of Sci. & Tech., Anantharam, Bhongir (M), Nalgonda - 508 116.",120,60,60,0,0,420,"www.vathsalyaenggcoll.ac.in, vathsalyaengg.com"
+VSLP
+VSEC,90,90,"Vazir Sultan College of Engg, Younis Sultan Campus, Near VV.Palem, Wyra Road, Khammam - 507 318.",90,30,60,0,0,360
+VNRC,60,60,"Velaga Nageswara Rao College of Engg., Chintalapudi, Ponnur PO & M, Guntur Dist. - 522 124.",90,60,0,0,0,270
+VEMU,60,60,"Vemu Inst. of Tech., P.Kothakota Post, Chittoor dist - 517 112.",120,60,0,0,0,300
+VIPN
+VICG
+VBJN,120,60,"Vidya Bharathi Institute of Tech., Pembarthi, Jangaon, Warangal Dist., - 506 167.",120,0,0,0,0,300
+VVIT,120,30,"Vidya Vikas Inst. of Tech., (Farah College of Engg. & Tech.,) Sur.No.103 &104, Chevella (V),  R.R.Dist.-501503.",120,30,60,60,0,420,www.vvit.in
+VDJM,60,120,"Vidya Jyothi Inst. of Tech., Aziznagar gate, Himayathnagar, CB Post, Moinabad, Hyderabad - 500 075.",120,60,60,0,0,420,www.vjit.info
+VBIT,120,60,"Vignana Bharati Institute of Tech., Aushapur (V), Ghatkesar (M), R.R.Dist. - 501 301",120,60,60,0,0,420
+VGNP
+VIPV
+VGNT,120,60,"Vignan Inst. of Tech. & Sci., Vignan Hills, Deshmukhi, Pochampalli(M), Nalgonda Dist. - 508 284.",120,0,60,0,60 - Electronics & Instru. Engg.,420,www.vignanits.ac.in
+VPCV
+VBTK,60,60,"Vignana Bharati Institute of Technology, Vidyanagar, Pallavolu (V), Chapadu (M), Proddatur, Kadapa Dist - 516362.",60,0,60,0,0,240,www.vbithyd.ac.in
+VECV
+VMTW,90,60,"Vignan's Inst. of Management & Technology for Women, Kondapur (V), Ghatkesar (M), R.R.Dist-501301",90,60,0,0,0,300
+VITA,60,60,"Vignan's Inst. of Tech. & Aeronautical Engg., Vignan Hills, Deshmukhi (V), Pochampally (M), Nalgonda Dist - 508 284",60,0,0,0,60 - Aerunautical Engg.,240,http://vitae.vignan.org
+VIVP,90,60,"Vignan's Inst. of Engg. For Women, Jaggarajupeta, Vadlapudi (Post), Visakhapatnam - 530 046",120,60,0,0,0,330,www.vignaniit.com
+VIEW,120,90,"Vignan's Inst. of Info. Tech., Duvvada,  Gajuwaka, Vadlapudi, Gajuwaka, Visakhapatnam-530046.",90,60,60,0,0,420
+VLIT,120,60,"Vignan's Lara Inst.of Tech. & Science, Vadlamudi, Chebrolu,
+Guntur Dist. - 522 213.",120,60,0,0,0,360
+VNIW,90,60,"Vignan's Nirula Inst. of Tech., & Science for Women, Pedapalakaluru (V), Guntur Rural Mandal, Guntur Dist.- 522 005.",60,90,0,0,0,300,www.vignannirula.org
+VCEW,90,60,"Vijay College of Engineering for Women, Manikbhandar, Nizamabad -503003",90,60,0,0,0,300,www.vcewedu.in
+VJAY,120,0,"Vijay Institute of Tech. & Sci.,
 Markal, Sadasivnagar,
-Kamareddy, Nizamabad-503145.|0|YES|552
-24.07.09|120|0|60|60|0|0|0|240|www.vitsedu.in
-VJYH|||||||||||||
-VJYA|Vijaya Engineering College,
-Wyra Road, Ammapalem, Konijerla, Near Tanikella, Khammam Dist. - 507 305.|0|YES|552
-24.07.09|60|90|90|60|0|0|0|300|
-VIPW|||||||||||||
-VITW|Vijaya Inst. of Tech. for Women, Enikepadu, Vijayawada - 521 108.|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|
-VKTS|Vijaya Krishna Inst. of Tech. & Science, Palmakula (V), Shamshabad, R.R. Dist.-501 218.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|www.vkits.org
-VREC|Vijay Rural Engg. College, Das Nagar, Makloor, Rochis Valley, Manikbhandar, Nizamabad Dist. - 503 003.|0|YES|552
-24.07.09|120|0|120|120|60|0|0|420|www.vrecedu.in
-VJIT|Vijetha Institute of Technology & Science, Chinamamidipalli, Narsapur, W.G.Dist.|0|YES|81
-24.07.09|60|60|60|0|0|60|0|240|
-VKSP|||||||||||||
-VIKS|||||||||||||
-VCTN|Vikas College of Engg. & Tech., Nunna (V), Vijayawada Rural, Krishna Dist. - 521 212.|0|YES|552
-24.07.09|60|60|90|0|60|0|0|270|
-VKAS|||||||||||||
-VKSR|||||||||||||
-VITH|Vinuthna Institute of Technology & Science, Hasanparthy (V&M), Warangal Dist. - 506371|0|YES|90
-24.07.09|60|60|60|0|0|60|0|240|
-VSBV|Visaka Engg. College, Bakkannapalem (V), Madhurawada, Visakhapatnam - 530 041|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|http://vspt.in
-VSPT|Visakha Inst. of Engg. & Tech., 57th Division, Narva, Visakhapatnam - 530 027|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-VPSV|||||||||||||
-VSKV|Visakha Inst. of Tech. & Science (VITS), Sontyam (V), Anandapuram (M), Visakhapatnam - 531 173|0|YES|552
-24.07.09|60|60|90|30|60|0|0|300|
-VITB|Vishnu Inst. of Tech., Vishnupur, Bhimavaram, W.G. Dist. - 534 202|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-VSNU|||||||||||||
-VSIT|Vishnusree Inst. of Tech., Yavapur, H/o. Jatalpur (V), Bommalaramaram (M), Nalgonda Dist.|0|YES|552
-24.07.09|120|60|60|0|0|60|0|300|www.vishnusree.co.in
-VBTS|Vishwa Bharathi Institute of Technology & Sciences, Nadargul (V), R.R.Dist -501510|0|YES|108 01.08.09|60|60|60|0|0|60|0|240|
-VPRG|||||||||||||
-VCKV|Visvodaya Engg. College, Visvodaya Campus, Kavali (M), Nellore Dist. - 524 201.|0|YES|552
-24.07.09|60|0|120|0|0|120|0|300|www.veckavali.com
-VBCP|||||||||||||
-VBCE|Viswa Bharathi College of Engg., Sy.No.19, Hydernagar, Kukatpally, Hyderabad - 500 072.|0|YES|552
-24.07.09|60|60|60|60|0|60|0|300|
-VTMV|Viswanadha Institute of Tech. & Mngt,(VITAM), Sontyam, Anandapuram (M), Visakhapatnam - 531 173.|0|YES|552
-24.07.09|120|90|120|30|60|60|0|480|www.vitamcoe.com
-VNIP|||||||||||||
-VTCP|||||||||||||
-VCET|Visvesvaraya College of Engg. & Tech., Patelguda, Ibrahimpatan. R.R. Dist. - 500 009.|0|YES|552
-24.07.09|120|60|90|60|0|0|0|330|
-VTSW|VITS Women's Engineering College, Survey No.682,720, Bommakal Village, Karimnagar-505001|0|YES|90
-24.07.09|90|90|90|0|0|0|0|270|
-VIIT|Vivekananda Inst. of Science & Info. Tech., Sy.No.773, Chatanpally (V), Farooqnagar, Shadnagar, Mahaboobnagar Dist.-509 216.|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|
-VVKN|Vivekananda Institute of Tech. & Sci., Opp.Housing Board, Near By-pass, Bommakal, Karimnagar - 505 209.|0|YES|552
-24.07.09|120|30|90|60|30|60|0|390|
-VKGK|Vivekananda Institute of Tech. & Sci., (VITS School of Engineering & Technology, VITS SET), Malkapur, Beside PG College, Godavarikhani - 505209, Karimnagar dist.,|0|YES|552
-24.07.09|120|60|120|60|0|0|0|360|www.vits.ac.in
-VIEB|Vivekananda's Inst. of Engg. & Tech., Bogaram (V), Keesara (M), R.R. Dist.,-501 301.|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|
-VIZB|Vizag Inst. of Tech., Dakamari (V&P), Bheemunipatnam, Visakhapatnam - 531 162|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|vizaginstitute@yahoo.co.in
-VVGV|VKR & VNB, Engg. College, Eluru Road, Gudivada, Krishna Dist. - 521 301.|0|YES|552
-24.07.09|60|60|90|60|0|0|0|270|www.gudivadaenggcollege.co.in
-VYCC|VRS & YRN College of Engg. & Tech., Vodarevu Road, Chirala - 523 157, Prakasam Dist.,,|0|YES|552
-24.07.09|60|60|60|60|0|0|0|240|www.vrsyrn.co.in
-WITS|Warangal Institute of Technology & Science, Oorugonda (V), Athmakur (M), Warangal|0|YES|92
-25.07.09|60|60|60|0|60|0|0|240|
-WISE|West Godavari Inst. of Science & Engg., Avapadu, Prakasaraopalem, Nallajarla (M), W.G. Dist - 534 112|0|YES|552
-24.07.09|60|60|120|0|60|0|0|300|
-YBRM|Sri YPR College of Engg. and Tech., Haveli Ghanpur, Medak-502113.|0|YES|552
-24.07.09|60|90|90|60|0|0|0|300|www.ypreng.org
-YLMV|||||||||||||
-YITS|Yogananda Inst. of Tech. & Science, Mohan Reddy Nagar, Yellamandyam, Renigunta (M), Tirupati - 517 520|0|YES|552
-24.07.09|60|60|120|60|0|0|0|300|http://yitsdmr.com
-YGVU|||||||||||||
-YUNS|The Younis Sultan College of Engg., Mudmiyala, Chevella, R.R. Dist.,|0|YES|552
-24.07.09|60|30|60|0|60|0|0|210|
-AARW|||||||||||||
-AECN|||||||||||||
-AGIW|||||||||||||
-AITK|||||||||||||
-AMIR|||||||||||||
-ASCW|||||||||||||
-ASKC|||||||||||||
-ASRK|||||||||||||
-AUEWSF|||||||||||||
-BEST|||||||||||||
-BGIB|||||||||||||
-BIET|||||||||||||
-BSCE|||||||||||||
-BULL|||||||||||||
-CESM|||||||||||||
-CITC|||||||||||||
-CITS|||||||||||||
-CMRN|||||||||||||
-CRMT|||||||||||||
-DNRE|||||||||||||
-GGIH|||||||||||||
-GNET|||||||||||||
-GTSR|||||||||||||
-HGIH|||||||||||||
-HIST|||||||||||||
-JIET|||||||||||||
-JNTM|||||||||||||
-KCET|||||||||||||
-KHIT|||||||||||||
-KIEK|||||||||||||
-KIEW|||||||||||||
-KUWL|||||||||||||
-MCTN|||||||||||||
-MICT|||||||||||||
-MREC|||||||||||||
-MTIE|||||||||||||
-NAWB|||||||||||||
-NEWS|||||||||||||
-NITE|||||||||||||
-NMRV|||||||||||||
-NVGH|||||||||||||
-SAFA|||||||||||||
-SDGI|||||||||||||
-SRES|||||||||||||
-SRTT|||||||||||||
-SSEC|||||||||||||
-TECH|||||||||||||
-TRRC|||||||||||||
-TRVU|||||||||||||
-VGIH|||||||||||||
-VIET|||||||||||||
-VNIT|||||||||||||
-VRKJ|||||||||||||
-YSET|||||||||||||
+Kamareddy, Nizamabad-503145.",60,60,0,0,0,240,www.vitsedu.in
+VJYH
+VJYA,60,90,"Vijaya Engineering College,
+Wyra Road, Ammapalem, Konijerla, Near Tanikella, Khammam Dist. - 507 305.",90,60,0,0,0,300
+VIPW
+VITW,120,60,"Vijaya Inst. of Tech. for Women, Enikepadu, Vijayawada - 521 108.",120,60,0,0,0,360
+VKTS,60,60,"Vijaya Krishna Inst. of Tech. & Science, Palmakula (V), Shamshabad, R.R. Dist.-501 218.",120,60,0,0,0,300,www.vkits.org
+VREC,120,0,"Vijay Rural Engg. College, Das Nagar, Makloor, Rochis Valley, Manikbhandar, Nizamabad Dist. - 503 003.",120,120,60,0,0,420,www.vrecedu.in
+VJIT,60,60,"Vijetha Institute of Technology & Science, Chinamamidipalli, Narsapur, W.G.Dist.",60,0,0,60,0,240
+VKSP
+VIKS
+VCTN,60,60,"Vikas College of Engg. & Tech., Nunna (V), Vijayawada Rural, Krishna Dist. - 521 212.",90,0,60,0,0,270
+VKAS
+VKSR
+VITH,60,60,"Vinuthna Institute of Technology & Science, Hasanparthy (V&M), Warangal Dist. - 506371",60,0,0,60,0,240
+VSBV,60,60,"Visaka Engg. College, Bakkannapalem (V), Madhurawada, Visakhapatnam - 530 041",120,60,0,0,0,300,http://vspt.in
+VSPT,60,60,"Visakha Inst. of Engg. & Tech., 57th Division, Narva, Visakhapatnam - 530 027",120,60,0,0,0,300
+VPSV
+VSKV,60,60,"Visakha Inst. of Tech. & Science (VITS), Sontyam (V), Anandapuram (M), Visakhapatnam - 531 173",90,30,60,0,0,300
+VITB,60,60,"Vishnu Inst. of Tech., Vishnupur, Bhimavaram, W.G. Dist. - 534 202",120,60,0,0,0,300
+VSNU
+VSIT,120,60,"Vishnusree Inst. of Tech., Yavapur, H/o. Jatalpur (V), Bommalaramaram (M), Nalgonda Dist.",60,0,0,60,0,300,www.vishnusree.co.in
+VBTS,60,60,"Vishwa Bharathi Institute of Technology & Sciences, Nadargul (V), R.R.Dist -501510",60,0,0,60,0,240
+VPRG
+VCKV,60,0,"Visvodaya Engg. College, Visvodaya Campus, Kavali (M), Nellore Dist. - 524 201.",120,0,0,120,0,300,www.veckavali.com
+VBCP
+VBCE,60,60,"Viswa Bharathi College of Engg., Sy.No.19, Hydernagar, Kukatpally, Hyderabad - 500 072.",60,60,0,60,0,300
+VTMV,120,90,"Viswanadha Institute of Tech. & Mngt,(VITAM), Sontyam, Anandapuram (M), Visakhapatnam - 531 173.",120,30,60,60,0,480,www.vitamcoe.com
+VNIP
+VTCP
+VCET,120,60,"Visvesvaraya College of Engg. & Tech., Patelguda, Ibrahimpatan. R.R. Dist. - 500 009.",90,60,0,0,0,330
+VTSW,90,90,"VITS Women's Engineering College, Survey No.682,720, Bommakal Village, Karimnagar-505001",90,0,0,0,0,270
+VIIT,60,60,"Vivekananda Inst. of Science & Info. Tech., Sy.No.773, Chatanpally (V), Farooqnagar, Shadnagar, Mahaboobnagar Dist.-509 216.",120,60,0,0,0,300
+VVKN,120,30,"Vivekananda Institute of Tech. & Sci., Opp.Housing Board, Near By-pass, Bommakal, Karimnagar - 505 209.",90,60,30,60,0,390
+VKGK,120,60,"Vivekananda Institute of Tech. & Sci., (VITS School of Engineering & Technology, VITS SET), Malkapur, Beside PG College, Godavarikhani - 505209, Karimnagar dist.,",120,60,0,0,0,360,www.vits.ac.in
+VIEB,60,60,"Vivekananda's Inst. of Engg. & Tech., Bogaram (V), Keesara (M), R.R. Dist.,-501 301.",60,60,0,0,0,240
+VIZB,60,60,"Vizag Inst. of Tech., Dakamari (V&P), Bheemunipatnam, Visakhapatnam - 531 162",90,60,0,0,0,270,vizaginstitute@yahoo.co.in
+VVGV,60,60,"VKR & VNB, Engg. College, Eluru Road, Gudivada, Krishna Dist. - 521 301.",90,60,0,0,0,270,www.gudivadaenggcollege.co.in
+VYCC,60,60,"VRS & YRN College of Engg. & Tech., Vodarevu Road, Chirala - 523 157, Prakasam Dist.,,",60,60,0,0,0,240,www.vrsyrn.co.in
+WITS,60,60,"Warangal Institute of Technology & Science, Oorugonda (V), Athmakur (M), Warangal",60,0,60,0,0,240
+WISE,60,60,"West Godavari Inst. of Science & Engg., Avapadu, Prakasaraopalem, Nallajarla (M), W.G. Dist - 534 112",120,0,60,0,0,300
+YBRM,60,90,"Sri YPR College of Engg. and Tech., Haveli Ghanpur, Medak-502113.",90,60,0,0,0,300,www.ypreng.org
+YLMV
+YITS,60,60,"Yogananda Inst. of Tech. & Science, Mohan Reddy Nagar, Yellamandyam, Renigunta (M), Tirupati - 517 520",120,60,0,0,0,300,http://yitsdmr.com
+YGVU
+YUNS,60,30,"The Younis Sultan College of Engg., Mudmiyala, Chevella, R.R. Dist.,",60,0,60,0,0,210
+AARW
+AECN
+AGIW
+AITK
+AMIR
+ASCW
+ASKC
+ASRK
+AUEWSF
+BEST
+BGIB
+BIET
+BSCE
+BULL
+CESM
+CITC
+CITS
+CMRN
+CRMT
+DNRE
+GGIH
+GNET
+GTSR
+HGIH
+HIST
+JIET
+JNTM
+KCET
+KHIT
+KIEK
+KIEW
+KUWL
+MCTN
+MICT
+MREC
+MTIE
+NAWB
+NEWS
+NITE
+NMRV
+NVGH
+SAFA
+SDGI
+SRES
+SRTT
+SSEC
+TECH
+TRRC
+TRVU
+VGIH
+VIET
+VNIT
+VRKJ
+YSET

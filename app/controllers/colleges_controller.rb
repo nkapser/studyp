@@ -27,26 +27,22 @@ class CollegesController < ApplicationController
   
   def search    
     @colleges=[]
-    if !params[:college].nil? 
-      @title = "Colleges with name #{params[:college]}"
-      @colleges=College.name_like(params[:college]).paginate :page => params[:page], :order => [:name]
-    end
-    
     if !params[:region].nil?
       @title = "Colleges in #{regions(params[:region])}"      
-      @colleges=College.with_region(params[:region]).paginate :page => params[:page], :order => [:name]
-    end
-    
-    if !params[:district].nil?
+      @colleges=College.without_empty_names.with_region(params[:region]).paginate :page => params[:page], :order => [:name]
+    elsif !params[:district].nil?
       @title = "Colleges in #{districts(params[:district])} district"      
-      @colleges=College.with_district(params[:district]).paginate :page => params[:page], :order => [:name]
-    end    
-    
-    if !params[:affl].nil?
+      @colleges=College.without_empty_names.with_district(params[:district].upcase).paginate :page => params[:page], :order => [:name]
+    elsif !params[:affl].nil?
       @title = "Colleges affiliated to #{universities(params[:affl])}"        
-      @colleges=College.affiliated_to(params[:affl]).paginate :page => params[:page], :order => [:name]      
+      @colleges=College.without_empty_names.affiliated_to(params[:affl]).paginate :page => params[:page], :order => [:name]      
+    elsif !params[:college].nil?
+      redirect_to :action => :index and return if params[:college].empty?
+      
+      @title = "Colleges with name #{params[:college]}"
+      @colleges=College.without_empty_names.name_like(params[:college]).paginate :page => params[:page], :order => [:name]
     end
-    
+        
     if @colleges.count == 1
       redirect_to :action => :show, :id => @colleges.first
     elsif @colleges.empty?
