@@ -1,0 +1,41 @@
+<% content_for :title_text do %>
+<h1 class='h1'>Contact Us</h1>
+<% end %>
+
+<div class='contactus cover'>
+	
+<% form_for :contactus, @contactus, :url => { :action => 'thankyou'} do |f|%>
+<%unless @contactus.errors.empty? %>
+<h3 style='color:red;'>The following errors prevented you from submitting the form</h3>
+<%end%>
+
+	<div class='row'>
+		<%= f.label	"Name: *"%>
+		<%= f.text_field :name, :class=>'fright' %><div class='error'><%= @contactus.errors[:name].first %></div>
+	</div>
+	
+	<div class='row'>
+		<%= f.label	"Email: *"%>
+		<%= f.text_field :email, :class=>'fright' %> <div class='error'><%= @contactus.errors[:email].first %></div>
+	</div>
+	
+	<div class='row'>
+		<%= f.label	"Phone: "%>
+		<%= f.text_field :phone, :class=>'fright' %>
+	</div>		
+	
+	<div class='row'>
+		<%= f.label	"Subject: "%>				
+		<%= f.select(:subject, ["Business Enquiry", "College Enquiry", "Other"]) %>		
+	</div>	
+	
+	<div class='row'>
+		<%= f.label	"Description: *"%>		
+		<%= f.text_area :description, :class=>'fright', :rows => 5 %><div class='error'><%= @contactus.errors[:description].first %></div>
+	</div>	
+	
+	<div class='row'>
+		<input style='float:left; margin-left: 100px' type='submit' value='Submit'/>
+	</div>
+<% end %>
+</div>

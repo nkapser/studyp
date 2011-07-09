@@ -316,3 +316,52 @@ color:#777;
     margin-right: 2px;
     padding: 2px 6px;						
 }
+
+
+.error {
+color:red;
+margin-left:20px;
+float:left;
+}
+
+
+.contactus form .row {
+clear:both;
+overflow:hidden;
+margin:10px 0;
+}
+
+.contactus form label {
+float:left;
+width:100px;
+}
+
+.contactus form p {
+padding:5px 0;
+}
+
+.contactus form .fright {
+float:left;
+}
+
+.contactus input[type=text],.contactus input[type=password],.contactus textarea {
+border:1px solid #ddd;
+background:#fafafa;
+font:1em arial, sans-serif;
+-moz-border-radius:.4em;
+-khtml-border-radius:.4em;
+}
+
+.contactus input:focus {
+background:#f6f6f6;
+border-color:#c5c5c5;
+}
+
+.contactus fieldset {
+border:1px solid #ddd;
+padding:0 .5em .5em;
+}
+
+.contactus input.default {
+color:#bbb;
+}
