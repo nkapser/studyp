@@ -33,12 +33,13 @@
 	<% end %>
 </div>
 <% unless @college.address.nil? or @college.address.empty? %>
-<h4 style='margin:0px 0px 5px 0px;'>Address</h4>
 <div class='address'>
+	<h4 style='margin:0px 0px 5px 0px;'>Address</h4>	
 	<%= @college.address %>
 </div>
 <% end %>
-<div class='g_ad'>
+
+<div class='g_ad' style='float:left; '>
 	<%= render :partial => 'common/ads/college_page'%>
 </div>
 
