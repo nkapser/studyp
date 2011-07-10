@@ -19,7 +19,17 @@
 	</div>
 	<div id='container'>
 		<div id='title'>
-			<%= yield :title_text %>
+			<%= yield :title_text %> 
+			<div id='1button' style='float:right; margin-right:20px'>
+				<!-- Place this tag in your head or just before your close body tag -->
+				<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+
+				<!-- Place this tag where you want the +1 button to render -->
+				<g:plusone></g:plusone>	
+			</div>
+			<div id='fshare' style='float:right; width: 100px'>
+<iframe src="http://www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>				
+			</div>
 		</div>
 		
 		<div id='page'>		
