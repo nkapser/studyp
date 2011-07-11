@@ -1,6 +1,7 @@
 class CollegesController < ApplicationController
 
   def index
+    @title = "Eamcet Colleges in Andhra Pradesh"
     @college=College.new
     @colleges=College.get_all_eamcet_colleges(params[:page])
   end
@@ -21,8 +22,9 @@ class CollegesController < ApplicationController
     
   end
   
-  def show
+  def show    
     @college=College.find(params[:id])
+    @title = @college.name
   end
   
   def search    

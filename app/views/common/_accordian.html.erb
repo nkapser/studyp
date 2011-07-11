@@ -15,7 +15,7 @@
 		<h2><a name="districts">Districts</a></h2>
 		<div>
 			<ul>
-			<% districts.each do |district| %>
+			<% districts.sort.each do |district| %>
 				<li><%= link_to districts(district), colleges_search_path(:district => district)%></li>
 			<% end %>	
 			</ul>
@@ -26,7 +26,7 @@
 		<h2><a name="universities">Universities</a></h2>
 		<div>
 			<ul>
-			<% universities.each do |university| %>
+			<% universities.sort.each do |university| %>
 				<li><%= link_to universities(university), colleges_search_path(:affl => university)%></li>
 			<% end %>	
 			</ul>

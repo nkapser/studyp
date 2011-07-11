@@ -6,7 +6,7 @@ class CutoffScore < ActiveRecord::Base
   @@per_page = 15
 
   scope :year, where(:exam_year_id => 2)
-  scope :column, lambda {|col,rank| where("cutoff_scores.? >= ?", "#{col}", "#{rank}") }
+  scope :column, lambda {|col,rank| where("cutoff_scores.#{col} >= ?",rank.to_i ) }
   scope :affiliated_to, lambda {|affl| where("affl in (?)", affl)}
   scope :course, lambda {|c| where("course_code = ?", c)}
   scope :regions_in, lambda {|r| where("reg in (?)", r)}

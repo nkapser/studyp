@@ -1,0 +1,61 @@
+<style>
+	h3{
+		margin:0px;
+		padding:0px;
+	}
+	
+	.widget input{
+		width:15px;
+	}
+	
+	.widget li{
+		font-size:12px;
+	}
+</style>
+
+<%
+pdata['dist']=[] if pdata['dist'].nil?
+pdata['affl']=[] if pdata['affl'].nil?
+%>
+
+<h3>Narrow Search</h3>
+<%= form_tag "/eamcet/results?#{hash_to_urlparam(pdata)}", :id => "search", :method => :post do |f|%>
+	<div class='widget'>	
+		<h2><a name="regions">Regions</a></h2>
+		<div>
+			<ul>
+			<% regions.each do |reg| %>
+			<li><%= check_box("eamcet[reg]", "", pdata['reg'].include?("#{reg}") ? {"checked" => "checked"} : {}, "#{reg}", "") %><%= regions(reg) %>
+			</li>
+			<% end %>	
+			</ul>
+		</div>
+	</div>
+	
+	<div class='widget'>	
+		<h2><a name="districts">Districts</a></h2>
+		<div>
+			<ul>
+			<% districts.each do |dist| %>
+				<li>
+				<%= check_box("eamcet[dist]", "", pdata['dist'].include?("#{dist}") ? {"checked" => "checked"} : {}, "#{dist}", "") %><%= districts(dist) %>					
+				</li>
+			<% end %>	
+			</ul>
+		</div>
+	</div>
+
+	<div class='widget'>	
+		<h2><a name="universities">Universities</a></h2>
+		<div>
+			<ul>
+			<% universities.each do |affl| %>
+				<li>
+					<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{affl}") ? {"checked" => "checked"} : {}, "#{affl}", "") %><%= truncate(universities(affl), :length => 40)%>					
+				</li>
+			<% end %>	
+			</ul>
+		</div>
+	</div>
+	<%= submit_tag %>
+<% end %>

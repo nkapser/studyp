@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Studyp</title>
+  <title><%= page_title %></title>
+
+<META NAME="DESCRIPTION" CONTENT="Eamcet Colleges - Information for better future.">
+<META NAME="KEYWORDS" CONTENT="eamcet colleges, andhra colleges, eamcetcolleges, eamcet rank, eamcet ranks 2011, colleges, colleges in andhra pradesh, ap colleges, andhra pradesh colleges, rank estimator, eamcet ranks">
 
   <%= stylesheet_link_tag "style.css" %>
   <link type="text/css" href="/stylesheets/css/smoothness/jquery-ui-1.8.13.custom.css" rel="stylesheet" />	
@@ -20,6 +23,7 @@
 	<div id='container'>
 		<div id='title'>
 			<%= yield :title_text %> 
+			<% if RAILS_ENV=='production'%>
 			<div id='1button' style='float:right; margin-right:20px'>
 				<!-- Place this tag in your head or just before your close body tag -->
 				<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
@@ -30,6 +34,8 @@
 			<div id='fshare' style='float:right; width: 100px'>
 <iframe src="http://www.facebook.com/plugins/like.php?href&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>				
 			</div>
+			<% end %>
+			
 		</div>
 		
 		<div id='page'>		

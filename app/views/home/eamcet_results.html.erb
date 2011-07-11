@@ -12,6 +12,9 @@
 	}
 </style>
 
+<%= content_for :rightside do %>
+	<%= render :partial => 'common/narrow_search', :locals => {:pdata => @data }%>
+<% end %>
 
 <%= render :partial => 'common/eamcet_search',  :locals => {:pdata => @data} %>
 	<div class='results'>
@@ -32,4 +35,6 @@
 	<% end %>
 	</ul>
 	</div>
+	
+	
 <%= will_paginate @results, :previous_label => "<<",:next_label => ">>", :params => params[:eamcet] %>
