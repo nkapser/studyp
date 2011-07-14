@@ -53,15 +53,34 @@
 	<div id='footer'>
 	<div class='content'>	
 		<ul>
+			<li class='heading'><b>Eamcet Colleges</b></li>	
 			<li><%= link_to 'Home', '/'%></li>
-			<li><%= link_to 'About Us'%></li> 
+			<li><%= link_to 'About Us', '/aboutus'%></li> 
 			<li><%= link_to 'Contact Us', '/contactus'%></li>
+			<li><%= link_to '*Data Disclaimer', '/disclaimer'%>
 		</ul>
 		<ul>
-			<li><%= link_to 'Andhra Colleges', colleges_search_path(:region => "AU")%></li>
-			<li><%= link_to 'Osmania Colleges',colleges_search_path(:region => "OU")%></li> 
-			<li><%= link_to 'Sri Venkateswara Colleges', colleges_search_path(:region => "SVU")%></li>
+			<li class='heading'><b>Categories</b></li>				
+			<li><%= link_to 'Andhra Region Colleges', colleges_search_path(:region => "AU")%></li>
+			<li><%= link_to 'Osmania Region Colleges',colleges_search_path(:region => "OU")%></li> 
+			<li><%= link_to 'Sri Venkateswara Region Colleges', colleges_search_path(:region => "SVU")%></li>
+			<li><%= link_to 'JNTU Hyderabad Colleges', colleges_search_path(:affl => "JNTUH") %>
+			<li><%= link_to 'OU Colleges', colleges_search_path(:affl => "OU") %>
+			<li><%= link_to 'AU Colleges', colleges_search_path(:affl => "AU") %>
+			<li><%= link_to 'SKU Colleges', colleges_search_path(:affl => "SKU") %>
+			<li><%= link_to 'SVU Colleges', colleges_search_path(:affl => "SVU") %>
+			<li><%= link_to 'Other Universities', '/colleges#universities' %>																				
 		</ul>		
+		
+		<% districts.in_groups(3) do |group| %>
+		<ul>
+			<li class='heading'><b>Districts</b></li>				
+			<% group.compact.each do |val| %>
+				<li><%= link_to districts("#{val}"), colleges_search_path(:district => "#{val}") %></li>
+			<% end %>
+		</ul>
+		<% end %>		
+
 	</div>	
 	</div>
 	

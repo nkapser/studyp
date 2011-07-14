@@ -56,6 +56,9 @@ Studyp::Application.routes.draw do
   
   match '/search/bitsat' => 'home#bitsat_results', :method => :get
   
+  match '/aboutus' => 'home#aboutus'
+  match '/disclaimer' => 'home#disclaimer'  
+  
   root :to => "home#eamcet_index"
 
   match 'eamcet' => 'home#eamcet_index'

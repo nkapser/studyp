@@ -16,10 +16,35 @@
 <%
 pdata['dist']=[] if pdata['dist'].nil?
 pdata['affl']=[] if pdata['affl'].nil?
+pdata['reg']=[] if pdata['reg'].nil?
 %>
 
 <h3>Narrow Search</h3>
-<%= form_tag "/eamcet/results?#{hash_to_urlparam(pdata)}", :id => "search", :method => :post do |f|%>
+<%= form_tag "/eamcet/results", :id => "search", :method => :post do |f|%>
+
+<div style='display:none'>
+<div class='row'>
+<%= label_tag 'Course'%>
+<%= select("eamcet", "course", courses, :include_blank => "Any Course", :selected => pdata['course']) %>
+</div>	
+
+<div class='row' style='float:left; padding-right: 15px'>
+<%= label_tag 'Eamcet Rank'%>
+<%= text_field_tag 'eamcet[rank]', pdata['rank']%>
+</div>
+
+<div class='row' style='float:left; padding-right: 15px'>
+<%= label_tag 'Caste'%>	
+<%= select("eamcet", "caste", [["OC", "oc"],["SC", "sc"],["ST", "st"],["BC-A", "bca"], ["BC-B", "bcb"], ["BC-C","bcc"], ["BC-D","bcd"], ["BC-E","bce"]], :selected => pdata['caste']) %>
+</div>
+
+<div class='row'>
+<%= label_tag 'Gender'%>
+<%= radio_button("eamcet",'gender', "boy", "boy" == pdata['gender'] ? {:checked => "checked"} : {}) %>Male
+<%= radio_button("eamcet",'gender', "girl", "girl" == pdata['gender'] ? {:checked => "checked"} : {}) %>Female	
+</div>
+</div>
+
 	<div class='widget'>	
 		<h2><a name="regions">Regions</a></h2>
 		<div>
@@ -57,5 +82,12 @@ pdata['affl']=[] if pdata['affl'].nil?
 			</ul>
 		</div>
 	</div>
-	<%= submit_tag %>
+	<%= submit_tag 'filter results', :id => 'filter'%>
 <% end %>
+
+<script type='text/javascript'>
+	$('#filter').click(function(e){
+		// e.preventDefault();
+		// $('form#search').serialize();		
+	});
+</script>

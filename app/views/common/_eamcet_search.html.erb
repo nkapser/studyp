@@ -48,20 +48,6 @@ pdata['reg'] = [] if pdata.nil? || pdata['reg'].nil?
 		<% end %>
 	</div>
 
-	<!-- <div class='row'>
-	<%= label_tag 'University'%>				 
-		<% ["JNTUK", "AU", "ANU", "JNTUH", "JNTH", "OU", "KU", "JNTUA", "SVU", "SKU", "SVHU", "SPMU", "JNFAU", "PLMU", "YGVU", "ANGRAU", "VETUNI"].in_groups_of(5).each do |group|%>
-			<ul>
-				<% group.each do |univ|%>
-				 	<% unless univ.nil? %>
-						<%= check_box("eamcet[affl]", "", pdata['affl'].include?("#{univ}") ? {"checked" => "checked"} : {}, "#{univ}", "") %><%= univ %>
-					<% end %>
-				<% end %>
-			</ul>
-		<% end %>
-	</div> -->
-	
-
 </div>
 
 <%= submit_tag 'Search Colleges'%>
