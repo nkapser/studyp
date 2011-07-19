@@ -36,8 +36,8 @@ class CollegesController < ApplicationController
     end
     
     if !params[:district].nil?
-      @title = "Colleges in #{districts(params[:dist])} district"      
-      college_query=college_query.with_district(params[:dist].upcase)
+      @title = "Colleges in #{districts(params[:district])} district"      
+      college_query=college_query.with_district(params[:district].upcase)
     end
     
     if !params[:affl].nil?
